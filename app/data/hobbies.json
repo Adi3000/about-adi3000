@@ -1,0 +1,17 @@
+[
+ {
+	"id" : "sport",
+	"name" : "Sport",
+	"description" : "Ancien Poloïste (en National 3), amateur de Basket et Natation"
+ },
+ {
+	"id" : "dreamland",
+	"name" : "Dream Land",
+	"description" : "Ecriture d'un livre se déroulant dans un univers façonné a partir des rêves humains"
+ },
+ {
+	"id" : "lego",
+	"name" : "Lego Mindstorms NXT",
+	"description" : "Robotisation et programmation du jeu de construction"
+ }
+]

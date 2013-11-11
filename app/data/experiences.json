@@ -1,0 +1,79 @@
+[
+ {
+	"start" : "2013-06-24",
+	"as" : "Ingénieur JAVA/J2EE",
+	"company" : { "name" : "Néo-soft", "url" : "http://www.neo-soft.fr/" },
+	"client" : { "name" : "La Poste", "url" : "http://www.laposte.fr/" },
+	"place" : "Nantes",
+	"description" : "Accompagnement des évolutions technologiques sur le projet Référentiel RH (migration vers Hibernate 3, installation Sonar/Maven, JUnit) et développement d’évolution fonctionnelles ",
+	"skills" : [
+		"java","html","hibernate","struts",
+		"spring","sonar","maven","jenkins",
+		"linux","oracle","sql","javascript",
+		"jquery", "eclipse", "vim"
+	]
+ },
+ {
+	"start" : "2012-06-21",
+	"end" : "2013-04-20",
+	"as" : "Ingénieur JAVA/J2EE",
+	"company" : { "name": "Néo-soft", "url" : "http://www.neo-soft.fr/" },
+	"client" : { "name": "Société Générale", "url" : "http://www.societegenerale.com/" },
+	"place" : "Nantes",
+	"description" : "Gestion des évolutions et du support sur un grand panel de projet Java (>10) sur la gestion des itres Société Générale et des comptes",
+	"skills" : [
+		"java","html","hibernate","struts",
+		"spring","sonar","maven","jenkins",
+		"gwt","oracle","sql","javascript",
+		"jquery","php", "english", "eclipse"
+	]
+ },
+ {
+	"start" : "2011-06-15",
+	"end" : "2012-05-25",
+	"as" : "Ingénieur JAVA/J2EE",
+	"company" : { "name": "Norsys", "url" : "http://www.norsys.fr/" },
+	"client" : { "name": "Décathlon" , "url" : "http://www.decathlon.com/"},
+	"place" : "Villeneuve d'Ascq",
+	"description" : "Support niveau 4 et évolution projet au sein de l’équipe Décathlon dans un contexte de production continue. Développement sous un Framework Décathlon basé sur Struts.",
+	"skills" : [
+		"java","html","struts",	"spring",
+		"sonar","maven","continuum","oracle",
+		"sql","javascript","jquery", "english", "eclipse"
+	]
+ },
+ {
+	"start" : "2010-09-13",
+	"end" : "2011-05-31",
+	"as" : "Ingénieur de développement",
+	"company" : { "name" : "Archimed", "url" : "http://www.archimed.fr/" },
+	"place" : "Lille",
+	"description" : "Intégration de progiciels GED conformes aux demandes de la clientèle et formation sur les produits vendus.",
+	"skills" : [
+		"csharp","dotnet","ldap","jquery",
+		"asp","sql","javascript", "visualstudio"
+	]
+ },
+ {
+	"start" : "2009-09-01",
+	"end" : "2010-08-31",
+	"as" : "Contrat de professionnalisation",
+	"company" : { "name": "ErDF-GrDF", "url" : "http://www.erdfdistribution.fr/" },
+	"place" : "Lille",
+	"description" : "Etude complète et réalisation d’un projet en équipe réduite de son cahier des charges à sa première mise en production.",
+	"skills" : [
+          "php", "mysql","javascript", "jquery","spip","ldap"
+    ]
+ },
+ {
+	"start" : "2009-03-30",
+	"end" : "2009-08-17",
+	"company" : {"name" : "Capgemini", "url": "http://www.fr.capgemini.com/" },
+	"client" : {"name" : "EDF", "url" : "http://france.edf.com/" },
+	"place" : "Lambersart",
+	"description" : "Développer la version de CLOE V10 pour EDF sur l'ERP Siebel",
+	"skills" : [
+         "siebel", "javascript", "oracle"
+	]
+ }
+]

@@ -1,0 +1,28 @@
+[
+	{
+		"start" : 2005,
+		"end" : 2007,
+		"grade" : "Baccalauréat Scientifique",
+		"option" : "Mathématiques",
+		"suppl" : "Mention AB",
+		"place" : "Val de Reuil (27)",
+		"description" : "Spécialité Mathématiques : Initiation aux techniques de cryptographie et codage"
+	},
+	{
+		"start" : 2007,
+		"end" : 2009,
+		"grade" : "DUT Informatique",
+		"place" : "Villeneuve d'Ascq (59)",
+		"suppl" : "1ère année Le Havre (76)",
+		"description" : "Formation pluridisciplinaire (Gestion, Techniques d’expression, Anglais...)  à  dominante pratique (projets, nombreux travaux pratiques...)"
+	},
+	{
+		"start" : 2009,
+		"end" : 2010,
+		"grade" : "Licence professionnelle Système Informatique et Logiciels",
+		"place" : "Villeneuve d'Ascq (59)",
+		"suppl" : "en Alternance",
+		"option" : "Developpement et Administration Internet et Intranet",
+		"description" : "Formation orientée autant sur l’administration des systèmes, serveurs et bases de données, que sur le développement web."
+	}
+]

@@ -1,0 +1,45 @@
+<h1>  About me </h1>
+<div id="skills">
+    <h3>Langues étrangères</h3>
+    <ul>
+        <li data-ng-repeat="language in skills.languages" data-skill-ref="{{language.id}}">{{ language.name }}</li>
+    </ul>
+    <h3>Technologies</h3>
+    <ul>
+        <li data-ng-repeat="techno in skills.technos" data-skill-ref="{{techno.id}}">{{ techno.name }}</li>
+    </ul>
+</div>
+<h2>Formations</h2>
+<div data-ng-repeat="study in studies">
+    <span class="period">{{ study.start }} - {{ study.end }}</span> 
+    <span class="main_label" >{{ study.grade }}</span>
+    <div>
+        <span class="place">{{ study.place }}</span>
+        <span class="option" data-ng-show="study.option"> - {{ study.option }}</span>
+        <em class="suppl" data-ng-show="study.suppl"> - {{ study.suppl }}</em>
+    </div>
+    <div class="description">
+        {{ study.description }}
+    </div>
+</div>
+<h2>Experiences professionnelles</h2>
+<div data-ng-repeat="exp in experiences" data-skills-list="{{ exp.skills }}">
+    <span class="period" data-ng-switch="exp">
+        <span data-ng-show="exp.end">Du {{ exp.start | date:'dd/MM/yyyy' }}  au {{ exp.end | date:'dd/MM/yyyy' }}</span>
+        <span data-ng-show="!exp.end">Depuis le {{ exp.start | date:'dd/MM/yyyy' }}</span>
+    </span>
+    <span class="main_label" >{{ exp.as }}</span>
+    <span class="main_label" >{{ exp.company.name }}</span>
+    <span class="main_label" data-ng-show="exp.client">{{ exp.client.name }}</span>
+    <span class="place">{{ exp.place }}</span>
+    <div class="description">
+        {{ exp.description }}
+    </div>
+</div>
+<h2>Projet personnels</h2>
+<div data-ng-repeat="project in projects" data-skills-list="{{ project.skills }}">
+    <span class="main_label" >{{ project.name }}</span>
+    <div class="description">
+        {{ project.description }}
+    </div>
+</div>

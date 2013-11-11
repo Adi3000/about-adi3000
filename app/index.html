@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en" data-ng-app="aboutAdi3000">
+	<head>
+		<meta charset="utf-8">
+		<title>Adi3000 - Adrien Ramarojohn</title>
+		<link rel="stylesheet" href="css/app.css">
+		<link rel="stylesheet" href="css/animations.css">
+		
+		<script src="lib/jquery/jquery-1.10.2.js"></script>
+		<script src="lib/angular/angular.js"></script>
+		<script src="lib/angular/angular-animate.js"></script>
+		<script src="lib/angular/angular-resource.js"></script>
+		<script src="lib/angular/angular-route.js"></script>
+		<script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+		<script src="js/app.js"></script>
+		<script src="js/animations.js"></script>
+		<script src="js/controllers.js"></script>
+		<script src="js/directives.js"></script>
+		<script src="js/filters.js"></script>
+		<script src="js/services.js"></script>
+	</head>
+	<body>
+		<div id="body" class="view-container">
+			<div data-ng-include data-src="'partials/main/header-about.html'"></div>
+			<div data-ng-view class="view-frame"></div>
+		</div>
+	</body>
+</html>

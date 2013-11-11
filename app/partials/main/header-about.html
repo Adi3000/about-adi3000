@@ -1,0 +1,42 @@
+<div data-ng-controller="AboutController as about" >
+	<div id="about_banner_info">
+	   image here
+	</div>
+	<div id="about_aux_info">
+	   <div>
+	       {{ age }} ans
+	   </div>
+	   <ul>
+	       <li data-ng-repeat="info in about.other"> {{ info }}</li>
+	   </ul>
+	</div>
+	<div id="about_main">
+		<div id="about_main_info">
+			<div>
+	            <span>{{ about.name }}</span>&nbsp;<span>{{ about.surname }}</span>
+	        </div>
+			<div>
+			    <div>{{about.address}}</div>
+			    <div>
+	                <span>{{about.zipcode }}</span>&nbsp;<span>{{about.city}}</span>
+	            </div>
+	            <div>
+	                <span id="main_mail" class="confidential">{{ about.mails[0] }}</span>
+	                <input type="button" value="..." id="about_toggle_other_mails" data-toggle-div="other_mails"/>
+			        <ul id="other_mails">
+			            <li data-ng-repeat="mail in about.mails" data-ng-show="$index > 0">{{ mail }}</li>
+			        </ul>
+	            </div>
+			    <div>
+	                <ul id="about_phone_numbers">
+				        <li data-ng-repeat="phone in about.phones">
+				            <label for="phoneNumber_{{ phone.label }}">{{ phone.label }}</label>
+				            <span id="phoneNumber_{{ phone.label }}" class="confidential">{{ phone.number }}</span>
+				        </li>
+			        </ul>
+			    </div>
+			</div>
+		</div>
+	</div>
+</div>
+

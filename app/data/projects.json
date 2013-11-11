@@ -1,0 +1,44 @@
+[
+ {
+	"id" : "latroquette",
+	"name" : "La TroQuette",
+	"description" : "Site de troc en ligne mettant en oeuvre tout pour faciliter les échanges",
+	"skills": [
+         "java","jsf","jquery","postgresql",
+         "redmine","jenkins","tomcat","hibernate",
+         "spring","jaxws","rest","git","ehcache", "nexus"
+	]
+ },
+ {
+	"id" : "adreamzone",
+	"name" : "A Dream Zone",
+	"description" : "Tower defense HTML 5, avec possibilité d'uploader ses propres type d'unité. Comportera un éditeur de vitrine pour des exposition de graphistes",
+	"skills" : [
+          "angularjs", "html", "javascript", "java", "hibernate", "nexus", "redmine", "jenkins"
+	]
+ },
+ {
+	"id" : "budjetpack",
+	"name" : "BudJet-pack",
+	"description" : "Editeur de fiche budget pour un voyage",
+	"skills" : [
+          "angularjs", "rest", "jaxws", "hibernate", "git", "nexus", "redmine", "jenkins"
+	]
+ },
+ {
+	"id" : "hypersonic",
+	"name" : "Hypersonic",
+	"description" : "Service web de streaming audio et video. Fork de supersonic, ajoutant la compatibilité Postgresql, allégeant l'application",
+	"skills" : [
+          "dwr","spring","jdbctemplate","java","lucene"
+	]
+ },
+ {
+	"id" : "cloud",
+	"name" : "Family Cloud Service",
+	"description": "Maintenance, mise a disposition de plusieurs services de stockage, prise en main à distance, sauvegarde, LAN over VPN",
+	"skills" : [
+          "ldap","linux","owncloud","subsonic","zimbra","openvpn","ultravnc","php","perl","python","bash", "vim"
+	]
+ }
+]
