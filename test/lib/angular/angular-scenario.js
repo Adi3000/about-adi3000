@@ -4250,7 +4250,7 @@ Sizzle.filter = function( expr, set, inplace, not ) {
 
 		// Improper expression
 		if ( expr === old ) {
-			if ( anyFound == null ) {
+			if ( anyFound === null ) {
 				Sizzle.error( expr );
 
 			} else {
