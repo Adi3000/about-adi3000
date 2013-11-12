@@ -35,6 +35,42 @@ body {
 #skills{
 	float : right;
 }
-.skill_hover{
-	background-color : #CCFFCC;
+.skill_hover, #skills .skill_hover {
+	background : #CCFFCC;
+}
+#skills .skill_hover{
+	border-color: #FFFFAA;
+}
+#skills .to_hide{
+	display: none;
+}
+#skills .ui-progressbar {
+	position: relative;
+}
+
+#skills .progress-label {
+	position: absolute;
+	top: -4px;
+	font-weight: bold;
+	text-shadow: 1px 1px 0 #fff;
+	width: 100%;
+}
+#skills ul{
+	padding : 0px;
+	margin : 0px;
+}
+#skills .progress-skill-label,
+#skills .progress-skill-rate{
+	font-size: 0.7em;
+	display: inline-block;
+}
+#skills .progress-skill-label{
+	width : 80%;
+	padding-left: 5px;
+}
+#skills .progress-skill-rate{
+	width : 15%;
+}
+#skills .ui-progressbar {
+	height: 1.1em;
 }

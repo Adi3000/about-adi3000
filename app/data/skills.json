@@ -1,5 +1,8 @@
+[
 {
-	"languages" : [
+	"id" : "langs",
+	"name" : "Langues étrangères",
+	"list" : [
        {
            "id" : "english",
            "name" : "Anglais",
@@ -10,15 +13,17 @@
             "name" : "Espagnol",
             "rate" : 0.50
         }
-    ],
-	"technos" : [
+    ]
+},
+{
+	"id" :"frameworks",
+	"name" : "Frameworks & Librairies", 
+	"list" : [
 		{
-			"id" : "nodejs",
-			"name": "node.js",
-			"url" : "http://nodejs.org/about/",
-			"version" : "0.10.x",
-			"description" : "JavaScript technologie on server side",
-			"rate" : 0.40
+			"id" : "jquery",
+			"name" : "jQuery",
+			"version" : "1.10",
+			"rate" : 0.80
 		},
 		{
 			"id" : "angularjs",
@@ -36,12 +41,160 @@
 			"rate" : 0.7
 		},
 		{
+			"id" : "jsf",
+			"name" : "JavaServletFaces",
+			"version" : "2.2",
+			"rate" : 0.5
+		},
+		{
+			"id" : "gwt",
+			"name" : "GWT",
+			"url" : "http://docs.oracle.com/javase/7/docs/index.html",
+			"rate" : 0.50
+		},
+		{
+			"id" : "hibernate",
+			"name" : "Hibernate",
+			"version" : "4.2.5",
+			"rate" : 0.70
+		},
+		{
+			"id" : "lucene",
+			"name" : "lucene",
+			"rate" : 0.4
+		},
+		{
+			"id" : "jdbctemplate",
+			"name" : "JDBC Template",
+			"rate" : 0.50
+		},
+		{
+			"id" : "jaxws",
+			"name" : "JAXB-WS",
+			"rate" : 0.70
+		},
+		{
 			"id" : "struts",
 			"name" : "Struts",
 			"version" : "1.3",
 			"url" : "http://docs.oracle.com/javase/7/docs/index.html",
 			"rate" : 0.7
 		},
+		{
+			"id" : "ehcache",
+			"name" : "ehCache",
+			"rate" : 0.6,
+			"hide" : true
+		},
+		{
+			"id" : "dwr",
+			"name" : "DWR",
+			"rate" : 0.40,
+			"hide" : true
+		},
+		{
+			"id" : "spip",
+			"name" : "Spip",
+			"rate" : 0.40,
+			"hide" : true
+		}
+	]
+},
+{
+	"id" :"languages",
+	"name" : "Langages de programmation", 
+	"list" : [
+		{
+			"id" : "html",
+			"name" : "HTML5",
+			"url" : "http://www.w3.org/TR/html5/",
+			"guideline" : "http://www.w3schools.com/html/html5_intro.asp",
+			"rate" : 0.70
+		},
+		{
+			"id" : "javascript",
+			"name" : "JavaScript",
+			"rate" : 0.60
+		},
+		{
+			"id" : "java",
+			"name" : "Java/J2E",
+			"version" : "7",
+			"url" : "http://docs.oracle.com/javase/7/docs/index.html",
+			"rate" : 0.80
+		},
+		{
+			"id" : "python",
+			"name" : "python",
+			"version" : "2.7",
+			"rate" : 0.50
+		},
+		{
+			"id" : "perl",
+			"name" : "Perl",
+			"rate" : 0.40
+		},
+		{
+			"id" : "csharp",
+			"name" : "C#",
+			"rate" : 0.5
+		},
+		{
+			"id" : "dotnet",
+			"name" : ".Net",
+			"rate" : 0.5,
+			"hide" : true
+		},
+		{
+			"id" : "asp",
+			"name" : "ASP",
+			"rate" : 0.4,
+			"hide" : true
+		},
+		{
+			"id" : "php",
+			"name" : "PHP",
+			"version" : "5",
+			"rate" : 0.5
+		},
+		{
+			"id" : "bash",
+			"name" : "BourneShell",
+			"rate" : 0.7
+		},
+		{
+			"id" : "sql",
+			"name" : "SQL",
+			"version" : "92",
+			"rate" : 0.70
+		},
+		{
+			"id" : "mysql",
+			"name" : "mysql",
+			"version" : "5",
+			"rate" : 0.50,
+			"hide" : true
+		},
+		{
+			"id" : "postgresql",
+			"name" : "PostgreSQL",
+			"version" : "9.3",
+			"rate" : 0.70,
+			"hide" : true
+		},
+		{
+			"id" : "oracle",
+			"name" : "Oracle",
+			"version" : "11g",
+			"rate" : 0.60,
+			"hide" : true
+		}
+	]
+},
+{
+	"id" :"devtools",
+	"name" : "Outils développeurs", 
+	"list" : [		
 		{
 			"id" : "sonar",
 			"name" : "Sonar",
@@ -50,17 +203,27 @@
 			"rate" : 0.50
 		},
 		{
-			"id" : "redmine",
-			"name" : "Redmine",
-			"version" : "2.1",
-			"url" : "http://docs.oracle.com/javase/7/docs/index.html",
-			"rate" : 0.50
+			"id" : "git",
+			"name" : "Git",
+			"rate" : 0.5
+		},
+		{
+			"id" : "svn",
+			"name" : "Subversion",
+			"rate" : 0.5
+		},
+		{
+			"id" : "cvs",
+			"name" : "CVS",
+			"rate" : 0.5,
+			"hide" : true
 		},
 		{
 			"id" : "continuum",
 			"name" : "Continuum",
 			"url" : "http://docs.oracle.com/javase/7/docs/index.html",
-			"rate" : 0.5
+			"rate" : 0.5,
+			"hide" : true
 		},
 		{
 			"id" : "nexus",
@@ -82,86 +245,11 @@
 			"rate" : 0.80
 		},
 		{
-			"id" : "java",
-			"name" : "Java/J2E",
-			"version" : "7",
+			"id" : "redmine",
+			"name" : "Redmine",
+			"version" : "2.1",
 			"url" : "http://docs.oracle.com/javase/7/docs/index.html",
 			"rate" : 0.50
-		},
-		{
-			"id" : "gwt",
-			"name" : "GWT",
-			"url" : "http://docs.oracle.com/javase/7/docs/index.html",
-			"rate" : 0.50
-		},
-		{
-			"id" : "java",
-			"name" : "Java/J2E",
-			"version" : "7",
-			"url" : "http://docs.oracle.com/javase/7/docs/index.html",
-			"rate" : 0.80
-		},
-		{
-			"id" : "html",
-			"name" : "HTML5",
-			"url" : "http://www.w3.org/TR/html5/",
-			"guideline" : "http://www.w3schools.com/html/html5_intro.asp",
-			"rate" : 0.70
-		},
-		{
-			"id" : "visualstudio",
-			"name" : "VisualStudio",
-			"rate" : 0.5
-		},
-		{
-			"id" : "ehcache",
-			"name" : "ehCache",
-			"rate" : 0.6
-		},
-		{
-			"id" : "openvpn",
-			"name" : "OpenVPN",
-			"version" : "2.2",
-			"rate" : 0.7
-		},
-		{
-			"id" : "bash",
-			"name" : "BourneShell",
-			"rate" : 0.7
-		},
-		{
-			"id" : "ultravnc",
-			"name" : "UltraVNC",
-			"rate" : 0.7
-		},
-		{
-			"id" : "vim",
-			"name" : "vim",
-			"rate" : 0.5
-		},
-		{
-			"id" : "subsonic",
-			"name" : "Subsonic",
-			"version" : "4.8",
-			"rate" : 0.8
-		},
-		{
-			"id" : "owncloud",
-			"name" : "Owncloud",
-			"version" : "5",
-			"rate" : 0.5
-		},
-		{
-			"id" : "tomcat",
-			"name" : "Tomcat",
-			"version" : "7",
-			"rate" : 0.7
-		},
-		{
-			"id" : "jsf",
-			"name" : "JavaServletFaces",
-			"version" : "2.2",
-			"rate" : 0.5
 		},
 		{
 			"id" : "eclipse",
@@ -170,134 +258,98 @@
 			"rate" : 0.5
 		},
 		{
-			"id" : "zimbra",
-			"name" : "Zimbra",
+			"id" : "visualstudio",
+			"name" : "VisualStudio",
+			"rate" : 0.5,
+			"hide" : true
+		},
+		{
+			"id" : "vim",
+			"name" : "vim",
 			"rate" : 0.5
-		},
+		}
+	]
+},
+{
+	"id" :"admin",
+	"name" : "Administration", 
+	"list" : [
 		{
-			"id" : "git",
-			"name" : "Git",
-			"rate" : 0.5
-		},
-		{
-			"id" : "rest",
-			"name" : "RESTful Applications",
-			"rate" : 0.70
-		},
-		{
-			"id" : "dwr",
-			"name" : "DWR",
-			"rate" : 0.40
-		},
-		{
-			"id" : "jdbctemplate",
-			"name" : "JDBC Template",
-			"rate" : 0.50
-		},
-		{
-			"id" : "jaxws",
-			"name" : "JAXB-WS",
-			"rate" : 0.70
-		},
-		{
-			"id" : "sql",
-			"name" : "SQL",
-			"version" : "92",
-			"rate" : 0.70
-		},
-		{
-			"id" : "mysql",
-			"name" : "mysql",
-			"version" : "5",
-			"rate" : 0.50
-		},
-		{
-			"id" : "postgresql",
-			"name" : "PostgreSQL",
-			"version" : "9.3",
-			"rate" : 0.70
-		},
-		{
-			"id" : "oracle",
-			"name" : "Oracle",
-			"version" : "11g",
-			"rate" : 0.60
-		},
-		{
-			"id" : "hibernate",
-			"name" : "Hibernate",
-			"version" : "4.2.5",
-			"rate" : 0.70
-		},
-		{
-			"id" : "lucene",
-			"name" : "lucene",
-			"rate" : 0.4
-		},
-		{
-			"id" : "jquery",
-			"name" : "jQuery",
-			"version" : "1.10",
-			"rate" : 0.80
-		},
-		{
-			"id" : "javascript",
-			"name" : "JavaScript",
-			"rate" : 0.60
+			"id" : "openvpn",
+			"name" : "OpenVPN",
+			"version" : "2.2",
+			"rate" : 0.7
 		},
 		{
 			"id" : "linux",
 			"name" : "Linux",
 			"version" : "3.2",
-			"rate" : 0.80
+			"rate" : 0.8
 		},
 		{
-			"id" : "python",
-			"name" : "python",
-			"version" : "2.7",
-			"rate" : 0.40
+			"id" : "windows",
+			"name" : "Windows",
+			"version" : "8",
+			"rate" : 0.7
 		},
 		{
-			"id" : "spip",
-			"name" : "Spip",
-			"rate" : 0.40
+			"id" : "glassfish",
+			"name" : "GlassFish",
+			"version" : "4",
+			"rate" : 0.7
 		},
 		{
-			"id" : "perl",
-			"name" : "Perl",
-			"rate" : 0.40
+			"id" : "tomcat",
+			"name" : "Tomcat",
+			"version" : "7",
+			"rate" : 0.7
 		},
 		{
-			"id" : "asp",
-			"name" : "ASP",
-			"rate" : 0.4
+			"id" : "apache",
+			"name" : "Apache",
+			"version" : "2",
+			"rate" : 0.7
 		},
 		{
-			"id" : "csharp",
-			"name" : "C#",
-			"rate" : 0.5
+			"id" : "nodejs",
+			"name": "node.js",
+			"url" : "http://nodejs.org/about/",
+			"version" : "0.10.x",
+			"description" : "JavaScript technologie on server side",
+			"rate" : 0.50
 		},
 		{
-			"id" : "dotnet",
-			"name" : ".Net",
-			"rate" : 0.5
-		},
-		{
-			"id" : "php",
-			"name" : "PHP",
-			"version" : "5",
-			"rate" : 0.5
+			"id" : "zimbra",
+			"name" : "Zimbra",
+			"rate" : 0.5,
+			"hide" : true
 		},
 		{
 			"id" : "ldap",
 			"name" : "LDAP",
 			"version" : "3",
-			"rate" : 0.5
+			"rate" : 0.7
 		},
 		{
-			"id" : "siebel",
-			"name" : "Siebel",
-			"rate" : 0.10
+			"id" : "subsonic",
+			"name" : "Subsonic",
+			"version" : "4.8",
+			"rate" : 0.8,
+			"hide" : true
+		},
+		{
+			"id" : "ultravnc",
+			"name" : "UltraVNC",
+			"rate" : 0.7,
+			"hide" : true
+		},
+		{
+			"id" : "owncloud",
+			"name" : "Owncloud",
+			"version" : "5",
+			"rate" : 0.5,
+			"hide" : true
 		}
 	]
 }
+]

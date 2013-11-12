@@ -1,13 +1,19 @@
 <h1>  About me </h1>
 <div id="skills">
-    <h3>Langues étrangères</h3>
-    <ul>
-        <li data-ng-repeat="language in skills.languages" data-skill-ref="{{language.id}}">{{ language.name }}</li>
-    </ul>
-    <h3>Technologies</h3>
-    <ul>
-        <li data-ng-repeat="techno in skills.technos" data-skill-ref="{{techno.id}}">{{ techno.name }}</li>
-    </ul>
+	<div data-ng-repeat="domain in skills">
+    	<h3>
+    		{{ domain.name }}<input type="button" value="..." data-toggle-hidden="domain_{{domain.id}}"/>
+    	</h3>
+	    <div id="domain_{{domain.id}}">
+	        <div 
+	        	data-ng-repeat="skill in domain.list" 
+	        		data-skill-ref="{{skill.id}}" 
+	        		data-ng-class="{ to_hide : skill.hide }"
+	        		data-progress-bar="{{ skill.rate }}">
+	        	{{ skill.name }}
+       		</div>
+	    </div>
+	</div>
 </div>
 <h2>Formations</h2>
 <div data-ng-repeat="study in studies">

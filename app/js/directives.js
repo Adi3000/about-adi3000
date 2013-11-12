@@ -8,11 +8,11 @@ function findSkillRef(skill, force){
 
 function findSkills(skills, force){
 	$.each(skills,function(i, skillName){
-		var skill = $("#skills [data-skill-ref="+skillName+"]");
+		var skill = $("#skills [data-skill-ref="+skillName+"]:visible");
 		if(skill.is("*")){
-			highlightSkill($("#skills [data-skill-ref="+skillName+"]"), force);
+			highlightSkill(skill, force);
 		}else{
-			console.log(skillName + " not found in list");
+			console.log(skillName + " not found in list or not visible yet");
 		}
 	});
 }
@@ -26,48 +26,96 @@ function highlightSkill(skill, force){
 
 /* Directives */
 angular.module('aboutDirectives', [])
-	.directive('toggleDiv',function() {
+	.directive('toggleDiv',function($timeout) {
 		return {
 			restrict: 'A',
 			link: function(scope, $element, attrs) {
-				$element.click(function(){
-					$("#"+attrs.toggleDiv).toggle(200); 
+				$timeout(function(){
+					$element.click(function(){
+						$("#"+attrs.toggleDiv).toggle(200); 
+					});
 				});
 			}
 		};
 	})
-	.directive('skillRef',function() {
+	.directive('skillRef',function($timeout) {
 		return {
 			restrict: 'A',
 			link: function(scope, $element, attrs) {
-				$element.hover(function(){
-					findSkillRef(attrs.skillRef);
-				},function(){
-					$("[data-skills-list*="+attrs.skillRef+"]").each(function(i,e){
-						!$(e).removeClass("skill_hover");
+				$timeout(function(){
+					$element.hover(function(){
+						findSkillRef(attrs.skillRef);
+					},function(){
+						$("[data-skills-list*="+attrs.skillRef+"]:visible").each(function(i,e){
+							!$(e).removeClass("skill_hover");
+						});
 					});
-				});
-				$element.click(function(){
-					findSkillRef(attrs.skillRef, true);
+					$element.click(function(){
+						findSkillRef(attrs.skillRef, true);
+					});
 				});
 			}
 		};
 	})
-	.directive('skillsList', function(){
+	.directive('skillsList', function($timeout){
 		return {
 			restrict: 'A',
 			link: function(scope, $element, attrs) {
-				var skills = scope.$eval(attrs.skillsList);
-				$element.hover(function(){
-					findSkills(skills);
-				},function(){
-					$.each(skills,function(i, skillName){
-						$("#skills [data-skill-ref="+skillName+"]").removeClass("skill_hover");
+				$timeout(function(){
+					var skills = scope.$eval(attrs.skillsList);
+					$element.hover(function(){
+						findSkills(skills);
+					},function(){
+						$.each(skills,function(i, skillName){
+							$("#skills [data-skill-ref="+skillName+"]").removeClass("skill_hover");
+						});
+					});
+					$element.click(function(){
+						findSkills(skills, true);
 					});
 				});
-				$element.click(function(){
-					findSkills(skills, true);
+			}
+		};
+	})
+	.directive('toggleHidden', function($timeout){
+		return {
+			restrict: 'A',
+			link: function(scope, $element, attrs) {
+				$timeout(function(){
+					if($("#"+attrs.toggleHidden+" .to_hide").is("*")){
+						$element.click(function(){
+							$("#"+attrs.toggleHidden+" .to_hide").toggle(200); 
+						});
+					}else{
+						$element.remove();
+					}
 				});
+			}
+		};
+	})
+	.directive('progressBar', function($timeout){
+		return {
+			restrict: 'A',
+			link: function(scope, $element, attrs) {
+				$timeout(function(){
+					var max = 10;
+					var rate = attrs.progressBar * max;
+					var label = $element.text();
+					$element.text("");
+					console.log(label);
+					$element
+						.append($("<div />")
+								.addClass("progress-label")
+								.append($("<div />").addClass("progress-skill-label").text(label))
+								.append($("<div />").addClass("progress-skill-rate").text(rate + "/" + max)))
+						.progressbar({ value :  rate , max :  max})
+						.hover(
+							function(){$element.addClass("skill_hover");},
+							function(){$element.removeClass("skill_hover");}
+						);
+					
+				});
+				
 			}
 		};
 	});
