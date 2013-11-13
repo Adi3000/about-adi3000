@@ -21,6 +21,8 @@ body,  .ui-widget {
 #about_toggle_other_mails{
 	display : inline-block;
 	width: 17px;
+	height: 17px;
+	vertical-align: middle;
 }
 #title{
 	text-align: center;
