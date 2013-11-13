@@ -6,7 +6,7 @@
 	"skills": [
          "java","jsf","jquery","postgresql",
          "redmine","jenkins","tomcat","hibernate",
-         "spring","jaxws","rest","git","ehcache", "nexus"
+         "spring","jaxws","rest","git","ehcache", "nexus", "eclipse"
 	]
  },
  {
@@ -14,7 +14,7 @@
 	"name" : "A Dream Zone",
 	"description" : "Tower defense HTML 5, avec possibilité d'uploader ses propres type d'unité. Comportera un éditeur de vitrine pour des exposition de graphistes",
 	"skills" : [
-          "angularjs", "html", "javascript", "java", "hibernate", "nexus", "redmine", "jenkins"
+          "angularjs", "html", "javascript", "java", "hibernate", "nexus", "redmine", "jenkins", "eclipse","git"
 	]
  },
  {
@@ -22,7 +22,7 @@
 	"name" : "BudJet-pack",
 	"description" : "Editeur de fiche budget pour un voyage",
 	"skills" : [
-          "angularjs", "rest", "jaxws", "hibernate", "git", "nexus", "redmine", "jenkins"
+          "angularjs", "rest", "jaxws", "hibernate", "git", "nexus", "redmine", "jenkins", "eclipse"
 	]
  },
  {
@@ -30,7 +30,7 @@
 	"name" : "Hypersonic",
 	"description" : "Service web de streaming audio et video. Fork de supersonic, ajoutant la compatibilité Postgresql, allégeant l'application",
 	"skills" : [
-          "dwr","spring","jdbctemplate","java","lucene"
+          "dwr","spring","jdbctemplate","java","lucene", "eclipse","git"
 	]
  },
  {
@@ -46,7 +46,7 @@
 	 "name" : "Divers projets OpenSource",
 	 "description": "Contribution a divers projet OpenSource (generalement via GitHub) : owncloud, asadmin, weboob ...",
 	 "skills" : [
-	             "glassfish","owncloud","maven","python","php"
+	             "glassfish","owncloud","maven","python","php", "eclipse","git"
 	             ]
  }
 ]
