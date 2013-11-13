@@ -18,6 +18,10 @@ body,  .ui-widget {
 	display : inline-block;
 	width : 50px;
 }
+#about_toggle_other_mails{
+	display : inline-block;
+	width: 17px;
+}
 #title{
 	text-align: center;
 	margin: 0px 100px 0px 100px;
@@ -150,4 +154,10 @@ body,  .ui-widget {
 #powerTip img:hover{
 	opacity:1.0;
 	filter:alpha(opacity=100); /* For IE8 and earlier */
+}
+#skills .ui-icon{
+	display: inline-block;
+	float: right;
+	height: 14px;
+	margin-right: 1px;
 }

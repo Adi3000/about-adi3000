@@ -71,9 +71,10 @@
 </div>
 <div id="skills">
 	<div data-ng-repeat="domain in skills" >
-    	<h3>
-    		{{ domain.name }}<input type="button" value="..." data-toggle-hidden="domain_{{domain.id}}"/>
-    	</h3>
+    	<div class="ui-state-default ui-corner-all">
+    		<span>{{ domain.name }}</span>
+    		<span data-toggle-hidden="domain_{{domain.id}}" class="ui-icon ui-icon-plusthick" ></span>
+   		</div>
 	    <div id="domain_{{domain.id}}">
 	        <div 
 	        	data-ng-repeat="skill in domain.list" 

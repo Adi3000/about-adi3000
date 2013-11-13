@@ -86,7 +86,7 @@ angular.module('aboutDirectives', [])
 			link: function(scope, $element, attrs) {
 				$timeout(function(){
 					if($("#"+attrs.toggleHidden+" .to_hide").is("*")){
-						$element.click(function(){
+						$element.parent().click(function(){
 							$("#"+attrs.toggleHidden+" .to_hide").toggle(200); 
 						});
 					}else{
