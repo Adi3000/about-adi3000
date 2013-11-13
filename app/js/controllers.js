@@ -47,6 +47,9 @@ angular.module('aboutControllers', [])
 		$http.get('data/skills.json').success(function(data){
 			$scope.skills = data;
 		});
+		$http.get('data/hobbies.json').success(function(data){
+			$scope.hobbies = data;
+		});
 	}]);
 
 

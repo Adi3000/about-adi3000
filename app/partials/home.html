@@ -1,6 +1,76 @@
-<h1>  About me </h1>
+<div id="career">
+	<div id="studies">
+		<h2>Formations</h2>
+		<div data-ng-repeat="study in studies">
+		    <div class="period">{{ study.start }} - {{ study.end }}</div> 
+		    <span class="main_label" >{{ study.grade }}</span> - 
+		    <span class="place">{{ study.place }}</span>
+		    <div class="note">
+		        <span class="option" data-ng-show="study.option">Spécialité {{ study.option }}</span>
+		        <span data-ng-show="study.option && study.suppl" > - </span>
+		        <em class="suppl" data-ng-show="study.suppl">{{ study.suppl }}</em>
+			    <div class="description">
+			        {{ study.description }}
+			    </div>
+		    </div>
+		</div>
+	</div>
+	<div id="experiences">
+		<h2>Expériences professionnelles</h2>
+		<div data-ng-repeat="exp in experiences" data-skills-list="{{ exp.skills }}" class="ui-corner-all">
+		    <span class="period" data-ng-switch="exp">
+		        <span data-ng-show="exp.end">Du {{ exp.start | date:'dd/MM/yyyy' }}  au {{ exp.end | date:'dd/MM/yyyy' }}</span>
+		        <span data-ng-show="!exp.end">Depuis le {{ exp.start | date:'dd/MM/yyyy' }}</span>
+		    </span>
+		    <div class="main_label" >{{ exp.as }}</div>
+		    [<div class="company">
+		    	<span data-tooltip>{{ exp.company.name }}</span>
+		    	<div class="tooltip">
+		    		<a href="{{exp.company.url}}" title="Accéder à {{exp.company.name}}">
+		    			<img alt="{{exp.company.url}}" data-ng-src="{{exp.company.logo}}" />
+		    		</a>
+		    	</div>
+		    </div><!-- avoid space with next line
+		    --><div class="client" data-ng-show="exp.client">
+			    	<span data-tooltip>&nbsp;pour {{ exp.client.name }}</span>
+			    	<div class="tooltip">
+			    		<a href="{{exp.client.url}}" title="Accéder à {{exp.client.name}}">
+			    			<img alt="{{exp.client.url}}" data-ng-src="{{exp.client.logo}}" />
+			    		</a>
+			    	</div>
+		    	</div>]
+		    <div class="place">{{ exp.place }}</div>
+		    <div class="description note">
+		        {{ exp.description }}
+		    </div>
+		</div>
+	</div>
+	<div id="projects">
+		<h2>Projet personnels</h2>
+		<div data-ng-repeat="project in projects" data-skills-list="{{ project.skills }}" class="ui-corner-all"> 
+		    <span class="main_label" >{{ project.name }}</span>
+		    <div class="description">
+		        {{ project.description }}
+		    </div>
+		</div>
+		<h3>Références</h3>
+		<ul>
+			<li>Mon Code Center : <a href="http://code.adi3000.com">http://code.adi3000.com</a></li>
+			<li>GitHub : <a href="https://github.com/Adi3000/">https://github.com/Adi3000/</a></li>
+		</ul>
+	</div>
+	<div id="hobbies">
+		<h2>Loisirs</h2>
+		<div data-ng-repeat="hobby in hobbies" > 
+		    <span class="main_label" >{{ hobby.name }}</span>
+		    <div class="description">
+		        {{ hobby.description }}
+		    </div>
+		</div>
+	</div>
+</div>
 <div id="skills">
-	<div data-ng-repeat="domain in skills">
+	<div data-ng-repeat="domain in skills" >
     	<h3>
     		{{ domain.name }}<input type="button" value="..." data-toggle-hidden="domain_{{domain.id}}"/>
     	</h3>
@@ -14,38 +84,4 @@
        		</div>
 	    </div>
 	</div>
-</div>
-<h2>Formations</h2>
-<div data-ng-repeat="study in studies">
-    <span class="period">{{ study.start }} - {{ study.end }}</span> 
-    <span class="main_label" >{{ study.grade }}</span>
-    <div>
-        <span class="place">{{ study.place }}</span>
-        <span class="option" data-ng-show="study.option"> - {{ study.option }}</span>
-        <em class="suppl" data-ng-show="study.suppl"> - {{ study.suppl }}</em>
-    </div>
-    <div class="description">
-        {{ study.description }}
-    </div>
-</div>
-<h2>Experiences professionnelles</h2>
-<div data-ng-repeat="exp in experiences" data-skills-list="{{ exp.skills }}">
-    <span class="period" data-ng-switch="exp">
-        <span data-ng-show="exp.end">Du {{ exp.start | date:'dd/MM/yyyy' }}  au {{ exp.end | date:'dd/MM/yyyy' }}</span>
-        <span data-ng-show="!exp.end">Depuis le {{ exp.start | date:'dd/MM/yyyy' }}</span>
-    </span>
-    <span class="main_label" >{{ exp.as }}</span>
-    <span class="main_label" >{{ exp.company.name }}</span>
-    <span class="main_label" data-ng-show="exp.client">{{ exp.client.name }}</span>
-    <span class="place">{{ exp.place }}</span>
-    <div class="description">
-        {{ exp.description }}
-    </div>
-</div>
-<h2>Projet personnels</h2>
-<div data-ng-repeat="project in projects" data-skills-list="{{ project.skills }}">
-    <span class="main_label" >{{ project.name }}</span>
-    <div class="description">
-        {{ project.description }}
-    </div>
 </div>

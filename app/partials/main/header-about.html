@@ -1,4 +1,4 @@
-<div data-ng-controller="AboutController as about" >
+<div data-ng-controller="AboutController as about" id="header">
 	<div id="about_banner_info">
 	   image here
 	</div>
@@ -37,6 +37,10 @@
 			    </div>
 			</div>
 		</div>
+	</div>
+	<div id="title" class="ui-accordion-header ui-state-active ui-accordion-icons ui-corner-all">
+		<h1>{{about.career}}</h1>
+		<h2>{{about.quote}}</h2>
 	</div>
 </div>
 

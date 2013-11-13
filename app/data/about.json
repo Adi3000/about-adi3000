@@ -17,5 +17,7 @@
 	"mails" : ["adrien.ramarojohn@free.fr", "adi3000@free.fr", "adi300000@gmail.com"],
 	"birthday" : "1989-03-26",
 	"url" : ["code.adi3000.com"],
-	"other" : ["Titulaire du permis B"]
+	"other" : ["Titulaire du permis B"],
+	"career" : "Ingénieur de développement",
+	"quote" : "Développeur passionné, future architecte en pleine conquête"
 }

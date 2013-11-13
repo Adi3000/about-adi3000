@@ -40,5 +40,13 @@
 	"skills" : [
           "ldap","linux","owncloud","subsonic","zimbra","openvpn","ultravnc","php","perl","python","bash", "vim"
 	]
+ },
+ {
+	 "id" : "opensource",
+	 "name" : "Divers projets OpenSource",
+	 "description": "Contribution a divers projet OpenSource (generalement via GitHub) : owncloud, asadmin, weboob ...",
+	 "skills" : [
+	             "glassfish","owncloud","maven","python","php"
+	             ]
  }
 ]

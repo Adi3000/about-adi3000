@@ -1,7 +1,8 @@
 /* app css stylesheet */
 
-body {
-  font-family: Arial, Helvetica, sans-serif
+body,  .ui-widget {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1em;
 }
 
 #about_main_info{
@@ -16,6 +17,16 @@ body {
 #about_phone_numbers label {
 	display : inline-block;
 	width : 50px;
+}
+#title{
+	text-align: center;
+	margin: 0px 100px 0px 100px;
+}
+#title h1, #title h2{
+	margin: 0px auto 0px auto;
+}
+#title h1{
+	
 }
 #other_mails{
 	display: none;
@@ -32,14 +43,35 @@ body {
 	position : absolute;
 	text-align: center;
 }
+#career, #skills{
+	display: inline-block;
+	vertical-align: top;
+}
+#career{
+	width : 76%;
+}
 #skills{
-	float : right;
+	width : 22%;
+	padding-left: 10px;
+}
+#skills h3{
+	font-size: 0.9em;
 }
 .skill_hover, #skills .skill_hover {
 	background : #CCFFCC;
 }
-#skills .skill_hover{
+.skill_hover{
 	border-color: #FFFFAA;
+}
+#career .ui-corner-all{
+	border-style:  hidden;
+}
+#studies .skill_hover,
+#experiences .skill_hover,
+#projects .skill_hover
+{
+	border: 1px solid #8888AA;
+	border-style: solid;
 }
 #skills .to_hide{
 	display: none;
@@ -50,7 +82,7 @@ body {
 
 #skills .progress-label {
 	position: absolute;
-	top: -4px;
+	top: 0px;
 	font-weight: bold;
 	text-shadow: 1px 1px 0 #fff;
 	width: 100%;
@@ -61,7 +93,7 @@ body {
 }
 #skills .progress-skill-label,
 #skills .progress-skill-rate{
-	font-size: 0.7em;
+	font-size: 0.8em;
 	display: inline-block;
 }
 #skills .progress-skill-label{
@@ -72,5 +104,50 @@ body {
 	width : 15%;
 }
 #skills .ui-progressbar {
-	height: 1.1em;
+	height: 1.3em;
+}
+.note{
+	font-size: 0.8em;
+}
+#studies .note{
+	margin-left: 130px;
+}
+#experiences .note{
+	margin-left: 255px;
+}
+.main_label{
+	text-decoration: underline;
+}
+.period{
+	font-style: italic;
+	display: inline-block;
+}
+#studies .period{
+	width : 125px;
+}
+#experiences .period{
+	width : 250px;
+}
+#experiences .main_label,
+#experiences .company,
+#experiences .place,
+#experiences .client{
+	display: inline-block;
+}
+.client{
+	font-style: italic;
+}
+.tooltip{
+	display: none;
+}
+#powerTip{
+	position: absolute;
+}
+#powerTip img{
+	opacity:0.4;
+	filter:alpha(opacity=40); /* For IE8 and earlier */
+}
+#powerTip img:hover{
+	opacity:1.0;
+	filter:alpha(opacity=100); /* For IE8 and earlier */
 }

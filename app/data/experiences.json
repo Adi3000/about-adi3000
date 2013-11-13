@@ -2,43 +2,43 @@
  {
 	"start" : "2013-06-24",
 	"as" : "Ingénieur JAVA/J2EE",
-	"company" : { "name" : "Néo-soft", "url" : "http://www.neo-soft.fr/" },
-	"client" : { "name" : "La Poste", "url" : "http://www.laposte.fr/" },
+	"company" : { "name" : "Néo-soft", "url" : "http://www.neo-soft.fr/", "logo" : "http://www.neo-soft.fr/images/logo_mobile.png"  },
+	"client" : { "name" : "La Poste", "url" : "http://www.laposte.fr/", "logo" : "http://www.laposte.fr/extension/lapostev2/design/lapostev2/images/refonte2011/home/logo_antehome.png" },
 	"place" : "Nantes",
 	"description" : "Accompagnement des évolutions technologiques sur le projet Référentiel RH (migration vers Hibernate 3, installation Sonar/Maven, JUnit) et développement d’évolution fonctionnelles ",
 	"skills" : [
 		"java","html","hibernate","struts",
 		"spring","sonar","maven","jenkins",
 		"linux","oracle","sql","javascript",
-		"jquery", "eclipse", "vim"
+		"jquery", "eclipse", "vim","svn"
 	]
  },
  {
 	"start" : "2012-06-21",
 	"end" : "2013-04-20",
 	"as" : "Ingénieur JAVA/J2EE",
-	"company" : { "name": "Néo-soft", "url" : "http://www.neo-soft.fr/" },
-	"client" : { "name": "Société Générale", "url" : "http://www.societegenerale.com/" },
+	"company" : { "name": "Néo-soft", "url" : "http://www.neo-soft.fr/",  "logo" : "http://www.neo-soft.fr/images/logo_mobile.png" },
+	"client" : { "name": "Société Générale", "url" : "http://www.societegenerale.com/", "logo" : "http://www.societegenerale.fr/images/eimm_logo.png" },
 	"place" : "Nantes",
 	"description" : "Gestion des évolutions et du support sur un grand panel de projet Java (>10) sur la gestion des itres Société Générale et des comptes",
 	"skills" : [
 		"java","html","hibernate","struts",
 		"spring","sonar","maven","jenkins",
 		"gwt","oracle","sql","javascript",
-		"jquery","php", "english", "eclipse"
+		"jquery","php", "english", "eclipse","svn"
 	]
  },
  {
 	"start" : "2011-06-15",
 	"end" : "2012-05-25",
 	"as" : "Ingénieur JAVA/J2EE",
-	"company" : { "name": "Norsys", "url" : "http://www.norsys.fr/" },
-	"client" : { "name": "Décathlon" , "url" : "http://www.decathlon.com/"},
+	"company" : { "name": "Norsys", "url" : "http://www.norsys.fr/" , "logo" : "http://www.norsys.fr/backoffice/sites/default/files/logogroupefrancaise-5.jpg"},
+	"client" : { "name": "Oxylane" , "url" : "http://www.oxylane.com/", "logo" : "http://www.oxylane.com/sites/all/themes/oxylane/images/logo-oxylane.png"},
 	"place" : "Villeneuve d'Ascq",
-	"description" : "Support niveau 4 et évolution projet au sein de l’équipe Décathlon dans un contexte de production continue. Développement sous un Framework Décathlon basé sur Struts.",
+	"description" : "Support niveau 4 et évolution projet au sein de l’équipe Oxylane dans un contexte de production continue. Développement sous un Framework Oxylane basé sur Struts.",
 	"skills" : [
 		"java","html","struts",	"spring",
-		"sonar","maven","continuum","oracle",
+		"sonar","maven","continuum","oracle","cvs",
 		"sql","javascript","jquery", "english", "eclipse"
 	]
  },
@@ -46,7 +46,7 @@
 	"start" : "2010-09-13",
 	"end" : "2011-05-31",
 	"as" : "Ingénieur de développement",
-	"company" : { "name" : "Archimed", "url" : "http://www.archimed.fr/" },
+	"company" : { "name" : "Archimed", "url" : "http://www.archimed.fr/", "logo" : "http://www.archimed.fr/wp-content/themes/Archimed/images/logo.jpg" },
 	"place" : "Lille",
 	"description" : "Intégration de progiciels GED conformes aux demandes de la clientèle et formation sur les produits vendus.",
 	"skills" : [
@@ -58,18 +58,19 @@
 	"start" : "2009-09-01",
 	"end" : "2010-08-31",
 	"as" : "Contrat de professionnalisation",
-	"company" : { "name": "ErDF-GrDF", "url" : "http://www.erdfdistribution.fr/" },
+	"company" : { "name": "ErDF-GrDF", "url" : "http://www.erdfdistribution.fr/", "logo" : "http://www.erdfdistribution.fr/images/logo_erdf.png"},
 	"place" : "Lille",
 	"description" : "Etude complète et réalisation d’un projet en équipe réduite de son cahier des charges à sa première mise en production.",
 	"skills" : [
-          "php", "mysql","javascript", "jquery","spip","ldap"
+          "php", "mysql","javascript", "jquery","spip","ldap","svn"
     ]
  },
  {
 	"start" : "2009-03-30",
 	"end" : "2009-08-17",
-	"company" : {"name" : "Capgemini", "url": "http://www.fr.capgemini.com/" },
-	"client" : {"name" : "EDF", "url" : "http://france.edf.com/" },
+	"as" : "Stagiaire Développeur",
+	"company" : {"name" : "Capgemini", "url": "http://www.fr.capgemini.com/" , "logo" : "http://www.capgemini.com/sites/all/themes/capgemini/logo.png" },
+	"client" : {"name" : "EDF", "url" : "http://france.edf.com/", "logo" : "http://france.edf.com/fichiers/fckeditor/Prive/header/t1_logo_edf.png" },
 	"place" : "Lambersart",
 	"description" : "Développer la version de CLOE V10 pour EDF sur l'ERP Siebel",
 	"skills" : [

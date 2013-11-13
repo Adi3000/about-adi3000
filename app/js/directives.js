@@ -20,7 +20,8 @@ function highlightSkill(skill, force){
 	if(!skill.hasClass("skill_hover") || force){
 		skill
 			.addClass("skill_hover")
-			.effect({effect : "highlight", duration : 300});
+			.stop(true , true )
+			.effect("highlight");
 	}
 }
 
@@ -64,11 +65,13 @@ angular.module('aboutDirectives', [])
 				$timeout(function(){
 					var skills = scope.$eval(attrs.skillsList);
 					$element.hover(function(){
+						$element.addClass("skill_hover");
 						findSkills(skills);
 					},function(){
 						$.each(skills,function(i, skillName){
 							$("#skills [data-skill-ref="+skillName+"]").removeClass("skill_hover");
 						});
+						$element.removeClass("skill_hover");
 					});
 					$element.click(function(){
 						findSkills(skills, true);
@@ -93,6 +96,24 @@ angular.module('aboutDirectives', [])
 			}
 		};
 	})
+	.directive('tooltip', function($timeout){
+		return {
+			restrict: 'A',
+			link: function(scope, $element, attrs) {
+				$timeout(function(){
+					$element.powerTip({
+						placement : 's',
+						mouseOnToPopup : true
+					});
+					$element.data('powertipjq', function(){
+						var tip = $(this).parent().children(".tooltip").clone();
+						tip.removeClass("tooltip");
+						return tip;
+					});
+				});
+			}
+		};
+	})
 	.directive('progressBar', function($timeout){
 		return {
 			restrict: 'A',
@@ -102,7 +123,6 @@ angular.module('aboutDirectives', [])
 					var rate = attrs.progressBar * max;
 					var label = $element.text();
 					$element.text("");
-					console.log(label);
 					$element
 						.append($("<div />")
 								.addClass("progress-label")
