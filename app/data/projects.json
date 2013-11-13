@@ -44,7 +44,7 @@
  {
 	 "id" : "opensource",
 	 "name" : "Divers projets OpenSource",
-	 "description": "Contribution a divers projet OpenSource (generalement via GitHub) : owncloud, asadmin, weboob ...",
+	 "description": "Contribution à divers projet OpenSource, généralement via GitHub (owncloud, asadmin, weboob ...)",
 	 "skills" : [
 	             "glassfish","owncloud","maven","python","php", "eclipse","git"
 	             ]

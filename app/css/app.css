@@ -4,9 +4,15 @@ body,  .ui-widget {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1em;
 }
-
+.ui-icon{
+	display: inline-block;
+}
 #about_main_info{
 	display : inline-block;
+}
+#about_mail a{
+	color: #000000;
+	text-decoration: none;
 }
 #about_phone_numbers,
 #about_aux_info ul{
@@ -18,6 +24,9 @@ body,  .ui-widget {
 	display : inline-block;
 	width : 50px;
 }
+#header .ui-icon{
+	height : 14px;
+}
 #about_toggle_other_mails{
 	display : inline-block;
 	width: 17px;
@@ -27,6 +36,7 @@ body,  .ui-widget {
 #title{
 	text-align: center;
 	margin: 0px 100px 0px 100px;
+	padding: 5px 100px 5px 100px;
 }
 #title h1, #title h2{
 	margin: 0px auto 0px auto;
@@ -54,10 +64,10 @@ body,  .ui-widget {
 	vertical-align: top;
 }
 #career{
-	width : 76%;
+	width : 75%;
 }
 #skills{
-	width : 22%;
+	width : 23%;
 	padding-left: 10px;
 }
 #skills h3{
@@ -69,8 +79,11 @@ body,  .ui-widget {
 .skill_hover{
 	border-color: #FFFFAA;
 }
-#career .ui-corner-all{
-	border-style:  hidden;
+#career .reference{
+	border: 1px solid #fff;
+	padding: 6px 5px 6px 5px;
+	margin: 1px 0px 2px 0px;
+	
 }
 #studies .skill_hover,
 #experiences .skill_hover,
@@ -78,6 +91,9 @@ body,  .ui-widget {
 {
 	border: 1px solid #8888AA;
 	border-style: solid;
+}
+#skills{
+	margin-top: 10px;
 }
 #skills .to_hide{
 	display: none;
@@ -112,33 +128,48 @@ body,  .ui-widget {
 #skills .ui-progressbar {
 	height: 1.3em;
 }
+#skills .domain{
+	padding: 1px 0px 1px 5px;
+	margin: 10px 0px 0px 0px; 
+}
+
 .note{
 	font-size: 0.8em;
 }
-#studies .note{
-	margin-left: 130px;
-}
+/* #studies .note{ */
+/* 	margin-left: 130px; */
+/* } */
+#studies .note,
 #experiences .note{
 	margin-left: 255px;
 }
 .main_label{
 	text-decoration: underline;
 }
-.period{
+.period, #projects .main_label{
 	font-style: italic;
 	display: inline-block;
+	text-align: right;
+	padding-right: 30px;
 }
-#studies .period{
-	width : 125px;
-}
-#experiences .period{
-	width : 250px;
+/* #studies .period{ */
+/* 	width : 125px; */
+/* } */
+#studies .period,
+#experiences .period,
+#projects .main_label{
+	width : 220px;
 }
 #experiences .main_label,
 #experiences .company,
 #experiences .place,
 #experiences .client{
 	display: inline-block;
+}
+#projects .description{
+	display: inline-block;
+	width : 490px;
+	vertical-align: top;
 }
 .client{
 	font-style: italic;
@@ -158,8 +189,18 @@ body,  .ui-widget {
 	filter:alpha(opacity=100); /* For IE8 and earlier */
 }
 #skills .ui-icon{
-	display: inline-block;
 	float: right;
 	height: 14px;
 	margin-right: 1px;
+}
+#career h2{
+	font-weight: bold;
+	text-shadow: 1px 1px 0 #fff;
+	padding: 2px 20px 2px 10px;
+	margin: 0px 0px 0px 0px;
+}
+#career > div{
+	border: 1px solid #000;
+	border-style: solid;
+	margin-top: 20px;
 }

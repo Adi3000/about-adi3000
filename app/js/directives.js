@@ -33,8 +33,13 @@ angular.module('aboutDirectives', [])
 			link: function(scope, $element, attrs) {
 				$timeout(function(){
 					$element.click(function(){
-						$("#"+attrs.toggleDiv).toggle(200); 
-					});
+						$("#"+attrs.toggleDiv).toggle(200, function(){
+							$element.children(".ui-icon")
+								.toggleClass("ui-icon-minus")
+								.toggleClass("ui-icon-plus");
+						});
+						
+					})
 				});
 			}
 		};
@@ -87,7 +92,11 @@ angular.module('aboutDirectives', [])
 				$timeout(function(){
 					if($("#"+attrs.toggleHidden+" .to_hide").is("*")){
 						$element.parent().click(function(){
-							$("#"+attrs.toggleHidden+" .to_hide").toggle(200); 
+							$("#"+attrs.toggleHidden+" .to_hide").toggle(200,function(){
+									$element
+										.toggleClass("ui-icon-minusthick")
+										.toggleClass("ui-icon-plusthick");
+								}); 
 						});
 					}else{
 						$element.remove();
@@ -102,14 +111,16 @@ angular.module('aboutDirectives', [])
 			link: function(scope, $element, attrs) {
 				$timeout(function(){
 					$element.powerTip({
-						placement : 's',
+						placement : 'n',
 						mouseOnToPopup : true
-					});
-					$element.data('powertipjq', function(){
+					})
+					.data('powertipjq', function(){
 						var tip = $(this).parent().children(".tooltip").clone();
 						tip.removeClass("tooltip");
 						return tip;
-					});
+					})
+					.css({"border-bottom" : "1px dotted #999", "padding-bottom" : "-5px"});
+					
 				});
 			}
 		};
@@ -121,12 +132,12 @@ angular.module('aboutDirectives', [])
 				$timeout(function(){
 					var max = 10;
 					var rate = attrs.progressBar * max;
-					var label = $element.text();
+					var label = $element.html();
 					$element.text("");
 					$element
 						.append($("<div />")
 								.addClass("progress-label")
-								.append($("<div />").addClass("progress-skill-label").text(label))
+								.append($("<div />").addClass("progress-skill-label").html(label))
 								.append($("<div />").addClass("progress-skill-rate").text(rate + "/" + max)))
 						.progressbar({ value :  rate , max :  max})
 						.hover(

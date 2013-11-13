@@ -20,19 +20,24 @@
 			    <div>
 	                <span>{{about.zipcode }}</span>&nbsp;<span>{{about.city}}</span>
 	            </div>
-	            <div>
-	                <span id="main_mail" class="confidential">{{ about.mails[0] }}</span>
+	            <div id="about_mail">
+	                <span id="main_mail" class="confidential">
+	                   <a href="mailto:{{mail}}"><span class="ui-icon ui-icon-mail-closed"></span>{{ about.mails[0] }}</a>
+                   </span>
 	                <div id="about_toggle_other_mails"  class="ui-state-default ui-corner-all" data-toggle-div="other_mails">
 	                	<span class="ui-icon ui-icon-plus"></span>
                 	</div>
-			        <ul id="other_mails">
-			            <li data-ng-repeat="mail in about.mails" data-ng-show="$index > 0">{{ mail }}</li>
-			        </ul>
+                	<div id="other_mails">
+				        <div data-ng-repeat="mail in about.mails" data-ng-show="$index > 0">
+				            <a href="mailto:{{mail}}"><span class="ui-icon ui-icon-mail-closed"></span>{{ mail }}</a>
+				        </div>
+			        </div>
 	            </div>
 			    <div>
 	                <ul id="about_phone_numbers">
 				        <li data-ng-repeat="phone in about.phones">
-				            <label for="phoneNumber_{{ phone.label }}">{{ phone.label }}</label>
+				            <label for="phoneNumber_{{ phone.label }}" data-ng-hide="{{!isEmpty(phone.jqueryIcon)}}">{{ phone.label }}</label>
+				            <span class="ui-icon {{phone.jqueryIcon}}" data-ng-hide="{{isEmpty(phone.jqueryIcon)}}"></span>
 				            <span id="phoneNumber_{{ phone.label }}" class="confidential">{{ phone.number }}</span>
 				        </li>
 			        </ul>
