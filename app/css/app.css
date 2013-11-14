@@ -3,16 +3,25 @@
 body,  .ui-widget {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1em;
-  background: #a0b589;
+  background: #963c19;
 }
 #body{
 	margin: 20px auto 0px auto;
 	padding: 5px;
 	width: 1024px;
-	background-color: #FFF;
+	background-color: #e0cfc2;
 	border: 1px solid #888;
 }
-#title, #skills .ui-state-default, #career .ui-widget-header{
+#title{
+	background-color: #eceadf;
+	color : #654b24;
+	text-shadow: 1px 1px 0 #fff;
+	border: 1px solid #000;
+}
+#title, 
+#skills .ui-state-default, 
+#career .ui-widget-header,
+#hobbies h2{
 	font-family: "Lucida Console", Monaco, monospace;
 }
 #skills .ui-state-default{
@@ -39,7 +48,7 @@ body,  .ui-widget {
 	width : 50px;
 }
 #header .ui-icon{
-	height : 14px;
+	height : 15px;
 }
 #about_toggle_other_mails{
 	display : inline-block;
@@ -84,15 +93,21 @@ body,  .ui-widget {
 #skills h3{
 	font-size: 0.9em;
 }
-.skill_hover, #skills .skill_hover {
-	background : #CCFFCC;
+#skills .ui-progressbar {
+	height: 1.3em;
+	margin-bottom: 2px;
+	border: 1px solid #000;
 }
-.skill_hover{
+#skills .ui-progressbar {
+	position: relative;
+	background-color: #fbdb93;
+}
+#skills .skill_hover{
 	border-color: #FFFFAA;
 }
 #career .reference
 {
-	border: 1px solid #fff;
+	border: 1px solid #e0cfc2;
 	padding: 6px 5px 6px 5px;
 	margin: 1px 0px 2px 0px;
 	
@@ -103,6 +118,10 @@ body,  .ui-widget {
 {
 	border: 1px solid #8888AA;
 	border-style: solid;
+	background : #CCFFCC;
+}
+#skills .skill_hover, #skills .skill_hover {
+	background : #CCFFCC;
 }
 #skills{
 	
@@ -110,17 +129,13 @@ body,  .ui-widget {
 #skills .to_hide{
 	display: none;
 }
-#skills .ui-progressbar {
-	position: relative;
-	background-color: #fff;
-	
-}
 
 #skills .progress-label {
 	position: absolute;
 	top: 0px;
 	font-weight: bold;
-	text-shadow: 1px 1px 0 #fff;
+	color: #fff;
+	text-shadow: 1px 1px 0 #000;
 	width: 100%;
 }
 #skills ul{
@@ -135,20 +150,23 @@ body,  .ui-widget {
 #skills .progress-skill-label{
 	width : 80%;
 	padding-left: 5px;
+	cursor: default;
 }
 #skills img{
 	vertical-align: -2px;
 }
 #skills .progress-skill-rate{
 	width : 15%;
+	color: #000;
+	text-shadow: 1px 1px 0 #fff;
 }
-#skills .ui-progressbar {
-	height: 1.3em;
-}
+
 #skills .domain{
-	padding: 2px 0px 1px 5px;
+	padding: 4px 0px 4px 5px;
+	border: 1px solid #000;
+	border-bottom : 0px;
 	height: 1em;
-	margin: 10px 0px 0px 0px; 
+	margin: 10px 0px 0px 0px;
 }
 
 .note{
@@ -209,12 +227,14 @@ body,  .ui-widget {
 #skills .ui-icon{
 	float: right;
 	height: 14px;
+	margin-top: -1px;
 	margin-right: 1px;
 }
 #career h2,
-#hobbies h2{
+#hobbies h2,
+#reference h3{
 	font-weight: bold;
-	text-shadow: 1px 1px 0 #fff;
+	text-shadow: 1px 1px 0 #000;
 	padding: 2px 20px 2px 10px;
 	margin: 0px 0px 0px 0px;
 }
@@ -240,8 +260,9 @@ body,  .ui-widget {
 }
 #hobbies .reference
 {
-	border: 1px solid #fff;
+	border: 1px solid #e0cfc2;
 	padding: 0px 5px 0px 5px;
 	margin: 1px 0px 2px 0px;
 	
 }
+#experi

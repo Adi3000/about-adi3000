@@ -34,7 +34,7 @@
 			"url" : "http://angularjs.org/",
 			"icon" : "http://angularjs.org/favicon.ico",
 			"version" : "1.2.0",
-			"description" : "JavaScript technologie on server side",
+			"description" : "JavaScript technologie framework",
 			"rate" : 0.60
 		},
 		{
@@ -70,19 +70,22 @@
 			"id" : "lucene",
 			"name" : "Lucene",
 			"icon" : "http://c.fsdn.com/allura/mirror/lucene/icon",
-			"rate" : 0.4
+			"rate" : 0.4,
+			"hide" : true
 		},
 		{
 			"id" : "jdbctemplate",
 			"name" : "JDBC Template",
 			"icon" : "http://spring.io/favicon.ico",
-			"rate" : 0.50
+			"rate" : 0.50,
+			"hide" : "true"
 		},
 		{
 			"id" : "jaxws",
 			"name" : "JAXB-WS",
 			"icon" : "https://jax-ws.java.net/images/glassfish_favicon.gif",
-			"rate" : 0.70
+			"rate" : 0.70,
+			"hide" : true
 		},
 		{
 			"id" : "struts",
@@ -121,9 +124,10 @@
 	"list" : [
 		{
 			"id" : "html",
-			"name" : "HTML5",
+			"name" : "HTML",
 			"icon" : "http://www.w3.org/html/logo/favicon.ico",
 			"url" : "http://www.w3.org/TR/html5/",
+			"version" : "5",
 			"guideline" : "http://www.w3schools.com/html/html5_intro.asp",
 			"rate" : 0.70
 		},
@@ -179,7 +183,8 @@
 			"name" : "PHP",
 			"icon" : "http://static.php.net/www.php.net/favicon.ico",
 			"version" : "5",
-			"rate" : 0.5
+			"rate" : 0.5,
+			"hide" : true
 		},
 		{
 			"id" : "bash",
@@ -299,7 +304,8 @@
 			"id" : "vim",
 			"icon" : "https://upload.wikimedia.org/wikipedia/commons/6/66/Utilities-terminal.svg",
 			"name" : "vim",
-			"rate" : 0.5
+			"rate" : 0.5,
+			"hide" : true
 		}
 	]
 },
@@ -333,7 +339,8 @@
 			"name" : "GlassFish",
 			"icon" : "https://jax-ws.java.net/images/glassfish_favicon.gif",
 			"version" : "4",
-			"rate" : 0.7
+			"rate" : 0.7,
+			"hide" : true
 		},
 		{
 			"id" : "tomcat",

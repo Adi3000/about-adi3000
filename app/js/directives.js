@@ -33,13 +33,20 @@ angular.module('aboutDirectives', [])
 			link: function(scope, $element, attrs) {
 				$timeout(function(){
 					$element.click(function(){
-						$("#"+attrs.toggleDiv).toggle(200, function(){
-							$element.children(".ui-icon")
-								.toggleClass("ui-icon-minus")
-								.toggleClass("ui-icon-plus");
-						});
-						
-					})
+						if($("#"+attrs.toggleDiv).is(":visible")){
+							$("#"+attrs.toggleDiv).hide(200, function(){
+								$element.children(".ui-icon")
+									.removeClass("ui-icon-minus")
+									.addClass("ui-icon-plus");
+							});
+						}else{
+							$("#"+attrs.toggleDiv).show(200, function(){
+								$element.children(".ui-icon")
+								.addClass("ui-icon-minus")
+								.removeClass("ui-icon-plus");
+							});
+						}
+					});
 				});
 			}
 		};
@@ -92,11 +99,19 @@ angular.module('aboutDirectives', [])
 				$timeout(function(){
 					if($("#"+attrs.toggleHidden+" .to_hide").is("*")){
 						$element.parent().click(function(){
-							$("#"+attrs.toggleHidden+" .to_hide").toggle(200,function(){
+							if($("#"+attrs.toggleHidden+" .to_hide").is(":visible")){
+								$("#"+attrs.toggleHidden+" .to_hide").hide(200,function(){
 									$element
-										.toggleClass("ui-icon-minusthick")
-										.toggleClass("ui-icon-plusthick");
+										.removeClass("ui-icon-minusthick")
+										.addClass("ui-icon-plusthick");
 								}); 
+							}else{
+								$("#"+attrs.toggleHidden+" .to_hide").show(200,function(){
+									$element
+									.addClass("ui-icon-minusthick")
+									.removeClass("ui-icon-plusthick");
+								}); 
+							}
 						});
 					}else{
 						$element.remove();
@@ -120,7 +135,6 @@ angular.module('aboutDirectives', [])
 						return tip;
 					})
 					.css({"border-bottom" : "1px dotted #999", "padding-bottom" : "-5px"});
-					
 				});
 			}
 		};
@@ -147,6 +161,31 @@ angular.module('aboutDirectives', [])
 					
 				});
 				
+			}
+		};
+	})
+	.directive('skillTooltip', function($timeout){
+		return {
+			restrict: 'A',
+			link: function(scope, $element, attrs) {
+				$timeout(function(){
+					var skill = scope.$eval(attrs.skillTooltip);
+					var skillTooltip = "" ;
+					if(skill.url){
+						$element.wrap(
+								$("<a />")
+									.attr("href",skill.url)
+									.attr("target", "_blank")
+								);
+						skillTooltip = skillTooltip + "Plus d'info sur "+ skill.name +" en cliquant ici." ;
+					}
+					if(skill.version){
+						skillTooltip = "Version connue : " + skill.name  +" " + skill.version + ". " + skillTooltip ;
+					}
+					if(skillTooltip != ""){
+						$element.attr("title",skillTooltip);
+					}
+				});
 			}
 		};
 	});
