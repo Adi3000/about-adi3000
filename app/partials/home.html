@@ -53,21 +53,12 @@
 		        {{ project.description }}
 		    </div>
 		</div>
-		<div  class="reference">
-    		<h3>Références</h3>
+		<div id="reference" class="reference">
+    		<h3 class="ui-widget-header ui-corner-all">Références</h3>
 			<ul>
-				<li>Mon Code Center : <a href="http://code.adi3000.com">http://code.adi3000.com</a></li>
+				<li>Code Center Personnel : <a href="http://code.adi3000.com">http://code.adi3000.com</a></li>
 				<li>GitHub : <a href="https://github.com/Adi3000/">https://github.com/Adi3000/</a></li>
 			</ul>
-		</div>
-	</div>
-	<div id="hobbies" class="ui-corner-all">
-		<h2 class="ui-widget-header ui-corner-all">Loisirs</h2>
-		<div data-ng-repeat="hobby in hobbies" class="reference"> 
-		    <span class="main_label" >{{ hobby.name }}</span>
-		    <div class="description">
-		        {{ hobby.description }}
-		    </div>
 		</div>
 	</div>
 </div>
@@ -83,8 +74,17 @@
 	        		data-skill-ref="{{skill.id}}" 
 	        		data-ng-class="{ to_hide : skill.hide }"
 	        		data-progress-bar="{{ skill.rate }}">
-	        	<img data-ng-src="{{skill.icon}}" alt="" height="14px" style="vertical-align: middle;"/>&nbsp;{{ skill.name }}
+	        	<img data-ng-src="{{skill.icon}}" alt="" height="14px" />&nbsp;{{ skill.name }}
        		</div>
 	    </div>
+	</div>
+	<div id="hobbies" class="ui-corner-all">
+		<h2 class="ui-widget-header ui-corner-all">Loisirs</h2>
+		<div data-ng-repeat="hobby in hobbies" class="reference"> 
+		    <span class="main_label" >{{ hobby.name }}</span>
+		    <div class="description">
+		        {{ hobby.description }}
+		    </div>
+		</div>
 	</div>
 </div>
