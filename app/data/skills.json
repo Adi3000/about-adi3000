@@ -6,13 +6,13 @@
        {
            "id" : "english",
            "name" : "Anglais",
-           "icon" : "http://usun.state.gov/images/images_usun/american-flag.png",
+           "icon" : "http://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_the_United_States.svg/200px-Flag_of_the_United_States.svg.png",
            "rate" : 0.80
         },
         {
             "id" : "spanish",
             "name" : "Espagnol",
-            "icon" : "https://upload.wikimedia.org/wikipedia/en/thumb/9/9a/Flag_of_Spain.svg/50px-Flag_of_Spain.svg.png",
+            "icon" : "http://upload.wikimedia.org/wikipedia/en/thumb/9/9a/Flag_of_Spain.svg/50px-Flag_of_Spain.svg.png",
             "rate" : 0.50
         }
     ]
@@ -41,27 +41,30 @@
 			"id" : "spring",
 			"name" : "Spring",
 			"version" : "3.2",
+			"url" : "http://spring.io/",
 			"icon" : "http://spring.io/favicon.ico",
-			"url" : "http://docs.oracle.com/javase/7/docs/index.html",
 			"rate" : 0.7
 		},
 		{
 			"id" : "jsf",
 			"name" : "JavaServletFaces",
 			"version" : "2.2",
+			"url" : "https://javaserverfaces.java.net/",
 			"icon" : "https://javaserverfaces.java.net/favicon.ico",
 			"rate" : 0.5
 		},
 		{
 			"id" : "gwt",
 			"name" : "GWT",
+			"url" : "http://www.gwtproject.org/",
 			"icon" : "https://developers.google.com/eclipse/images/gwt_compile_button.png",
-			"url" : "http://docs.oracle.com/javase/7/docs/index.html",
+			"version" : "2.3",
 			"rate" : 0.50
 		},
 		{
 			"id" : "hibernate",
 			"name" : "Hibernate",
+			"url" : "http://www.hibernate.org/",
 			"icon" : "http://www.hibernate.org/orgLayoutBody/favicon/favicon.ico",
 			"version" : "4.2.5",
 			"rate" : 0.70
@@ -69,49 +72,53 @@
 		{
 			"id" : "lucene",
 			"name" : "Lucene",
+			"url" : "https://lucene.apache.org/core/",
 			"icon" : "http://c.fsdn.com/allura/mirror/lucene/icon",
-			"rate" : 0.4,
-			"hide" : true
+			"rate" : 0.4
 		},
 		{
 			"id" : "jdbctemplate",
 			"name" : "JDBC Template",
 			"icon" : "http://spring.io/favicon.ico",
 			"rate" : 0.50,
-			"hide" : "true"
+			"hide" : true
 		},
 		{
 			"id" : "jaxws",
 			"name" : "JAXB-WS",
-			"icon" : "https://jax-ws.java.net/images/glassfish_favicon.gif",
+			"icon" : "http://jax-ws.java.net/images/glassfish_favicon.gif",
 			"rate" : 0.70,
 			"hide" : true
 		},
 		{
 			"id" : "struts",
 			"name" : "Struts",
+			"url" : "https://struts.apache.org/",
 			"version" : "1.3",
 			"icon" : "https://struts.apache.org/images/struts.gif",
-			"url" : "http://docs.oracle.com/javase/7/docs/index.html",
 			"rate" : 0.7
 		},
 		{
 			"id" : "ehcache",
 			"name" : "ehCache",
+			"url" : "http://ehcache.org/",
 			"icon" : "http://ehcache.org/favicon.ico",
-			"rate" : 0.6,
-			"hide" : true
+			"rate" : 0.6
 		},
 		{
 			"id" : "dwr",
 			"name" : "DirectWebRemoting",
+			"url" : "http://directwebremoting.org/dwr/index.html",
 			"icon" : "http://directwebremoting.org/favicon.ico",
+			"version" : "2.0.10",
 			"rate" : 0.40,
 			"hide" : true
 		},
 		{
 			"id" : "spip",
 			"name" : "Spip",
+			"version" : "2.1",
+			"url" : "http://www.spip.net/",
 			"icon" : "http://www.spip.net/favicon.ico",
 			"rate" : 0.40,
 			"hide" : true
@@ -140,7 +147,7 @@
 		{
 			"id" : "java",
 			"name" : "Java/J2E",
-			"icon" : "https://home.java.net/sites/default/files/java_adaptive_favicon_2.png",
+			"icon" : "http://home.java.net/sites/default/files/java_adaptive_favicon_2.png",
 			"version" : "7",
 			"url" : "http://docs.oracle.com/javase/7/docs/index.html",
 			"rate" : 0.80
@@ -148,6 +155,7 @@
 		{
 			"id" : "python",
 			"name" : "python",
+			"url" : "http://www.python.org/",
 			"icon" : "http://www.python.org/favicon.ico",
 			"version" : "2.7",
 			"rate" : 0.50
@@ -155,18 +163,21 @@
 		{
 			"id" : "perl",
 			"name" : "Perl",
+			"url" : "http://www.perl.org/",
 			"icon" : "http://www.perl.org/favicon.ico",
 			"rate" : 0.40
 		},
 		{
 			"id" : "csharp",
 			"name" : "C#",
+			"url" : "http://www.mono-project.com/Main_Page",
 			"icon": "http://www.mono-project.com/favicon.ico",
 			"rate" : 0.5
 		},
 		{
 			"id" : "dotnet",
 			"name" : ".Net",
+			"url" : "http://www.microsoft.com/net",
 			"icon" : "http://i.microsoft.com/net/images/chrome/net-logo.jpg",
 			"rate" : 0.5,
 			"hide" : true
@@ -174,6 +185,7 @@
 		{
 			"id" : "asp",
 			"name" : "ASP",
+			"url" : "http://www.asp.net/",
 			"rate" : 0.4,
 			"icon" : "http://www.asp.net/images/ui/asplogo-new.png?cdn_id=q65",
 			"hide" : true
@@ -181,6 +193,7 @@
 		{
 			"id" : "php",
 			"name" : "PHP",
+			"url" : "http://php.net/",
 			"icon" : "http://static.php.net/www.php.net/favicon.ico",
 			"version" : "5",
 			"rate" : 0.5,
@@ -189,13 +202,14 @@
 		{
 			"id" : "bash",
 			"name" : "BourneShell",
-			"icon" : "https://upload.wikimedia.org/wikipedia/commons/4/4b/Etermutilities-terminal.png",
+			"icon" : "http://upload.wikimedia.org/wikipedia/commons/4/4b/Etermutilities-terminal.png",
 			"rate" : 0.7
 		},
 		{
 			"id" : "sql",
 			"name" : "SQL",
-			"icon" : "https://upload.wikimedia.org/wikipedia/commons/9/95/Crystal_Project_Database.png",
+			"url" : "http://www.contrib.andrew.cmu.edu/~shadow/sql/sql1992.txt",
+			"icon" : "http://upload.wikimedia.org/wikipedia/commons/9/95/Crystal_Project_Database.png",
 			"version" : "92",
 			"rate" : 0.70
 		},
@@ -203,13 +217,15 @@
 			"id" : "mysql",
 			"name" : "mysql",
 			"version" : "5",
-			"icon" : "https://www.mysql.com/common/themes/sakila/favicon.ico",
+			"url" : "https://www.mysql.com/",
+			"icon" : "http://www.mysql.com/common/themes/sakila/favicon.ico",
 			"rate" : 0.50,
 			"hide" : true
 		},
 		{
 			"id" : "postgresql",
 			"name" : "PostgreSQL",
+			"url" : "http://www.postgresql.org/",
 			"icon" : "http://www.postgresql.org/favicon.ico",
 			"version" : "9.3",
 			"rate" : 0.70,
@@ -218,6 +234,7 @@
 		{
 			"id" : "oracle",
 			"name" : "Oracle",
+			"url" : "http://www.oracle.com/us/products/database/overview/index.html",
 			"icon" : "http://www.oracle.com/favicon.ico",
 			"version" : "11g",
 			"rate" : 0.60,
@@ -233,56 +250,59 @@
 			"id" : "sonar",
 			"name" : "Sonar",
 			"version" : "2.1",
-			"url" : "http://docs.oracle.com/javase/7/docs/index.html",
+			"url" : "http://www.sonarqube.org/",
 			"icon" : "http://www.sonarqube.org/wp-content/themes/sonarsource.org/images/favicon.ico",
 			"rate" : 0.50
 		},
 		{
 			"id" : "git",
 			"name" : "Git",
+			"url" : "http://git-scm.com/",
 			"icon" : "http://git-scm.com/favicon.png",
 			"rate" : 0.5
 		},
 		{
 			"id" : "svn",
 			"name" : "Subversion",
+			"url" : "https://subversion.apache.org/",
 			"icon" : "http://subversion.tigris.org/favicon.ico",
 			"rate" : 0.5
 		},
 		{
 			"id" : "cvs",
 			"name" : "CVS",
+			"icon" : "http://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Merge-arrows-3.svg/200px-Merge-arrows-3.svg.png",
 			"rate" : 0.5,
 			"hide" : true
 		},
 		{
 			"id" : "continuum",
 			"name" : "Continuum",
-			"icon" : "https://continuum.apache.org/images/continuum_logo_75.gif",
 			"url" : "https://continuum.apache.org/",
+			"icon" : "http://continuum.apache.org/images/continuum_logo_75.gif",
 			"rate" : 0.5,
 			"hide" : true
 		},
 		{
 			"id" : "nexus",
 			"name" : "Nexus",
+			"url" : "http://www.sonatype.org/nexus/",
 			"icon" : "http://code.adi3000.com/nexus/favicon.png",
-			"url" : "http://docs.oracle.com/javase/7/docs/index.html",
 			"rate" : 0.70
 		},
 		{
 			"id" : "jenkins",
 			"name" : "Jenkins",
+			"url" : "http://jenkins-ci.org/",
 			"icon" : "http://jenkins-ci.org/sites/default/files/jenkins_favicon.ico",
-			"url" : "http://docs.oracle.com/javase/7/docs/index.html",
 			"rate" : 0.80
 		},
 		{
 			"id" : "maven",
 			"name" : "Maven",
+			"url" : "https://maven.apache.org/",
 			"version" : "3",
-			"icon" : "https://upload.wikimedia.org/wikipedia/commons/f/f5/Maven_logo.gif",
-			"url" : "http://docs.oracle.com/javase/7/docs/index.html",
+			"icon" : "http://upload.wikimedia.org/wikipedia/commons/f/f5/Maven_logo.gif",
 			"rate" : 0.80
 		},
 		{
@@ -290,13 +310,14 @@
 			"name" : "Redmine",
 			"icon" : "http://code.adi3000.com/redmine/favicon.ico?1355514865",
 			"version" : "2.1",
-			"url" : "http://docs.oracle.com/javase/7/docs/index.html",
+			"url" : "http://www.redmine.org/",
 			"rate" : 0.50
 		},
 		{
 			"id" : "eclipse",
 			"name" : "Eclipse",
 			"icon" : "http://eclipse.org/favicon.ico",
+			"url" : "http://www.eclipse.org/kepler/",
 			"version" : "Kepler",
 			"rate" : 0.5
 		},
@@ -316,20 +337,23 @@
 		{
 			"id" : "openvpn",
 			"name" : "OpenVPN",
+			"url" : "http://openvpn.net/",
 			"icon" : "http://openvpn.net/templates/telethra/favicon.ico",
-			"version" : "2.2",
+			"version" : "2.3",
 			"rate" : 0.7
 		},
 		{
 			"id" : "linux",
 			"name" : "Linux",
+			"url" : "http://www.debian.org/",
 			"icon" : "http://www.linux.org/favicon.ico",
-			"version" : "3.2",
+			"version" : "Debian, Ubuntu, Red Hat",
 			"rate" : 0.8
 		},
 		{
 			"id" : "windows",
 			"name" : "Windows",
+			"url" : "http://windows.microsoft.com/",
 			"icon" : "https://origin-res.windows.microsoft.com/resources/4.1/wol/shared/images/favicon.ico",
 			"version" : "8",
 			"rate" : 0.7
@@ -337,14 +361,15 @@
 		{
 			"id" : "glassfish",
 			"name" : "GlassFish",
+			"url" : "https://glassfish.java.net/",
 			"icon" : "https://jax-ws.java.net/images/glassfish_favicon.gif",
 			"version" : "4",
-			"rate" : 0.7,
-			"hide" : true
+			"rate" : 0.7
 		},
 		{
 			"id" : "tomcat",
 			"name" : "Tomcat",
+			"url" : "https://tomcat.apache.org/",
 			"icon" : "https://tomcat.apache.org/images/tomcat.png",
 			"version" : "7",
 			"rate" : 0.7
@@ -352,6 +377,7 @@
 		{
 			"id" : "apache",
 			"name" : "Apache",
+			"url" : "https://httpd.apache.org/",
 			"icon" : "https://www.apache.org/favicon.ico",
 			"version" : "2",
 			"rate" : 0.7
@@ -368,6 +394,7 @@
 		{
 			"id" : "zimbra",
 			"name" : "Zimbra",
+			"url" : "http://www.zimbra.com/",
 			"icon" : "http://www.zimbra.com/favicon.ico",
 			"rate" : 0.5,
 			"hide" : true
@@ -375,6 +402,7 @@
 		{
 			"id" : "ldap",
 			"name" : "LDAP",
+			"url" : "http://www.openldap.org/",
 			"icon" : "https://upload.wikimedia.org/wikipedia/commons/4/40/Directory.svg",
 			"version" : "3",
 			"rate" : 0.7
@@ -382,6 +410,7 @@
 		{
 			"id" : "subsonic",
 			"name" : "Subsonic",
+			"url" : "http://www.subsonic.org/",
 			"icon" : "http://www.subsonic.org/pages/favicon.ico",
 			"version" : "4.8",
 			"rate" : 0.8,
@@ -390,6 +419,7 @@
 		{
 			"id" : "ultravnc",
 			"name" : "UltraVNC",
+			"url" : "http://www.uvnc.com/",
 			"icon" : "http://www.uvnc.com/favicon.ico",
 			"rate" : 0.7,
 			"hide" : true
@@ -398,6 +428,7 @@
 			"id" : "owncloud",
 			"icon" : "http://owncloud.org/favicon.png",
 			"name" : "Owncloud",
+			"url" : "http://owncloud.org/",
 			"version" : "5",
 			"rate" : 0.5,
 			"hide" : true

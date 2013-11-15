@@ -5,27 +5,41 @@ body,  .ui-widget {
   font-size: 1em;
   background: #963c19;
 }
+#body, #copyright{
+	width: 1024px;
+}
+
 #body{
 	margin: 20px auto 0px auto;
 	padding: 5px;
-	width: 1024px;
 	background-color: #e0cfc2;
 	border: 1px solid #888;
 }
+#copyright{
+	margin: 0px auto 0px auto;
+	text-align: right;
+	font-size: 0.7em;
+}
 #title{
 	background-color: #eceadf;
-	color : #654b24;
-	text-shadow: 1px 1px 0 #fff;
+	color : #fff;
+	text-shadow: 1px 1px 0 #000;
 	border: 1px solid #000;
 }
 #title, 
+#copyright,
 #skills .ui-state-default, 
 #career .ui-widget-header,
 #hobbies h2{
 	font-family: "Lucida Console", Monaco, monospace;
 }
-#skills .ui-state-default{
+#skills .ui-state-active{
 	font-size : 0.9em;
+	font-weight: bold;
+}
+#skills .domain *,
+#career .ui-widget-header {
+	cursor: default;
 }
 .ui-icon{
 	display: inline-block;
@@ -46,6 +60,9 @@ body,  .ui-widget {
 #about_phone_numbers label {
 	display : inline-block;
 	width : 50px;
+}
+#body > div{
+	margin : 5px;
 }
 #header .ui-icon{
 	height : 15px;
@@ -75,19 +92,22 @@ body,  .ui-widget {
 	float: right;
 }
 #about_banner_info{
-	width: 100%;
 	position : absolute;
-	text-align: center;
+	left: 50%;
+}
+#about_banner_info img{
+	position : relative;
+	left : -50%;
 }
 #career, #skills{
 	display: inline-block;
 	vertical-align: top;
 }
 #career{
-	width : 75%;
+	width : 72%;
 }
 #skills{
-	width : 23%;
+	width : 26%;
 	padding-left: 10px;
 }
 #skills h3{
@@ -175,12 +195,11 @@ body,  .ui-widget {
 /* #studies .note{ */
 /* 	margin-left: 130px; */
 /* } */
-#studies .note,
-#experiences .note{
-	margin-left: 255px;
-}
 .main_label{
 	text-decoration: underline;
+}
+.period {
+	font-size: 1em;
 }
 .period, #projects .main_label{
 	font-style: italic;
@@ -194,18 +213,13 @@ body,  .ui-widget {
 #studies .period,
 #experiences .period,
 #projects .main_label{
-	width : 220px;
+	width : 200px;
 }
 #experiences .main_label,
 #experiences .company,
 #experiences .place,
 #experiences .client{
 	display: inline-block;
-}
-#projects .description{
-	display: inline-block;
-	width : 490px;
-	vertical-align: top;
 }
 .client{
 	font-style: italic;
@@ -246,6 +260,7 @@ body,  .ui-widget {
 #hobbies{
 	margin-top : 10px;
 	font-size: 0.8em;
+	margin-bottom: 5px;
 }
 #hobbies .description {
 	font-size: 0.9em;
@@ -265,4 +280,14 @@ body,  .ui-widget {
 	margin: 1px 0px 2px 0px;
 	
 }
-#experi
+#projects .infos,
+#studies .infos,
+#experiences .infos{
+	display : inline-block;
+	width: 477px;
+	vertical-align: top;
+}
+#skills img{
+	border: 0px none;
+}
+

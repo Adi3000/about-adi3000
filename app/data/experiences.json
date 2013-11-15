@@ -10,7 +10,7 @@
 		"java","html","hibernate","struts",
 		"spring","sonar","maven","jenkins",
 		"linux","oracle","sql","javascript",
-		"jquery", "eclipse", "vim","svn"
+		"jquery", "eclipse", "vim","svn", "bash"
 	]
  },
  {
@@ -23,8 +23,8 @@
 	"description" : "Gestion des évolutions et du support sur un grand panel de projet Java (>10) sur la gestion des itres Société Générale et des comptes",
 	"skills" : [
 		"java","html","hibernate","struts",
-		"spring","sonar","maven","jenkins",
-		"gwt","oracle","sql","javascript",
+		"spring","sonar","maven","jenkins","nexus",
+		"gwt","oracle","sql","javascript","mysql",
 		"jquery","php", "english", "eclipse","svn"
 	]
  },
@@ -37,8 +37,8 @@
 	"place" : "Villeneuve d'Ascq",
 	"description" : "Support niveau 4 et évolution projet au sein de l’équipe Oxylane dans un contexte de production continue. Développement sous un Framework Oxylane basé sur Struts.",
 	"skills" : [
-		"java","html","struts",	"spring",
-		"sonar","maven","continuum","oracle","cvs",
+		"java","html","struts",	"spring", "ehcache","linux",
+		"sonar","maven","continuum","oracle","cvs","nexus",
 		"sql","javascript","jquery", "english", "eclipse"
 	]
  },
@@ -50,8 +50,8 @@
 	"place" : "Lille",
 	"description" : "Intégration de progiciels GED conformes aux demandes de la clientèle et formation sur les produits vendus.",
 	"skills" : [
-		"csharp","dotnet","ldap","jquery",
-		"asp","sql","javascript", "visualstudio"
+		"csharp","dotnet","ldap","jquery", "html",
+		"asp","sql","javascript", "visualstudio","windows"
 	]
  },
  {
@@ -62,7 +62,7 @@
 	"place" : "Lille",
 	"description" : "Etude complète et réalisation d’un projet en équipe réduite de son cahier des charges à sa première mise en production.",
 	"skills" : [
-          "php", "mysql","javascript", "jquery","spip","ldap","svn"
+          "php", "mysql","javascript", "jquery","spip","ldap","svn", "html"
     ]
  },
  {

@@ -5,8 +5,8 @@
 	"description" : "Site de troc en ligne mettant en oeuvre tout pour faciliter les échanges",
 	"skills": [
          "java","jsf","jquery","postgresql",
-         "redmine","jenkins","tomcat","hibernate",
-         "spring","jaxws","rest","git","ehcache", "nexus", "eclipse"
+         "redmine","jenkins","tomcat","hibernate","javascript", "html","maven",
+         "spring","jaxws","rest","git","ehcache", "nexus", "eclipse","sonar"
 	]
  },
  {
@@ -14,7 +14,8 @@
 	"name" : "A Dream Zone",
 	"description" : "Tower defense HTML 5, avec possibilité d'uploader ses propres type d'unité. Comportera un éditeur de vitrine pour des exposition de graphistes",
 	"skills" : [
-          "angularjs", "html", "javascript", "java", "hibernate", "nexus", "redmine", "jenkins", "eclipse","git"
+          "angularjs", "html", "javascript", "java", "jaxws", "jquery","html","maven",
+          "hibernate", "nexus", "redmine", "jenkins", "eclipse","git", "spring", "postgresql","sonar","tomcat"
 	]
  },
  {
@@ -22,7 +23,8 @@
 	"name" : "BudJet-pack",
 	"description" : "Editeur de fiche budget pour un voyage",
 	"skills" : [
-          "angularjs", "rest", "jaxws", "hibernate", "git", "nexus", "redmine", "jenkins", "eclipse"
+          "angularjs", "rest", "jaxws", "hibernate", "git", "nexus", "redmine", "jenkins", "eclipse", 
+          "jquery", "spring", "javascript", "html","postgresql","sonar","maven","tomcat"
 	]
  },
  {
@@ -30,7 +32,7 @@
 	"name" : "Hypersonic",
 	"description" : "Service web de streaming audio et video. Fork de supersonic, ajoutant la compatibilité Postgresql, allégeant l'application",
 	"skills" : [
-          "dwr","spring","jdbctemplate","java","lucene", "eclipse","git"
+          "dwr","spring","jdbctemplate","java","lucene", "eclipse","git", "ehcache","postgresql","maven","redmine","tomcat"
 	]
  },
  {
@@ -38,7 +40,7 @@
 	"name" : "Family Cloud Service",
 	"description": "Maintenance, mise a disposition de plusieurs services de stockage, prise en main à distance, sauvegarde, LAN over VPN",
 	"skills" : [
-          "ldap","linux","owncloud","subsonic","zimbra","openvpn","ultravnc","php","perl","python","bash", "vim"
+          "ldap","linux","owncloud","subsonic","zimbra","openvpn","ultravnc","php","perl","python","bash", "vim","redmine"
 	]
  },
  {

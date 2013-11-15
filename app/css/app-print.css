@@ -1,0 +1,14 @@
+#copyright, 
+#about_toggle_other_mails, 
+#powerTip,
+.ui-icon,
+#skills .to_hide{
+	display: none !important;
+}
+#skills .domain {
+	border: 1px solid #fff;
+}
+a{
+	text-decoration: none;
+	color : inherit;
+}

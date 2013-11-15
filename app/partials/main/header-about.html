@@ -1,6 +1,6 @@
 <div data-ng-controller="AboutController as about" id="header">
 	<div id="about_banner_info">
-	   image here
+	   <img alt="{{ about.name }} {{ about.surname }}" src="img/profile.jpg" width="80px"/>
 	</div>
 	<div id="about_aux_info">
 	   <div>
@@ -13,7 +13,7 @@
 	<div id="about_main">
 		<div id="about_main_info">
 			<div>
-	            <span>{{ about.name }}</span>&nbsp;<span>{{ about.surname }}</span>
+	            <span>{{ about.name }}</span>&nbsp;<span>{{ about.surname }}</span>
 	        </div>
 			<div>
 			    <div>{{about.address}}</div>
@@ -45,7 +45,7 @@
 			</div>
 		</div>
 	</div>
-	<div id="title" class="ui-accordion-header ui-state-active ui-accordion-icons ui-corner-all">
+	<div id="title" class="ui-widget-header ui-corner-all">
 		<h1>{{about.career}}</h1>
 		<h2>{{about.quote}}</h2>
 	</div>

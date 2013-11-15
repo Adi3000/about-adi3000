@@ -5,8 +5,7 @@
 var phonecatApp = angular.module('aboutAdi3000', [
   'ngRoute',
   'aboutDirectives',
-  'aboutControllers',
-  'aboutServices'
+  'aboutControllers'
 ]);
 
 phonecatApp.config(['$routeProvider',

@@ -11,9 +11,9 @@ function findSkills(skills, force){
 		var skill = $("#skills [data-skill-ref="+skillName+"]:visible");
 		if(skill.is("*")){
 			highlightSkill(skill, force);
-		}else{
+		}/*else{
 			console.log(skillName + " not found in list or not visible yet");
-		}
+		}*/
 	});
 }
 function highlightSkill(skill, force){
@@ -47,6 +47,7 @@ angular.module('aboutDirectives', [])
 							});
 						}
 					});
+					$element.css("cursor","pointer");
 				});
 			}
 		};
@@ -113,6 +114,7 @@ angular.module('aboutDirectives', [])
 								}); 
 							}
 						});
+						$element.css("cursor","pointer");
 					}else{
 						$element.remove();
 					}
