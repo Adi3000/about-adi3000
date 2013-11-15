@@ -136,12 +136,12 @@ body,  .ui-widget {
 #experiences .skill_hover,
 #projects .skill_hover
 {
-	border: 1px solid #8888AA;
+	border: 1px solid #a46313;
 	border-style: solid;
-	background : #CCFFCC;
+	background : #f5ad66;
 }
 #skills .skill_hover, #skills .skill_hover {
-	background : #CCFFCC;
+	background : #f5ad66;
 }
 #skills{
 	
