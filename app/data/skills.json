@@ -74,7 +74,8 @@
 			"name" : "Lucene",
 			"url" : "https://lucene.apache.org/core/",
 			"icon" : "http://c.fsdn.com/allura/mirror/lucene/icon",
-			"rate" : 0.4
+			"rate" : 0.4,
+			"hide" : true
 		},
 		{
 			"id" : "jdbctemplate",
@@ -103,7 +104,8 @@
 			"name" : "ehCache",
 			"url" : "http://ehcache.org/",
 			"icon" : "http://ehcache.org/favicon.ico",
-			"rate" : 0.6
+			"rate" : 0.6,
+			"hide" : true
 		},
 		{
 			"id" : "dwr",
@@ -364,7 +366,8 @@
 			"url" : "https://glassfish.java.net/",
 			"icon" : "https://jax-ws.java.net/images/glassfish_favicon.gif",
 			"version" : "4",
-			"rate" : 0.7
+			"rate" : 0.7,
+			"hide" : true
 		},
 		{
 			"id" : "tomcat",

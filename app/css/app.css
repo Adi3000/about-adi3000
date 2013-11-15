@@ -13,11 +13,17 @@ body{
 #body, #copyright, #about_banner_info{
 	width: 1024px;
 }
-
+#copyright{
+	color: #fff;
+	text-shadow: 1px 1px 0 #000;
+}
+#copyright a{
+	color : #888;
+}
 #body{
 	margin: 20px auto 0px auto;
 	padding: 5px;
-	background-color: #e0cfc2;
+	background-color: #ddd;
 	border: 1px solid #888;
 }
 #copyright{
@@ -137,7 +143,7 @@ body{
 }
 #career .reference
 {
-	border: 1px solid #e0cfc2;
+	border: 1px solid #ddd;
 	padding: 6px 5px 6px 5px;
 	margin: 1px 0px 2px 0px;
 	
@@ -224,6 +230,7 @@ body{
 #experiences .period,
 #projects .main_label{
 	width : 200px;
+	font-size: 0.9em;
 }
 #experiences .main_label,
 #experiences .company,
@@ -278,6 +285,7 @@ body{
 #reference ul{
 	margin: 0px;
 	list-style-type: square;
+	font-size: 0.9em;
 }
 #reference h3{
 	margin: 0px;
@@ -300,4 +308,7 @@ body{
 #skills img{
 	border: 0px none;
 }
-
+#projects .infos{
+	font-size: 0.8em;
+	vertical-align: middle;
+}
