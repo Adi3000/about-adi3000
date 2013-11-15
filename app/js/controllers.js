@@ -2,7 +2,6 @@
 
 /* Controllers */
 
-var phonecatControllers = angular.module('phonecatControllers', []);
 /**Parses string formatted as YYYY-MM-DD to a Date object.
  * If the supplied string does not match the format, an 
  * invalid Date (value NaN) is returned.
@@ -24,24 +23,6 @@ function parseISO8601(dateStringInRange) {
   }
   return date;
 }
-phonecatControllers.controller('PhoneListCtrl', ['$scope', 'Phone',
-	function($scope, Phone) {
-		$scope.phones = Phone.query();
-		$scope.orderProp = 'age';
-	}
-]);
-
-phonecatControllers.controller('PhoneDetailCtrl', ['$scope', '$routeParams', 'Phone',
-    function($scope, $routeParams, Phone) {
-		$scope.phone = Phone.get({phoneId: $routeParams.phoneId},
-		function(phone) {
-			$scope.mainImageUrl = phone.images[0];
-		});
-		$scope.setImage = function(imageUrl) {
-			$scope.mainImageUrl = imageUrl;
-		};
-	}
-]);
 
 angular.module('aboutControllers', [])
 	.controller('AboutController', ['$scope', '$http', function($scope, $http){
@@ -49,7 +30,6 @@ angular.module('aboutControllers', [])
 			var birthDate = parseISO8601(data.birthday);
 			var nowDate = new Date();
 			var difference = nowDate.getTime() - birthDate.getTime();
-			console.log(data.birthday);
 			$scope.age = Math.floor(difference / (1000 * 60 * 60 * 24 * 365.25));
 			$scope.about = data;
 		});
