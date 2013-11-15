@@ -59,7 +59,8 @@
 			"url" : "http://www.gwtproject.org/",
 			"icon" : "https://developers.google.com/eclipse/images/gwt_compile_button.png",
 			"version" : "2.3",
-			"rate" : 0.50
+			"rate" : 0.50,
+			"hide" : true
 		},
 		{
 			"id" : "hibernate",
@@ -167,7 +168,7 @@
 			"name" : "Perl",
 			"url" : "http://www.perl.org/",
 			"icon" : "http://www.perl.org/favicon.ico",
-			"rate" : 0.40
+			"rate" : 0.50
 		},
 		{
 			"id" : "csharp",
@@ -203,7 +204,8 @@
 		},
 		{
 			"id" : "bash",
-			"name" : "BourneShell",
+			"name" : "Shell Unix",
+			"version" : "ksh, bash, zsh, sh",
 			"icon" : "http://upload.wikimedia.org/wikipedia/commons/4/4b/Etermutilities-terminal.png",
 			"rate" : 0.7
 		},
@@ -268,7 +270,8 @@
 			"name" : "Subversion",
 			"url" : "https://subversion.apache.org/",
 			"icon" : "http://subversion.tigris.org/favicon.ico",
-			"rate" : 0.5
+			"rate" : 0.5,
+			"hide" : true
 		},
 		{
 			"id" : "cvs",
@@ -290,7 +293,8 @@
 			"name" : "Nexus",
 			"url" : "http://www.sonatype.org/nexus/",
 			"icon" : "http://code.adi3000.com/nexus/favicon.png",
-			"rate" : 0.70
+			"rate" : 0.70,
+			"hide" : true
 		},
 		{
 			"id" : "jenkins",
@@ -408,7 +412,8 @@
 			"url" : "http://www.openldap.org/",
 			"icon" : "https://upload.wikimedia.org/wikipedia/commons/4/40/Directory.svg",
 			"version" : "3",
-			"rate" : 0.7
+			"rate" : 0.7,
+			"hide" : true
 		},
 		{
 			"id" : "subsonic",

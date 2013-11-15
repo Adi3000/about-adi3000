@@ -10,6 +10,9 @@ body{
   background-repeat:no-repeat;
   background-attachment:fixed;
 }
+.ui-widget-header {
+	border: 1px solid #c8d3dc;
+}
 #body, #copyright, #about_banner_info{
 	width: 1024px;
 }
@@ -22,7 +25,7 @@ body{
 }
 #body{
 	margin: 20px auto 0px auto;
-	padding: 5px;
+	padding: 20px;
 	background-color: #c8d3dc;
 	border: 1px solid #888;
 }
@@ -35,7 +38,10 @@ body{
 	background-color: #eceadf;
 	color : #fff;
 	text-shadow: 1px 1px 0 #000;
-	border: 1px solid #000;
+	border: 1px solid #c8d3dc;
+	text-align: center;
+	margin: 15px 100px 0px 100px;
+	padding: 5px 100px 5px 100px;
 }
 #title, 
 #copyright,
@@ -84,11 +90,6 @@ body{
 	height: 17px;
 	vertical-align: middle;
 }
-#title{
-	text-align: center;
-	margin: 5px 100px 0px 100px;
-	padding: 5px 100px 5px 100px;
-}
 #title h1, #title h2{
 	margin: 0px auto 0px auto;
 }
@@ -132,7 +133,7 @@ body{
 #skills .ui-progressbar {
 	height: 1.3em;
 	margin-bottom: 2px;
-	border: 1px solid #000;
+	border: 1px solid #c8d3dc;
 	position: relative;
 	background-color: #fff;
 }
@@ -198,19 +199,18 @@ body{
 #skills .domain{
 	padding: 4px 0px 4px 5px;
 	border: 1px solid #000;
-	border-bottom : 0px;
 	height: 1em;
-	margin: 10px 0px 0px 0px;
+	margin: 25px 0px 0px 0px;
 }
 
 .note{
 	font-size: 0.8em;
 }
-/* #studies .note{ */
-/* 	margin-left: 130px; */
-/* } */
 .main_label{
 	text-decoration: underline;
+}
+.main_label, .place, .company, .client{
+	font-size: 0.9em;
 }
 .period {
 	font-size: 1em;
@@ -221,13 +221,10 @@ body{
 	text-align: right;
 	padding-right: 30px;
 }
-/* #studies .period{ */
-/* 	width : 125px; */
-/* } */
 #studies .period,
 #experiences .period,
 #projects .main_label{
-	width : 200px;
+	width : 160px;
 	font-size: 0.9em;
 }
 #experiences .main_label,
@@ -262,15 +259,16 @@ body{
 #career h2,
 #hobbies h2,
 #reference h3{
+    font-size: 1em;
 	font-weight: bold;
 	text-shadow: 1px 1px 0 #000;
 	padding: 2px 20px 2px 10px;
 	margin: 0px 0px 0px 0px;
 }
 #career > div, #hobbies{
-	border: 1px solid #000;
+	border: 1px solid #c8d3dc;
 	border-style: solid;
-	margin-top: 10px;
+	margin-top: 25px;
 	background-color: #fff;
 }
 #hobbies{
@@ -292,16 +290,15 @@ body{
 }
 #hobbies .reference
 {
-	border: 1px solid #c8d3dc;
+	margin: 3px;
 	padding: 0px 5px 0px 5px;
-	margin: 1px 0px 2px 0px;
 	
 }
 #projects .infos,
 #studies .infos,
 #experiences .infos{
 	display : inline-block;
-	width: 477px;
+	width: 520px;
 	vertical-align: top;
 }
 #skills img{
@@ -310,4 +307,7 @@ body{
 #projects .infos{
 	font-size: 0.8em;
 	vertical-align: middle;
+}
+#hobbies{
+	margin-top : 25px;
 }
