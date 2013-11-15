@@ -146,12 +146,12 @@ body{
 #experiences .skill_hover,
 #projects .skill_hover
 {
-	border: 1px solid #a46313;
+	border: 1px solid #fff;
 	border-style: solid;
-	background : #f5ad66;
+	background : #a6c9e2;
 }
 #skills .skill_hover, #skills .skill_hover {
-	background : #f5ad66;
+	background : #a6c9e2;
 }
 #skills{
 	
