@@ -20,7 +20,7 @@
 	"company" : { "name": "Néo-soft", "url" : "http://www.neo-soft.fr/",  "logo" : "http://www.neo-soft.fr/images/logo_mobile.png" },
 	"client" : { "name": "Société Générale", "url" : "http://www.societegenerale.com/", "logo" : "http://www.societegenerale.fr/images/eimm_logo.png" },
 	"place" : "Nantes",
-	"description" : "Gestion des évolutions et du support sur un grand panel de projet Java (>10) sur la gestion des itres Société Générale et des comptes",
+	"description" : "Gestion des évolutions et du support sur un grand panel de projet Java (>10) sur la gestion des titres Société Générale et des comptes",
 	"skills" : [
 		"java","html","hibernate","struts",
 		"spring","sonar","maven","jenkins","nexus",

@@ -3,7 +3,12 @@
 body,  .ui-widget {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1em;
-  background: #963c19;
+  background: #033e66;
+}
+body{
+  background-image:url('../img/background.jpg');
+  background-repeat:no-repeat;
+  background-attachment:fixed;
 }
 #body, #copyright{
 	width: 1024px;
@@ -33,7 +38,7 @@ body,  .ui-widget {
 #hobbies h2{
 	font-family: "Lucida Console", Monaco, monospace;
 }
-#skills .ui-state-active{
+#skills .ui-state-default{
 	font-size : 0.9em;
 	font-weight: bold;
 }
