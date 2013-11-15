@@ -10,7 +10,7 @@ body{
   background-repeat:no-repeat;
   background-attachment:fixed;
 }
-#body, #copyright{
+#body, #copyright, #about_banner_info{
 	width: 1024px;
 }
 
@@ -97,13 +97,18 @@ body{
 	float: right;
 }
 #about_banner_info{
-	position : absolute;
-	left: 50%;
+	position: absolute;
+	text-align : center;
+	z-index: 0;
 }
-#about_banner_info img{
-	position : relative;
-	left : -50%;
+#about_main{
+	position: relative;
+	z-index: 10;
 }
+/* #about_banner_info img{ */
+/* 	position : relative; */
+/* 	left : -50%; */
+/* } */
 #career, #skills{
 	display: inline-block;
 	vertical-align: top;
