@@ -23,7 +23,7 @@ body{
 #body{
 	margin: 20px auto 0px auto;
 	padding: 5px;
-	background-color: #d8e7f3;
+	background-color: #c8d3dc;
 	border: 1px solid #888;
 }
 #copyright{
@@ -133,17 +133,15 @@ body{
 	height: 1.3em;
 	margin-bottom: 2px;
 	border: 1px solid #000;
-}
-#skills .ui-progressbar {
 	position: relative;
-	background-color: #fbdb93;
+	background-color: #fff;
 }
 #skills .skill_hover{
 	border-color: #FFFFAA;
 }
 #career .reference
 {
-	border: 1px solid #d8e7f3;
+	border: 1px solid #fff;
 	padding: 6px 5px 6px 5px;
 	margin: 1px 0px 2px 0px;
 	
@@ -154,10 +152,10 @@ body{
 {
 	border: 1px solid #fff;
 	border-style: solid;
-	background : #a6c9e2;
+	background : #fbdb93;
 }
 #skills .skill_hover, #skills .skill_hover {
-	background : #a6c9e2;
+	background : #fbdb93;
 }
 #skills{
 	
@@ -194,7 +192,7 @@ body{
 #skills .progress-skill-rate{
 	width : 15%;
 	color: #000;
-	text-shadow: 1px 1px 0 #fff;
+	text-shadow: 1px 1px 0 #888;
 }
 
 #skills .domain{
@@ -273,6 +271,7 @@ body{
 	border: 1px solid #000;
 	border-style: solid;
 	margin-top: 10px;
+	background-color: #fff;
 }
 #hobbies{
 	margin-top : 10px;
@@ -293,7 +292,7 @@ body{
 }
 #hobbies .reference
 {
-	border: 1px solid #d8e7f3;
+	border: 1px solid #c8d3dc;
 	padding: 0px 5px 0px 5px;
 	margin: 1px 0px 2px 0px;
 	
