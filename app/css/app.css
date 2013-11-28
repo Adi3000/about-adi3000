@@ -26,7 +26,7 @@ body{
 #body{
 	margin: 20px auto 0px auto;
 	padding: 20px;
-	background-color: #c8d3dc;
+	background-color: rgba(255,255,255,0.30);
 	border: 1px solid #888;
 }
 #copyright{
@@ -42,6 +42,7 @@ body{
 	text-align: center;
 	margin: 15px 100px 0px 100px;
 	padding: 5px 100px 5px 100px;
+	box-shadow: 1px 1px 5px #000;
 }
 #title, 
 #copyright,
@@ -53,7 +54,7 @@ body{
 #skills .ui-state-default{
 	font-size : 0.9em;
 	font-weight: bold;
-	text-shadow: 0px 0px 1px #000;
+	text-shadow: 0px 0px 5px #000;
 }
 #skills .domain *,
 #career .ui-widget-header {
@@ -114,13 +115,9 @@ body{
 	z-index: 10;
 }
 #about_main, #about_aux_info{
-	text-shadow: 0 0 5px #000;
+	text-shadow: 1px 1px 5px #000;
 	color: #fff;
 }
-/* #about_banner_info img{ */
-/* 	position : relative; */
-/* 	left : -50%; */
-/* } */
 #career, #skills{
 	display: inline-block;
 	vertical-align: top;
@@ -141,6 +138,7 @@ body{
 	border: 1px solid #c8d3dc;
 	position: relative;
 	background-color: #fff;
+	box-shadow: 1px 1px 5px #000;
 }
 #skills .skill_hover{
 	border-color: #FFFFAA;
@@ -208,6 +206,7 @@ body{
 	border: 1px solid #000;
 	height: 1em;
 	margin: 25px 0px 0px 0px;
+	box-shadow: 1px 1px 5px #000;
 }
 
 .note{
@@ -215,7 +214,7 @@ body{
 }
 .main_label{
 	text-decoration: underline;
-	text-shadow: 0 0 4px #444;
+	text-shadow: 1px 1px 4px #000;
 }
 .main_label, .place, .company, .client{
 	font-size: 0.9em;
@@ -279,6 +278,7 @@ body{
 	border-style: solid;
 	margin-top: 25px;
 	background-color: #fff;
+	box-shadow: 1px 1px 5px #000;
 }
 #hobbies{
 	margin-top : 10px;
