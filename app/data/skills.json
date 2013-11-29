@@ -51,7 +51,7 @@
 			"version" : "2.2",
 			"url" : "https://javaserverfaces.java.net/",
 			"icon" : "https://javaserverfaces.java.net/favicon.ico",
-			"rate" : 0.5
+			"rate" : 0.8
 		},
 		{
 			"id" : "gwt",
@@ -153,7 +153,7 @@
 			"icon" : "http://home.java.net/sites/default/files/java_adaptive_favicon_2.png",
 			"version" : "7",
 			"url" : "http://docs.oracle.com/javase/7/docs/index.html",
-			"rate" : 0.80
+			"rate" : 0.90
 		},
 		{
 			"id" : "python",
@@ -270,14 +270,14 @@
 			"name" : "Subversion",
 			"url" : "https://subversion.apache.org/",
 			"icon" : "http://subversion.tigris.org/favicon.ico",
-			"rate" : 0.5,
+			"rate" : 0.9,
 			"hide" : true
 		},
 		{
 			"id" : "cvs",
 			"name" : "CVS",
 			"icon" : "http://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Merge-arrows-3.svg/200px-Merge-arrows-3.svg.png",
-			"rate" : 0.5,
+			"rate" : 0.6,
 			"hide" : true
 		},
 		{
@@ -285,7 +285,7 @@
 			"name" : "Continuum",
 			"url" : "https://continuum.apache.org/",
 			"icon" : "http://continuum.apache.org/images/continuum_logo_75.gif",
-			"rate" : 0.5,
+			"rate" : 0.7,
 			"hide" : true
 		},
 		{
@@ -325,7 +325,7 @@
 			"icon" : "http://eclipse.org/favicon.ico",
 			"url" : "http://www.eclipse.org/kepler/",
 			"version" : "Kepler",
-			"rate" : 0.5
+			"rate" : 0.8
 		},
 		{
 			"id" : "vim",
