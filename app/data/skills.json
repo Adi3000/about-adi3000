@@ -66,7 +66,7 @@
 			"id" : "hibernate",
 			"name" : "Hibernate",
 			"url" : "http://www.hibernate.org/",
-			"icon" : "http://www.hibernate.org/orgLayoutBody/favicon/favicon.ico",
+			"icon" : "http://static.jboss.org/images/hibernate/favicon.ico",
 			"version" : "4.2.5",
 			"rate" : 0.70
 		},
