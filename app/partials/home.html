@@ -1,6 +1,6 @@
 <div id="career" data-ng-controller="ValuesController">
 	<div id="studies" class="ui-corner-all">
-		<h2 class="ui-widget-header ui-corner-top">Formations</h2>
+		<h2 class="ui-widget-header ui-corner-top">Formation</h2>
 		<div data-ng-repeat="study in studies" class="ui-corner-all reference">
 		    <div class="period">{{ study.start }} - {{ study.end }}</div> 
 		    <div class="infos">
@@ -50,7 +50,7 @@
 		</div>
 	</div>
 	<div id="projects" class="ui-corner-all">
-		<h2 class="ui-widget-header ui-corner-top">Projet personnels</h2>
+		<h2 class="ui-widget-header ui-corner-top">Projets personnel</h2>
 		<div data-ng-repeat="project in projects" data-skills-list="{{ project.skills }}" class="ui-corner-all reference"> 
 		    <div class="main_label" >{{ project.name }}</div>
 		    <div class="description infos">
