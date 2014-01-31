@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<!-- saved from url=(0025)http://about.adi3000.com/ -->
+<html lang="fr" data-ng-app="aboutAdi3000" class="ng-scope"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style type="text/css">@charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide{display:none !important;}ng\:form{display:block;}</style>
+		<meta charset="utf-8">
+		<meta name="Keywords" content="adrien ramarojohn, ramarojohn, adi3000, angularjs, java, javascript, html5, engineer, architecte, architect, devloper, developpeur, java, javascript, html5, ingenieur, developpement, informatique">
+		<meta name="Subject" content="Profil Développeur Architecte">
+		<meta name="Author" content="Adrien Ramarojohn, Adi3000">
+		<meta name="Description" content="Adi3000&#39;Summary, CV de Adrien Ramarojohn ou Adi3000, developpeur nouvelles technologies (JavaScript, HTML, RESTful WS, JSon, Java, NodeJS, AngularJS...)">
+		<meta name="Revisit-After" content="15 days">
+		<meta name="Category" content="engineering">
+		<meta name="Geography" content="France, Lille">
+		<title>Adi3000 - Adrien Ramarojohn</title>
+		<link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/start/jquery-ui.min.css">
+		<link rel="stylesheet" href="http://about.adi3000.com/css/app.css">
+		<link rel="stylesheet" href="http://about.adi3000.com/css/app-print.css" media="print">
+		<link rel="shortcut icon" href="http://about.adi3000.com/img/favicon.png">
+		
+	</head>
+	<body style="">
+		<div id="body" class="view-container ui-corner-all">
+			<!-- ngInclude:  --><div data-ng-include="" data-src="&#39;partials/main/header-about.html&#39;" class="ng-scope"><div data-ng-controller="AboutController as about" id="header" class="ng-scope">
+	<div id="about_banner_info">
+	   <img alt="Adrien RAMAROJOHN" src="./index_files/profile.jpg" height="110px">
+	</div>
+	<div id="about_aux_info">
+	   <div class="ng-binding">
+	       24 ans
+	   </div>
+	   <ul>
+	       <!-- ngRepeat: info in about.other --><li data-ng-repeat="info in about.other" class="ng-scope ng-binding"> Titulaire du permis B</li><!-- end ngRepeat: info in about.other -->
+	   </ul>
+	</div>
+	<div id="about_main">
+		<div id="about_main_info">
+			<div>
+	            <span class="ng-binding">Adrien</span>&nbsp;<span class="ng-binding">RAMAROJOHN</span>
+	        </div>
+			<div>
+			    <div class="ng-binding">38 D rue de la Patouillerie</div>
+			    <div>
+	                <span class="ng-binding">44300</span>&nbsp;<span class="ng-binding">Nantes</span>
+	            </div>
+	            <div id="about_mail">
+	                <span id="main_mail" class="confidential">
+	                   <a href="mailto:" class="ng-binding"><span class="ui-icon ui-icon-mail-closed"></span>adrien.ramarojohn@free.fr</a>
+                   </span>
+	                <div id="about_toggle_other_mails" class="ui-state-default ui-corner-all" data-toggle-div="other_mails" style="cursor: pointer;">
+	                	<span class="ui-icon ui-icon-plus"></span>
+                	</div>
+                	<div id="other_mails">
+				        <!-- ngRepeat: mail in about.mails --><div data-ng-repeat="mail in about.mails" data-ng-show="$index &gt; 0" class="ng-scope ng-hide">
+				            <a href="mailto:adrien.ramarojohn@free.fr" class="ng-binding"><span class="ui-icon ui-icon-mail-closed"></span>adrien.ramarojohn@free.fr</a>
+				        </div><!-- end ngRepeat: mail in about.mails --><div data-ng-repeat="mail in about.mails" data-ng-show="$index &gt; 0" class="ng-scope">
+				            <a href="mailto:adi3000@free.fr" class="ng-binding"><span class="ui-icon ui-icon-mail-closed"></span>adi3000@free.fr</a>
+				        </div><!-- end ngRepeat: mail in about.mails --><div data-ng-repeat="mail in about.mails" data-ng-show="$index &gt; 0" class="ng-scope">
+				            <a href="mailto:adi300000@gmail.com" class="ng-binding"><span class="ui-icon ui-icon-mail-closed"></span>adi300000@gmail.com</a>
+				        </div><!-- end ngRepeat: mail in about.mails -->
+			        </div>
+	            </div>
+			    <div>
+	                <ul id="about_phone_numbers">
+				        <!-- ngRepeat: phone in about.phones --><li data-ng-repeat="phone in about.phones" class="ng-scope">
+				            <label for="phoneNumber_Mobile" data-ng-hide="true" class="ng-binding ng-hide">Mobile</label>
+				            <span class="ui-icon ui-icon-person" data-ng-hide=""></span>
+				            <span id="phoneNumber_Mobile" class="confidential ng-binding">(+33)677578933</span>
+				        </li><!-- end ngRepeat: phone in about.phones --><li data-ng-repeat="phone in about.phones" class="ng-scope">
+				            <label for="phoneNumber_Home" data-ng-hide="true" class="ng-binding ng-hide">Home</label>
+				            <span class="ui-icon ui-icon-home" data-ng-hide=""></span>
+				            <span id="phoneNumber_Home" class="confidential ng-binding">(+33)980522861</span>
+				        </li><!-- end ngRepeat: phone in about.phones -->
+			        </ul>
+			    </div>
+			</div>
+		</div>
+	</div>
+	<div id="title" class="ui-widget-header ui-corner-all">
+		<h1 class="ng-binding">Ingénieur de développement</h1>
+		<h2 class="ng-binding">Développeur passionné, future architecte en pleine conquête</h2>
+	</div>
+</div>
+
+</div>
+			<!-- ngInclude:  --><div data-ng-include="" data-src="&#39;partials/home.html&#39;" class="ng-scope"><div id="career" data-ng-controller="ValuesController" class="ng-scope">
+	<div id="studies" class="ui-corner-all">
+		<h2 class="ui-widget-header ui-corner-top">Formation</h2>
+		<!-- ngRepeat: study in studies --><div data-ng-repeat="study in studies" class="ui-corner-all reference ng-scope">
+		    <div class="period ng-binding">2005 - 2007</div> 
+		    <div class="infos">
+			    <span class="main_label ng-binding">Baccalauréat Scientifique</span> - 
+			    <span class="place ng-binding">Val de Reuil (27)</span>
+			    <div class="note">
+			        <span class="option ng-binding" data-ng-show="study.option">Spécialité Mathématiques</span>
+			        <span data-ng-show="study.option &amp;&amp; study.suppl" class=""> - </span>
+			        <em class="suppl ng-binding" data-ng-show="study.suppl">Mention AB</em>
+				    <div class="description ng-binding">
+				        Spécialité Mathématiques : Initiation aux techniques de cryptographie et codage
+				    </div>
+			    </div>
+		    </div>
+		</div><!-- end ngRepeat: study in studies --><div data-ng-repeat="study in studies" class="ui-corner-all reference ng-scope">
+		    <div class="period ng-binding">2007 - 2009</div> 
+		    <div class="infos">
+			    <span class="main_label ng-binding">DUT Informatique</span> - 
+			    <span class="place ng-binding">Villeneuve d'Ascq (59)</span>
+			    <div class="note">
+			        <span class="option ng-binding ng-hide" data-ng-show="study.option">Spécialité </span>
+			        <span data-ng-show="study.option &amp;&amp; study.suppl" class="ng-hide"> - </span>
+			        <em class="suppl ng-binding" data-ng-show="study.suppl">1ère année Le Havre (76)</em>
+				    <div class="description ng-binding">
+				        Formation pluridisciplinaire (Gestion, Techniques d’expression, Anglais...)  à  dominante pratique (projets, nombreux travaux pratiques...)
+				    </div>
+			    </div>
+		    </div>
+		</div><!-- end ngRepeat: study in studies --><div data-ng-repeat="study in studies" class="ui-corner-all reference ng-scope">
+		    <div class="period ng-binding">2009 - 2010</div> 
+		    <div class="infos">
+			    <span class="main_label ng-binding">Licence pro. Systèmes Informatique et Logiciels</span> - 
+			    <span class="place ng-binding">Villeneuve d'Ascq (59)</span>
+			    <div class="note">
+			        <span class="option ng-binding" data-ng-show="study.option">Spécialité Developpement et Administration Internet et Intranet</span>
+			        <span data-ng-show="study.option &amp;&amp; study.suppl" class=""> - </span>
+			        <em class="suppl ng-binding" data-ng-show="study.suppl">en Alternance</em>
+				    <div class="description ng-binding">
+				        Formation orientée autant sur l’administration des systèmes, serveurs et bases de données, que sur le développement web.
+				    </div>
+			    </div>
+		    </div>
+		</div><!-- end ngRepeat: study in studies -->
+	</div>
+	<div id="experiences" class="ui-corner-all">
+		<h2 class="ui-widget-header ui-corner-top">Expériences professionnelles</h2>
+		<!-- ngRepeat: exp in experiences --><div data-ng-repeat="exp in experiences" data-skills-list="[&quot;java&quot;,&quot;html&quot;,&quot;hibernate&quot;,&quot;struts&quot;,&quot;spring&quot;,&quot;sonar&quot;,&quot;maven&quot;,&quot;jenkins&quot;,&quot;linux&quot;,&quot;oracle&quot;,&quot;sql&quot;,&quot;javascript&quot;,&quot;jquery&quot;,&quot;eclipse&quot;,&quot;vim&quot;,&quot;svn&quot;,&quot;bash&quot;]" class="ui-corner-all reference ng-scope">
+		    <span class="period" data-ng-switch="exp">
+		        <!-- ngIf: exp.end -->
+		        <!-- ngIf: !exp.end --><span data-ng-if="!exp.end" class="ng-scope ng-binding">Depuis le 24 juin 2013</span><!-- end ngIf: !exp.end -->
+		    </span>
+		    <div class="infos">
+			    <div class="main_label ng-binding">Ingénieur JAVA/J2EE</div>
+			    [<div class="company">
+			    	<span data-tooltip="" class="ng-binding" style="border-bottom-width: 1px; border-bottom-style: dotted; border-bottom-color: rgb(153, 153, 153);">Néo-soft</span>
+			    	<div class="tooltip">
+			    		<a href="http://www.neo-soft.fr/" title="Accéder à Néo-soft" target="_blank">
+			    			<img alt="http://www.neo-soft.fr/" data-ng-src="http://www.neo-soft.fr/images/logo_mobile.png" src="./index_files/logo_mobile.png">
+			    		</a>
+			    	</div>
+			    </div><!-- avoid space with next line
+			    --><div class="client" data-ng-show="exp.client">
+				    	&nbsp;pour <span data-tooltip="" class="ng-binding" style="border-bottom-width: 1px; border-bottom-style: dotted; border-bottom-color: rgb(153, 153, 153);">La Poste</span>
+				    	<div class="tooltip">
+				    		<a href="http://www.laposte.fr/" title="Accéder à La Poste">
+				    			<img alt="http://www.laposte.fr/" data-ng-src="http://www.laposte.fr/extension/lapostev2/design/lapostev2/images/refonte2011/home/logo_antehome.png" src="./index_files/logo_antehome.png">
+				    		</a>
+				    	</div>
+			    	</div>]
+			    <div class="place ng-binding">Nantes</div>
+			    <div class="description note ng-binding">
+			        Accompagnement des évolutions technologiques sur le projet Référentiel RH (migration vers Hibernate 3, installation Sonar/Maven, JUnit) et développement d’évolution fonctionnelles 
+			    </div>
+		    </div>
+		</div><!-- end ngRepeat: exp in experiences --><div data-ng-repeat="exp in experiences" data-skills-list="[&quot;java&quot;,&quot;html&quot;,&quot;hibernate&quot;,&quot;struts&quot;,&quot;spring&quot;,&quot;sonar&quot;,&quot;maven&quot;,&quot;jenkins&quot;,&quot;nexus&quot;,&quot;gwt&quot;,&quot;oracle&quot;,&quot;sql&quot;,&quot;javascript&quot;,&quot;mysql&quot;,&quot;jquery&quot;,&quot;php&quot;,&quot;english&quot;,&quot;eclipse&quot;,&quot;svn&quot;]" class="ui-corner-all reference ng-scope">
+		    <span class="period" data-ng-switch="exp">
+		        <!-- ngIf: exp.end --><span data-ng-if="exp.end" class="ng-scope ng-binding">Du 21 juin 2012  <br>au 20 avril 2013</span><!-- end ngIf: exp.end -->
+		        <!-- ngIf: !exp.end -->
+		    </span>
+		    <div class="infos">
+			    <div class="main_label ng-binding">Ingénieur JAVA/J2EE</div>
+			    [<div class="company">
+			    	<span data-tooltip="" class="ng-binding" style="border-bottom-width: 1px; border-bottom-style: dotted; border-bottom-color: rgb(153, 153, 153);">Néo-soft</span>
+			    	<div class="tooltip">
+			    		<a href="http://www.neo-soft.fr/" title="Accéder à Néo-soft" target="_blank">
+			    			<img alt="http://www.neo-soft.fr/" data-ng-src="http://www.neo-soft.fr/images/logo_mobile.png" src="./index_files/logo_mobile.png">
+			    		</a>
+			    	</div>
+			    </div><!-- avoid space with next line
+			    --><div class="client" data-ng-show="exp.client">
+				    	&nbsp;pour <span data-tooltip="" class="ng-binding" style="border-bottom-width: 1px; border-bottom-style: dotted; border-bottom-color: rgb(153, 153, 153);">Société Générale</span>
+				    	<div class="tooltip">
+				    		<a href="http://www.societegenerale.com/" title="Accéder à Société Générale">
+				    			<img alt="http://www.societegenerale.com/" data-ng-src="http://www.societegenerale.fr/images/eimm_logo.png" src="./index_files/eimm_logo.png">
+				    		</a>
+				    	</div>
+			    	</div>]
+			    <div class="place ng-binding">Nantes</div>
+			    <div class="description note ng-binding">
+			        Gestion des évolutions et du support sur un grand panel de projet Java (&gt;10) sur la gestion des titres Société Générale et des comptes
+			    </div>
+		    </div>
+		</div><!-- end ngRepeat: exp in experiences --><div data-ng-repeat="exp in experiences" data-skills-list="[&quot;java&quot;,&quot;html&quot;,&quot;struts&quot;,&quot;spring&quot;,&quot;ehcache&quot;,&quot;linux&quot;,&quot;sonar&quot;,&quot;maven&quot;,&quot;continuum&quot;,&quot;oracle&quot;,&quot;cvs&quot;,&quot;nexus&quot;,&quot;sql&quot;,&quot;javascript&quot;,&quot;jquery&quot;,&quot;english&quot;,&quot;eclipse&quot;]" class="ui-corner-all reference ng-scope">
+		    <span class="period" data-ng-switch="exp">
+		        <!-- ngIf: exp.end --><span data-ng-if="exp.end" class="ng-scope ng-binding">Du 15 juin 2011  <br>au 25 mai 2012</span><!-- end ngIf: exp.end -->
+		        <!-- ngIf: !exp.end -->
+		    </span>
+		    <div class="infos">
+			    <div class="main_label ng-binding">Ingénieur JAVA/J2EE</div>
+			    [<div class="company">
+			    	<span data-tooltip="" class="ng-binding" style="border-bottom-width: 1px; border-bottom-style: dotted; border-bottom-color: rgb(153, 153, 153);">Norsys</span>
+			    	<div class="tooltip">
+			    		<a href="http://www.norsys.fr/" title="Accéder à Norsys" target="_blank">
+			    			<img alt="http://www.norsys.fr/" data-ng-src="http://www.norsys.fr/backoffice/sites/default/files/logogroupefrancaise-5.jpg" src="./index_files/logogroupefrancaise-5.jpg">
+			    		</a>
+			    	</div>
+			    </div><!-- avoid space with next line
+			    --><div class="client" data-ng-show="exp.client">
+				    	&nbsp;pour <span data-tooltip="" class="ng-binding" style="border-bottom-width: 1px; border-bottom-style: dotted; border-bottom-color: rgb(153, 153, 153);">Oxylane</span>
+				    	<div class="tooltip">
+				    		<a href="http://www.oxylane.com/" title="Accéder à Oxylane">
+				    			<img alt="http://www.oxylane.com/" data-ng-src="http://www.oxylane.com/sites/all/themes/oxylane/images/logo-oxylane.png" src="./index_files/logo-oxylane.png">
+				    		</a>
+				    	</div>
+			    	</div>]
+			    <div class="place ng-binding">Villeneuve d'Ascq</div>
+			    <div class="description note ng-binding">
+			        Support niveau 4 et évolution projet au sein de l’équipe Oxylane dans un contexte de production continue. Développement sous un Framework Oxylane basé sur Struts.
+			    </div>
+		    </div>
+		</div><!-- end ngRepeat: exp in experiences --><div data-ng-repeat="exp in experiences" data-skills-list="[&quot;csharp&quot;,&quot;dotnet&quot;,&quot;ldap&quot;,&quot;jquery&quot;,&quot;html&quot;,&quot;asp&quot;,&quot;sql&quot;,&quot;javascript&quot;,&quot;visualstudio&quot;,&quot;windows&quot;]" class="ui-corner-all reference ng-scope">
+		    <span class="period" data-ng-switch="exp">
+		        <!-- ngIf: exp.end --><span data-ng-if="exp.end" class="ng-scope ng-binding">Du 13 septembre 2010  <br>au 31 mai 2011</span><!-- end ngIf: exp.end -->
+		        <!-- ngIf: !exp.end -->
+		    </span>
+		    <div class="infos">
+			    <div class="main_label ng-binding">Ingénieur de développement</div>
+			    [<div class="company">
+			    	<span data-tooltip="" class="ng-binding" style="border-bottom-width: 1px; border-bottom-style: dotted; border-bottom-color: rgb(153, 153, 153);">Archimed</span>
+			    	<div class="tooltip">
+			    		<a href="http://www.archimed.fr/" title="Accéder à Archimed" target="_blank">
+			    			<img alt="http://www.archimed.fr/" data-ng-src="http://www.archimed.fr/wp-content/themes/Archimed/images/logo.jpg" src="./index_files/logo.jpg">
+			    		</a>
+			    	</div>
+			    </div><!-- avoid space with next line
+			    --><div class="client ng-hide" data-ng-show="exp.client">
+				    	&nbsp;pour <span data-tooltip="" class="ng-binding" style="border-bottom-width: 1px; border-bottom-style: dotted; border-bottom-color: rgb(153, 153, 153);"></span>
+				    	<div class="tooltip">
+				    		<a href="" title="Accéder à ">
+				    			<img alt="" data-ng-src="">
+				    		</a>
+				    	</div>
+			    	</div>]
+			    <div class="place ng-binding">Lille</div>
+			    <div class="description note ng-binding">
+			        Intégration de progiciels GED conformes aux demandes de la clientèle et formation sur les produits vendus.
+			    </div>
+		    </div>
+		</div><!-- end ngRepeat: exp in experiences --><div data-ng-repeat="exp in experiences" data-skills-list="[&quot;php&quot;,&quot;mysql&quot;,&quot;javascript&quot;,&quot;jquery&quot;,&quot;spip&quot;,&quot;ldap&quot;,&quot;svn&quot;,&quot;html&quot;]" class="ui-corner-all reference ng-scope">
+		    <span class="period" data-ng-switch="exp">
+		        <!-- ngIf: exp.end --><span data-ng-if="exp.end" class="ng-scope ng-binding">Du 01 septembre 2009  <br>au 31 août 2010</span><!-- end ngIf: exp.end -->
+		        <!-- ngIf: !exp.end -->
+		    </span>
+		    <div class="infos">
+			    <div class="main_label ng-binding">Contrat de professionnalisation</div>
+			    [<div class="company">
+			    	<span data-tooltip="" class="ng-binding" style="border-bottom-width: 1px; border-bottom-style: dotted; border-bottom-color: rgb(153, 153, 153);">ErDF-GrDF</span>
+			    	<div class="tooltip">
+			    		<a href="http://www.erdfdistribution.fr/" title="Accéder à ErDF-GrDF" target="_blank">
+			    			<img alt="http://www.erdfdistribution.fr/" data-ng-src="http://www.erdfdistribution.fr/images/logo_erdf.png" src="./index_files/logo_erdf.png">
+			    		</a>
+			    	</div>
+			    </div><!-- avoid space with next line
+			    --><div class="client ng-hide" data-ng-show="exp.client">
+				    	&nbsp;pour <span data-tooltip="" class="ng-binding" style="border-bottom-width: 1px; border-bottom-style: dotted; border-bottom-color: rgb(153, 153, 153);"></span>
+				    	<div class="tooltip">
+				    		<a href="" title="Accéder à ">
+				    			<img alt="" data-ng-src="">
+				    		</a>
+				    	</div>
+			    	</div>]
+			    <div class="place ng-binding">Lille</div>
+			    <div class="description note ng-binding">
+			        Etude complète et réalisation d’un projet en équipe réduite de son cahier des charges à sa première mise en production.
+			    </div>
+		    </div>
+		</div><!-- end ngRepeat: exp in experiences --><div data-ng-repeat="exp in experiences" data-skills-list="[&quot;siebel&quot;,&quot;javascript&quot;,&quot;oracle&quot;]" class="ui-corner-all reference ng-scope">
+		    <span class="period" data-ng-switch="exp">
+		        <!-- ngIf: exp.end --><span data-ng-if="exp.end" class="ng-scope ng-binding">Du 30 mars 2009  <br>au 17 août 2009</span><!-- end ngIf: exp.end -->
+		        <!-- ngIf: !exp.end -->
+		    </span>
+		    <div class="infos">
+			    <div class="main_label ng-binding">Stagiaire Développeur</div>
+			    [<div class="company">
+			    	<span data-tooltip="" class="ng-binding" style="border-bottom-width: 1px; border-bottom-style: dotted; border-bottom-color: rgb(153, 153, 153);">Capgemini</span>
+			    	<div class="tooltip">
+			    		<a href="http://www.fr.capgemini.com/" title="Accéder à Capgemini" target="_blank">
+			    			<img alt="http://www.fr.capgemini.com/" data-ng-src="http://www.capgemini.com/sites/all/themes/capgemini/logo.png" src="./index_files/logo.png">
+			    		</a>
+			    	</div>
+			    </div><!-- avoid space with next line
+			    --><div class="client" data-ng-show="exp.client">
+				    	&nbsp;pour <span data-tooltip="" class="ng-binding" style="border-bottom-width: 1px; border-bottom-style: dotted; border-bottom-color: rgb(153, 153, 153);">EDF</span>
+				    	<div class="tooltip">
+				    		<a href="http://france.edf.com/" title="Accéder à EDF">
+				    			<img alt="http://france.edf.com/" data-ng-src="http://france.edf.com/fichiers/fckeditor/Prive/header/t1_logo_edf.png" src="./index_files/t1_logo_edf.png">
+				    		</a>
+				    	</div>
+			    	</div>]
+			    <div class="place ng-binding">Lambersart</div>
+			    <div class="description note ng-binding">
+			        Développer la version de CLOE V10 pour EDF sur l'ERP Siebel
+			    </div>
+		    </div>
+		</div><!-- end ngRepeat: exp in experiences -->
+	</div>
+	<div id="projects" class="ui-corner-all">
+		<h2 class="ui-widget-header ui-corner-top">Projets personnels</h2>
+		<!-- ngRepeat: project in projects --><div data-ng-repeat="project in projects" data-skills-list="[&quot;java&quot;,&quot;jsf&quot;,&quot;jquery&quot;,&quot;postgresql&quot;,&quot;redmine&quot;,&quot;jenkins&quot;,&quot;tomcat&quot;,&quot;hibernate&quot;,&quot;javascript&quot;,&quot;html&quot;,&quot;maven&quot;,&quot;spring&quot;,&quot;jaxws&quot;,&quot;rest&quot;,&quot;git&quot;,&quot;ehcache&quot;,&quot;nexus&quot;,&quot;eclipse&quot;,&quot;sonar&quot;]" class="ui-corner-all reference ng-scope"> 
+		    <div class="main_label ng-binding">La TroQuette</div>
+		    <div class="description infos ng-binding">
+		        Site de troc en ligne mettant en oeuvre tout pour faciliter les échanges
+		    </div>
+		</div><!-- end ngRepeat: project in projects --><div data-ng-repeat="project in projects" data-skills-list="[&quot;angularjs&quot;,&quot;html&quot;,&quot;javascript&quot;,&quot;java&quot;,&quot;jaxws&quot;,&quot;jquery&quot;,&quot;html&quot;,&quot;maven&quot;,&quot;hibernate&quot;,&quot;nexus&quot;,&quot;redmine&quot;,&quot;jenkins&quot;,&quot;eclipse&quot;,&quot;git&quot;,&quot;spring&quot;,&quot;postgresql&quot;,&quot;sonar&quot;,&quot;tomcat&quot;]" class="ui-corner-all reference ng-scope"> 
+		    <div class="main_label ng-binding">A Dream Zone</div>
+		    <div class="description infos ng-binding">
+		        Tower defense HTML 5, avec possibilité d'uploader ses propres type d'unité. Comportera un éditeur de vitrine pour des exposition de graphistes
+		    </div>
+		</div><!-- end ngRepeat: project in projects --><div data-ng-repeat="project in projects" data-skills-list="[&quot;angularjs&quot;,&quot;rest&quot;,&quot;jaxws&quot;,&quot;hibernate&quot;,&quot;git&quot;,&quot;nexus&quot;,&quot;redmine&quot;,&quot;jenkins&quot;,&quot;eclipse&quot;,&quot;jquery&quot;,&quot;spring&quot;,&quot;javascript&quot;,&quot;html&quot;,&quot;postgresql&quot;,&quot;sonar&quot;,&quot;maven&quot;,&quot;tomcat&quot;]" class="ui-corner-all reference ng-scope"> 
+		    <div class="main_label ng-binding">BudJet-pack</div>
+		    <div class="description infos ng-binding">
+		        Editeur de fiche budget pour un voyage
+		    </div>
+		</div><!-- end ngRepeat: project in projects --><div data-ng-repeat="project in projects" data-skills-list="[&quot;dwr&quot;,&quot;spring&quot;,&quot;jdbctemplate&quot;,&quot;java&quot;,&quot;lucene&quot;,&quot;eclipse&quot;,&quot;git&quot;,&quot;ehcache&quot;,&quot;postgresql&quot;,&quot;maven&quot;,&quot;redmine&quot;,&quot;tomcat&quot;]" class="ui-corner-all reference ng-scope"> 
+		    <div class="main_label ng-binding">Hypersonic</div>
+		    <div class="description infos ng-binding">
+		        Service web de streaming audio et video. Fork de supersonic, ajoutant la compatibilité Postgresql, allégeant l'application
+		    </div>
+		</div><!-- end ngRepeat: project in projects --><div data-ng-repeat="project in projects" data-skills-list="[&quot;ldap&quot;,&quot;linux&quot;,&quot;owncloud&quot;,&quot;subsonic&quot;,&quot;zimbra&quot;,&quot;openvpn&quot;,&quot;ultravnc&quot;,&quot;php&quot;,&quot;perl&quot;,&quot;python&quot;,&quot;bash&quot;,&quot;vim&quot;,&quot;redmine&quot;]" class="ui-corner-all reference ng-scope"> 
+		    <div class="main_label ng-binding">Family Cloud Service</div>
+		    <div class="description infos ng-binding">
+		        Maintenance, mise a disposition de plusieurs services de stockage, prise en main à distance, sauvegarde, LAN over VPN
+		    </div>
+		</div><!-- end ngRepeat: project in projects --><div data-ng-repeat="project in projects" data-skills-list="[&quot;glassfish&quot;,&quot;owncloud&quot;,&quot;maven&quot;,&quot;python&quot;,&quot;php&quot;,&quot;eclipse&quot;,&quot;git&quot;]" class="ui-corner-all reference ng-scope"> 
+		    <div class="main_label ng-binding">Divers projets OpenSource</div>
+		    <div class="description infos ng-binding">
+		        Contribution à divers projet OpenSource, généralement via GitHub (owncloud, asadmin, weboob ...)
+		    </div>
+		</div><!-- end ngRepeat: project in projects -->
+		<div id="reference" class="reference ui-corner-all">
+    		<h3 class="ui-widget-header ui-corner-all">Références</h3>
+			<ul>
+				<li>Code Center Personnel : <a href="http://code.adi3000.com/">http://code.adi3000.com</a></li>
+				<li>GitHub : <a href="https://github.com/Adi3000/">https://github.com/Adi3000/</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+<div id="skills" data-ng-controller="ValuesController" class="ng-scope">
+	<!-- ngRepeat: domain in skills --><div data-ng-repeat="domain in skills" class="ng-scope">
+    	<div class="domain ui-state-default ui-corner-all">
+    		<span class="ng-binding">Langues étrangères</span>
+    		
+   		</div>
+	    <div id="domain_langs">
+	        <!-- ngRepeat: skill in domain.list --><div data-ng-repeat="skill in domain.list" data-skill-ref="english" data-ng-class="{ to_hide : skill.hide }" data-progress-bar="0.8" class="ng-scope ng-binding ui-progressbar ui-widget ui-widget-content ui-corner-all" role="progressbar" aria-valuemin="0" aria-valuemax="10" aria-valuenow="8"><div class="progress-label"><div class="progress-skill-label">
+		    	<img data-ng-src="http://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_the_United_States.svg/200px-Flag_of_the_United_States.svg.png" alt="" height="14px" data-skill-tooltip="{&quot;id&quot;:&quot;english&quot;,&quot;name&quot;:&quot;Anglais&quot;,&quot;icon&quot;:&quot;http://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_the_United_States.svg/200px-Flag_of_the_United_States.svg.png&quot;,&quot;rate&quot;:0.8}" src="./index_files/200px-Flag_of_the_United_States.svg.png">&nbsp;Anglais
+       		</div><div class="progress-skill-rate">8/10</div></div><div class="ui-progressbar-value ui-widget-header ui-corner-left" style="width: 80%;"></div></div><!-- end ngRepeat: skill in domain.list --><div data-ng-repeat="skill in domain.list" data-skill-ref="spanish" data-ng-class="{ to_hide : skill.hide }" data-progress-bar="0.5" class="ng-scope ng-binding ui-progressbar ui-widget ui-widget-content ui-corner-all" role="progressbar" aria-valuemin="0" aria-valuemax="10" aria-valuenow="5"><div class="progress-label"><div class="progress-skill-label">
+		    	<img data-ng-src="http://upload.wikimedia.org/wikipedia/en/thumb/9/9a/Flag_of_Spain.svg/50px-Flag_of_Spain.svg.png" alt="" height="14px" data-skill-tooltip="{&quot;id&quot;:&quot;spanish&quot;,&quot;name&quot;:&quot;Espagnol&quot;,&quot;icon&quot;:&quot;http://upload.wikimedia.org/wikipedia/en/thumb/9/9a/Flag_of_Spain.svg/50px-Flag_of_Spain.svg.png&quot;,&quot;rate&quot;:0.5}" src="./index_files/50px-Flag_of_Spain.svg.png">&nbsp;Espagnol
+       		</div><div class="progress-skill-rate">5/10</div></div><div class="ui-progressbar-value ui-widget-header ui-corner-left" style="width: 50%;"></div></div><!-- end ngRepeat: skill in domain.list -->
+	    </div>
+	</div><!-- end ngRepeat: domain in skills --><div data-ng-repeat="domain in skills" class="ng-scope">
+    	<div class="domain ui-state-default ui-corner-all">
+    		<span class="ng-binding">Frameworks &amp; Librairies</span>
+    		<span data-toggle-hidden="domain_frameworks" class="ui-icon ui-icon-plusthick" style="cursor: pointer;"></span>
+   		</div>
+	    <div id="domain_frameworks">
+	        <!-- ngRepeat: skill in domain.list --><div data-ng-repeat="skill in domain.list" data-skill-ref="jquery" data-ng-class="{ to_hide : skill.hide }" data-progress-bar="0.8" class="ng-scope ng-binding ui-progressbar ui-widget ui-widget-content ui-corner-all" role="progressbar" aria-valuemin="0" aria-valuemax="10" aria-valuenow="8"><div class="progress-label"><div class="progress-skill-label">
+		    	<img data-ng-src="http://jquery.com/favicon.ico" alt="" height="14px" data-skill-tooltip="{&quot;id&quot;:&quot;jquery&quot;,&quot;name&quot;:&quot;jQuery&quot;,&quot;version&quot;:&quot;1.10&quot;,&quot;icon&quot;:&quot;http://jquery.com/favicon.ico&quot;,&quot;rate&quot;:0.8}" src="./index_files/favicon.ico" title="Version connue : jQuery 1.10. ">&nbsp;jQuery
+       		</div><div class="progress-skill-rate">8/10</div></div><div class="ui-progressbar-value ui-widget-header ui-corner-left" style="width: 80%;"></div></div><!-- end ngRepeat: skill in domain.list --><div data-ng-repeat="skill in domain.list" data-skill-ref="angularjs" data-ng-class="{ to_hide : skill.hide }" data-progress-bar="0.6" class="ng-scope ng-binding ui-progressbar ui-widget ui-widget-content ui-corner-all" role="progressbar" aria-valuemin="0" aria-valuemax="10" aria-valuenow="6"><div class="progress-label"><div class="progress-skill-label">
+		    	<a href="http://angularjs.org/" target="_blank"><img data-ng-src="http://angularjs.org/favicon.ico" alt="" height="14px" data-skill-tooltip="{&quot;id&quot;:&quot;angularjs&quot;,&quot;name&quot;:&quot;AngularJS&quot;,&quot;url&quot;:&quot;http://angularjs.org/&quot;,&quot;icon&quot;:&quot;http://angularjs.org/favicon.ico&quot;,&quot;version&quot;:&quot;1.2.0&quot;,&quot;description&quot;:&quot;JavaScript technologie framework&quot;,&quot;rate&quot;:0.6}" src="./index_files/favicon(1).ico" title="Version connue : AngularJS 1.2.0. Plus d&#39;info sur AngularJS en cliquant ici."></a>&nbsp;AngularJS
+       		</div><div class="progress-skill-rate">6/10</div></div><div class="ui-progressbar-value ui-widget-header ui-corner-left" style="width: 60%;"></div></div><!-- end ngRepeat: skill in domain.list --><div data-ng-repeat="skill in domain.list" data-skill-ref="spring" data-ng-class="{ to_hide : skill.hide }" data-progress-bar="0.7" class="ng-scope ng-binding ui-progressbar ui-widget ui-widget-content ui-corner-all" role="progressbar" aria-valuemin="0" aria-valuemax="10" aria-valuenow="7"><div class="progress-label"><div class="progress-skill-label">
+		    	<a href="http://spring.io/" target="_blank"><img data-ng-src="http://spring.io/favicon.ico" alt="" height="14px" data-skill-tooltip="{&quot;id&quot;:&quot;spring&quot;,&quot;name&quot;:&quot;Spring&quot;,&quot;version&quot;:&quot;3.2&quot;,&quot;url&quot;:&quot;http://spring.io/&quot;,&quot;icon&quot;:&quot;http://spring.io/favicon.ico&quot;,&quot;rate&quot;:0.7}" src="./index_files/favicon(2).ico" title="Version connue : Spring 3.2. Plus d&#39;info sur Spring en cliquant ici."></a>&nbsp;Spring
+       		</div><div class="progress-skill-rate">7/10</div></div><div class="ui-progressbar-value ui-widget-header ui-corner-left" style="width: 70%;"></div></div><!-- end ngRepeat: skill in domain.list --><div data-ng-repeat="skill in domain.list" data-skill-ref="jsf" data-ng-class="{ to_hide : skill.hide }" data-progress-bar="0.8" class="ng-scope ng-binding ui-progressbar ui-widget ui-widget-content ui-corner-all" role="progressbar" aria-valuemin="0" aria-valuemax="10" aria-valuenow="8"><div class="progress-label"><div class="progress-skill-label">
+		    	<a href="https://javaserverfaces.java.net/" target="_blank"><img data-ng-src="https://javaserverfaces.java.net/favicon.ico" alt="" height="14px" data-skill-tooltip="{&quot;id&quot;:&quot;jsf&quot;,&quot;name&quot;:&quot;JavaServletFaces&quot;,&quot;version&quot;:&quot;2.2&quot;,&quot;url&quot;:&quot;https://javaserverfaces.java.net/&quot;,&quot;icon&quot;:&quot;https://javaserverfaces.java.net/favicon.ico&quot;,&quot;rate&quot;:0.8}" src="./index_files/favicon(3).ico" title="Version connue : JavaServletFaces 2.2. Plus d&#39;info sur JavaServletFaces en cliquant ici."></a>&nbsp;JavaServletFaces
+       		</div><div class="progress-skill-rate">8/10</div></div><div class="ui-progressbar-value ui-widget-header ui-corner-left" style="width: 80%;"></div></div><!-- end ngRepeat: skill in domain.list --><div data-ng-repeat="skill in domain.list" data-skill-ref="gwt" data-ng-class="{ to_hide : skill.hide }" data-progress-bar="0.5" class="ng-scope ng-binding to_hide ui-progressbar ui-widget ui-widget-content ui-corner-all" role="progressbar" aria-valuemin="0" aria-valuemax="10" aria-valuenow="5"><div class="progress-label"><div class="progress-skill-label">
+		    	<a href="http://www.gwtproject.org/" target="_blank"><img data-ng-src="https://developers.google.com/eclipse/images/gwt_compile_button.png" alt="" height="14px" data-skill-tooltip="{&quot;id&quot;:&quot;gwt&quot;,&quot;name&quot;:&quot;GWT&quot;,&quot;url&quot;:&quot;http://www.gwtproject.org/&quot;,&quot;icon&quot;:&quot;https://developers.google.com/eclipse/images/gwt_compile_button.png&quot;,&quot;version&quot;:&quot;2.3&quot;,&quot;rate&quot;:0.5,&quot;hide&quot;:true}" src="./index_files/gwt_compile_button.png" title="Version connue : GWT 2.3. Plus d&#39;info sur GWT en cliquant ici."></a>&nbsp;GWT
+       		</div><div class="progress-skill-rate">5/10</div></div><div class="ui-progressbar-value ui-widget-header ui-corner-left" style="width: 50%;"></div></div><!-- end ngRepeat: skill in domain.list --><div data-ng-repeat="skill in domain.list" data-skill-ref="hibernate" data-ng-class="{ to_hide : skill.hide }" data-progress-bar="0.7" class="ng-scope ng-binding ui-progressbar ui-widget ui-widget-content ui-corner-all" role="progressbar" aria-valuemin="0" aria-valuemax="10" aria-valuenow="7"><div class="progress-label"><div class="progress-skill-label">
+		    	<a href="http://www.hibernate.org/" target="_blank"><img data-ng-src="http://static.jboss.org/images/hibernate/favicon.ico" alt="" height="14px" data-skill-tooltip="{&quot;id&quot;:&quot;hibernate&quot;,&quot;name&quot;:&quot;Hibernate&quot;,&quot;url&quot;:&quot;http://www.hibernate.org/&quot;,&quot;icon&quot;:&quot;http://static.jboss.org/images/hibernate/favicon.ico&quot;,&quot;version&quot;:&quot;4.2.5&quot;,&quot;rate&quot;:0.7}" src="./index_files/favicon(4).ico" title="Version connue : Hibernate 4.2.5. Plus d&#39;info sur Hibernate en cliquant ici."></a>&nbsp;Hibernate
+       		</div><div class="progress-skill-rate">7/10</div></div><div class="ui-progressbar-value ui-widget-header ui-corner-left" style="width: 70%;"></div></div><!-- end ngRepeat: skill in domain.list --><div data-ng-repeat="skill in domain.list" data-skill-ref="lucene" data-ng-class="{ to_hide : skill.hide }" data-progress-bar="0.4" class="ng-scope ng-binding to_hide ui-progressbar ui-widget ui-widget-content ui-corner-all" role="progressbar" aria-valuemin="0" aria-valuemax="10" aria-valuenow="4"><div class="progress-label"><div class="progress-skill-label">
+		    	<a href="https://lucene.apache.org/core/" target="_blank"><img data-ng-src="http://c.fsdn.com/allura/mirror/lucene/icon" alt="" height="14px" data-skill-tooltip="{&quot;id&quot;:&quot;lucene&quot;,&quot;name&quot;:&quot;Lucene&quot;,&quot;url&quot;:&quot;https://lucene.apache.org/core/&quot;,&quot;icon&quot;:&quot;http://c.fsdn.com/allura/mirror/lucene/icon&quot;,&quot;rate&quot;:0.4,&quot;hide&quot;:true}" src="./index_files/icon" title="Plus d&#39;info sur Lucene en cliquant ici."></a>&nbsp;Lucene
+       		</div><div class="progress-skill-rate">4/10</div></div><div class="ui-progressbar-value ui-widget-header ui-corner-left" style="width: 40%;"></div></div><!-- end ngRepeat: skill in domain.list --><div data-ng-repeat="skill in domain.list" data-skill-ref="jdbctemplate" data-ng-class="{ to_hide : skill.hide }" data-progress-bar="0.5" class="ng-scope ng-binding to_hide ui-progressbar ui-widget ui-widget-content ui-corner-all" role="progressbar" aria-valuemin="0" aria-valuemax="10" aria-valuenow="5"><div class="progress-label"><div class="progress-skill-label">
+		    	<img data-ng-src="http://spring.io/favicon.ico" alt="" height="14px" data-skill-tooltip="{&quot;id&quot;:&quot;jdbctemplate&quot;,&quot;name&quot;:&quot;JDBC Template&quot;,&quot;icon&quot;:&quot;http://spring.io/favicon.ico&quot;,&quot;rate&quot;:0.5,&quot;hide&quot;:true}" src="./index_files/favicon(2).ico">&nbsp;JDBC Template
+       		</div><div class="progress-skill-rate">5/10</div></div><div class="ui-progressbar-value ui-widget-header ui-corner-left" style="width: 50%;"></div></div><!-- end ngRepeat: skill in domain.list --><div data-ng-repeat="skill in domain.list" data-skill-ref="jaxws" data-ng-class="{ to_hide : skill.hide }" data-progress-bar="0.7" class="ng-scope ng-binding to_hide ui-progressbar ui-widget ui-widget-content ui-corner-all" role="progressbar" aria-valuemin="0" aria-valuemax="10" aria-valuenow="7"><div class="progress-label"><div class="progress-skill-label">
+		    	<img data-ng-src="http://jax-ws.java.net/images/glassfish_favicon.gif" alt="" height="14px" data-skill-tooltip="{&quot;id&quot;:&quot;jaxws&quot;,&quot;name&quot;:&quot;JAXB-WS&quot;,&quot;icon&quot;:&quot;http://jax-ws.java.net/images/glassfish_favicon.gif&quot;,&quot;rate&quot;:0.7,&quot;hide&quot;:true}" src="./index_files/glassfish_favicon.gif">&nbsp;JAXB-WS
+       		</div><div class="progress-skill-rate">7/10</div></div><div class="ui-progressbar-value ui-widget-header ui-corner-left" style="width: 70%;"></div></div><!-- end ngRepeat: skill in domain.list --><div data-ng-repeat="skill in domain.list" data-skill-ref="struts" data-ng-class="{ to_hide : skill.hide }" data-progress-bar="0.7" class="ng-scope ng-binding ui-progressbar ui-widget ui-widget-content ui-corner-all" role="progressbar" aria-valuemin="0" aria-valuemax="10" aria-valuenow="7"><div class="progress-label"><div class="progress-skill-label">
+		    	<a href="https://struts.apache.org/" target="_blank"><img data-ng-src="https://struts.apache.org/images/struts.gif" alt="" height="14px" data-skill-tooltip="{&quot;id&quot;:&quot;struts&quot;,&quot;name&quot;:&quot;Struts&quot;,&quot;url&quot;:&quot;https://struts.apache.org/&quot;,&quot;version&quot;:&quot;1.3&quot;,&quot;icon&quot;:&quot;https://struts.apache.org/images/struts.gif&quot;,&quot;rate&quot;:0.7}" src="./index_files/struts.gif" title="Version connue : Struts 1.3. Plus d&#39;info sur Struts en cliquant ici."></a>&nbsp;Struts
+       		</div><div class="progress-skill-rate">7/10</div></div><div class="ui-progressbar-value ui-widget-header ui-corner-left" style="width: 70%;"></div></div><!-- end ngRepeat: skill in domain.list --><div data-ng-repeat="skill in domain.list" data-skill-ref="ehcache" data-ng-class="{ to_hide : skill.hide }" data-progress-bar="0.6" class="ng-scope ng-binding to_hide ui-progressbar ui-widget ui-widget-content ui-corner-all" role="progressbar" aria-valuemin="0" aria-valuemax="10" aria-valuenow="6"><div class="progress-label"><div class="progress-skill-label">
+		    	<a href="http://ehcache.org/" target="_blank"><img data-ng-src="http://ehcache.org/favicon.ico" alt="" height="14px" data-skill-tooltip="{&quot;id&quot;:&quot;ehcache&quot;,&quot;name&quot;:&quot;ehCache&quot;,&quot;url&quot;:&quot;http://ehcache.org/&quot;,&quot;icon&quot;:&quot;http://ehcache.org/favicon.ico&quot;,&quot;rate&quot;:0.6,&quot;hide&quot;:true}" src="./index_files/favicon(5).ico" title="Plus d&#39;info sur ehCache en cliquant ici."></a>&nbsp;ehCache
+       		</div><div class="progress-skill-rate">6/10</div></div><div class="ui-progressbar-value ui-widget-header ui-corner-left" style="width: 60%;"></div></div><!-- end ngRepeat: skill in domain.list --><div data-ng-repeat="skill in domain.list" data-skill-ref="dwr" data-ng-class="{ to_hide : skill.hide }" data-progress-bar="0.4" class="ng-scope ng-binding to_hide ui-progressbar ui-widget ui-widget-content ui-corner-all" role="progressbar" aria-valuemin="0" aria-valuemax="10" aria-valuenow="4"><div class="progress-label"><div class="progress-skill-label">
+		    	<a href="http://directwebremoting.org/dwr/index.html" target="_blank"><img data-ng-src="http://directwebremoting.org/favicon.ico" alt="" height="14px" data-skill-tooltip="{&quot;id&quot;:&quot;dwr&quot;,&quot;name&quot;:&quot;DirectWebRemoting&quot;,&quot;url&quot;:&quot;http://directwebremoting.org/dwr/index.html&quot;,&quot;icon&quot;:&quot;http://directwebremoting.org/favicon.ico&quot;,&quot;version&quot;:&quot;2.0.10&quot;,&quot;rate&quot;:0.4,&quot;hide&quot;:true}" src="./index_files/favicon(6).ico" title="Version connue : DirectWebRemoting 2.0.10. Plus d&#39;info sur DirectWebRemoting en cliquant ici."></a>&nbsp;DirectWebRemoting
+       		</div><div class="progress-skill-rate">4/10</div></div><div class="ui-progressbar-value ui-widget-header ui-corner-left" style="width: 40%;"></div></div><!-- end ngRepeat: skill in domain.list --><div data-ng-repeat="skill in domain.list" data-skill-ref="spip" data-ng-class="{ to_hide : skill.hide }" data-progress-bar="0.4" class="ng-scope ng-binding to_hide ui-progressbar ui-widget ui-widget-content ui-corner-all" role="progressbar" aria-valuemin="0" aria-valuemax="10" aria-valuenow="4"><div class="progress-label"><div class="progress-skill-label">
+		    	<a href="http://www.spip.net/" target="_blank"><img data-ng-src="http://www.spip.net/favicon.ico" alt="" height="14px" data-skill-tooltip="{&quot;id&quot;:&quot;spip&quot;,&quot;name&quot;:&quot;Spip&quot;,&quot;version&quot;:&quot;2.1&quot;,&quot;url&quot;:&quot;http://www.spip.net/&quot;,&quot;icon&quot;:&quot;http://www.spip.net/favicon.ico&quot;,&quot;rate&quot;:0.4,&quot;hide&quot;:true}" src="./index_files/favicon(7).ico" title="Version connue : Spip 2.1. Plus d&#39;info sur Spip en cliquant ici."></a>&nbsp;Spip
+       		</div><div class="progress-skill-rate">4/10</div></div><div class="ui-progressbar-value ui-widget-header ui-corner-left" style="width: 40%;"></div></div><!-- end ngRepeat: skill in domain.list -->
+	    </div>
+	</div><!-- end ngRepeat: domain in skills --><div data-ng-repeat="domain in skills" class="ng-scope">
+    	<div class="domain ui-state-default ui-corner-all">
+    		<span class="ng-binding">Langages de programmation</span>
+    		<span data-toggle-hidden="domain_languages" class="ui-icon ui-icon-plusthick" style="cursor: pointer;"></span>
+   		</div>
+	    <div id="domain_languages">
+	        <!-- ngRepeat: skill in domain.list --><div data-ng-repeat="skill in domain.list" data-skill-ref="html" data-ng-class="{ to_hide : skill.hide }" data-progress-bar="0.7" class="ng-scope ng-binding ui-progressbar ui-widget ui-widget-content ui-corner-all" role="progressbar" aria-valuemin="0" aria-valuemax="10" aria-valuenow="7"><div class="progress-label"><div class="progress-skill-label">
+		    	<a href="http://www.w3.org/TR/html5/" target="_blank"><img data-ng-src="http://www.w3.org/html/logo/favicon.ico" alt="" height="14px" data-skill-tooltip="{&quot;id&quot;:&quot;html&quot;,&quot;name&quot;:&quot;HTML&quot;,&quot;icon&quot;:&quot;http://www.w3.org/html/logo/favicon.ico&quot;,&quot;url&quot;:&quot;http://www.w3.org/TR/html5/&quot;,&quot;version&quot;:&quot;5&quot;,&quot;guideline&quot;:&quot;http://www.w3schools.com/html/html5_intro.asp&quot;,&quot;rate&quot;:0.7}" src="./index_files/favicon(8).ico" title="Version connue : HTML 5. Plus d&#39;info sur HTML en cliquant ici."></a>&nbsp;HTML
+       		</div><div class="progress-skill-rate">7/10</div></div><div class="ui-progressbar-value ui-widget-header ui-corner-left" style="width: 70%;"></div></div><!-- end ngRepeat: skill in domain.list --><div data-ng-repeat="skill in domain.list" data-skill-ref="javascript" data-ng-class="{ to_hide : skill.hide }" data-progress-bar="0.6" class="ng-scope ng-binding ui-progressbar ui-widget ui-widget-content ui-corner-all" role="progressbar" aria-valuemin="0" aria-valuemax="10" aria-valuenow="6"><div class="progress-label"><div class="progress-skill-label">
+		    	<img data-ng-src="http://www.w3schools.com/favicon.ico" alt="" height="14px" data-skill-tooltip="{&quot;id&quot;:&quot;javascript&quot;,&quot;name&quot;:&quot;JavaScript&quot;,&quot;icon&quot;:&quot;http://www.w3schools.com/favicon.ico&quot;,&quot;rate&quot;:0.6}" src="./index_files/favicon(9).ico">&nbsp;JavaScript
+       		</div><div class="progress-skill-rate">6/10</div></div><div class="ui-progressbar-value ui-widget-header ui-corner-left" style="width: 60%;"></div></div><!-- end ngRepeat: skill in domain.list --><div data-ng-repeat="skill in domain.list" data-skill-ref="java" data-ng-class="{ to_hide : skill.hide }" data-progress-bar="0.9" class="ng-scope ng-binding ui-progressbar ui-widget ui-widget-content ui-corner-all" role="progressbar" aria-valuemin="0" aria-valuemax="10" aria-valuenow="9"><div class="progress-label"><div class="progress-skill-label">
+		    	<a href="http://docs.oracle.com/javase/7/docs/index.html" target="_blank"><img data-ng-src="http://home.java.net/sites/default/files/java_adaptive_favicon_2.png" alt="" height="14px" data-skill-tooltip="{&quot;id&quot;:&quot;java&quot;,&quot;name&quot;:&quot;Java/J2E&quot;,&quot;icon&quot;:&quot;http://home.java.net/sites/default/files/java_adaptive_favicon_2.png&quot;,&quot;version&quot;:&quot;7&quot;,&quot;url&quot;:&quot;http://docs.oracle.com/javase/7/docs/index.html&quot;,&quot;rate&quot;:0.9}" src="./index_files/java_adaptive_favicon_2.png" title="Version connue : Java/J2E 7. Plus d&#39;info sur Java/J2E en cliquant ici."></a>&nbsp;Java/J2E
+       		</div><div class="progress-skill-rate">9/10</div></div><div class="ui-progressbar-value ui-widget-header ui-corner-left" style="width: 90%;"></div></div><!-- end ngRepeat: skill in domain.list --><div data-ng-repeat="skill in domain.list" data-skill-ref="python" data-ng-class="{ to_hide : skill.hide }" data-progress-bar="0.5" class="ng-scope ng-binding ui-progressbar ui-widget ui-widget-content ui-corner-all" role="progressbar" aria-valuemin="0" aria-valuemax="10" aria-valuenow="5"><div class="progress-label"><div class="progress-skill-label">
+		    	<a href="http://www.python.org/" target="_blank"><img data-ng-src="http://www.python.org/favicon.ico" alt="" height="14px" data-skill-tooltip="{&quot;id&quot;:&quot;python&quot;,&quot;name&quot;:&quot;python&quot;,&quot;url&quot;:&quot;http://www.python.org/&quot;,&quot;icon&quot;:&quot;http://www.python.org/favicon.ico&quot;,&quot;version&quot;:&quot;2.7&quot;,&quot;rate&quot;:0.5}" src="./index_files/favicon(10).ico" title="Version connue : python 2.7. Plus d&#39;info sur python en cliquant ici."></a>&nbsp;python
+       		</div><div class="progress-skill-rate">5/10</div></div><div class="ui-progressbar-value ui-widget-header ui-corner-left" style="width: 50%;"></div></div><!-- end ngRepeat: skill in domain.list --><div data-ng-repeat="skill in domain.list" data-skill-ref="perl" data-ng-class="{ to_hide : skill.hide }" data-progress-bar="0.5" class="ng-scope ng-binding ui-progressbar ui-widget ui-widget-content ui-corner-all" role="progressbar" aria-valuemin="0" aria-valuemax="10" aria-valuenow="5"><div class="progress-label"><div class="progress-skill-label">
+		    	<a href="http://www.perl.org/" target="_blank"><img data-ng-src="http://www.perl.org/favicon.ico" alt="" height="14px" data-skill-tooltip="{&quot;id&quot;:&quot;perl&quot;,&quot;name&quot;:&quot;Perl&quot;,&quot;url&quot;:&quot;http://www.perl.org/&quot;,&quot;icon&quot;:&quot;http://www.perl.org/favicon.ico&quot;,&quot;rate&quot;:0.5}" src="./index_files/favicon(11).ico" title="Plus d&#39;info sur Perl en cliquant ici."></a>&nbsp;Perl
+       		</div><div class="progress-skill-rate">5/10</div></div><div class="ui-progressbar-value ui-widget-header ui-corner-left" style="width: 50%;"></div></div><!-- end ngRepeat: skill in domain.list --><div data-ng-repeat="skill in domain.list" data-skill-ref="csharp" data-ng-class="{ to_hide : skill.hide }" data-progress-bar="0.5" class="ng-scope ng-binding ui-progressbar ui-widget ui-widget-content ui-corner-all" role="progressbar" aria-valuemin="0" aria-valuemax="10" aria-valuenow="5"><div class="progress-label"><div class="progress-skill-label">
+		    	<a href="http://www.mono-project.com/Main_Page" target="_blank"><img data-ng-src="http://www.mono-project.com/favicon.ico" alt="" height="14px" data-skill-tooltip="{&quot;id&quot;:&quot;csharp&quot;,&quot;name&quot;:&quot;C#&quot;,&quot;url&quot;:&quot;http://www.mono-project.com/Main_Page&quot;,&quot;icon&quot;:&quot;http://www.mono-project.com/favicon.ico&quot;,&quot;rate&quot;:0.5}" src="./index_files/favicon(12).ico" title="Plus d&#39;info sur C# en cliquant ici."></a>&nbsp;C#
+       		</div><div class="progress-skill-rate">5/10</div></div><div class="ui-progressbar-value ui-widget-header ui-corner-left" style="width: 50%;"></div></div><!-- end ngRepeat: skill in domain.list --><div data-ng-repeat="skill in domain.list" data-skill-ref="dotnet" data-ng-class="{ to_hide : skill.hide }" data-progress-bar="0.5" class="ng-scope ng-binding to_hide ui-progressbar ui-widget ui-widget-content ui-corner-all" role="progressbar" aria-valuemin="0" aria-valuemax="10" aria-valuenow="5"><div class="progress-label"><div class="progress-skill-label">
+		    	<a href="http://www.microsoft.com/net" target="_blank"><img data-ng-src="http://i.microsoft.com/net/images/chrome/net-logo.jpg" alt="" height="14px" data-skill-tooltip="{&quot;id&quot;:&quot;dotnet&quot;,&quot;name&quot;:&quot;.Net&quot;,&quot;url&quot;:&quot;http://www.microsoft.com/net&quot;,&quot;icon&quot;:&quot;http://i.microsoft.com/net/images/chrome/net-logo.jpg&quot;,&quot;rate&quot;:0.5,&quot;hide&quot;:true}" src="./index_files/net-logo.jpg" title="Plus d&#39;info sur .Net en cliquant ici."></a>&nbsp;.Net
+       		</div><div class="progress-skill-rate">5/10</div></div><div class="ui-progressbar-value ui-widget-header ui-corner-left" style="width: 50%;"></div></div><!-- end ngRepeat: skill in domain.list --><div data-ng-repeat="skill in domain.list" data-skill-ref="asp" data-ng-class="{ to_hide : skill.hide }" data-progress-bar="0.4" class="ng-scope ng-binding to_hide ui-progressbar ui-widget ui-widget-content ui-corner-all" role="progressbar" aria-valuemin="0" aria-valuemax="10" aria-valuenow="4"><div class="progress-label"><div class="progress-skill-label">
+		    	<a href="http://www.asp.net/" target="_blank"><img data-ng-src="http://www.asp.net/images/ui/asplogo-new.png?cdn_id=q65" alt="" height="14px" data-skill-tooltip="{&quot;id&quot;:&quot;asp&quot;,&quot;name&quot;:&quot;ASP&quot;,&quot;url&quot;:&quot;http://www.asp.net/&quot;,&quot;rate&quot;:0.4,&quot;icon&quot;:&quot;http://www.asp.net/images/ui/asplogo-new.png?cdn_id=q65&quot;,&quot;hide&quot;:true}" src="./index_files/asplogo-new.png" title="Plus d&#39;info sur ASP en cliquant ici."></a>&nbsp;ASP
+       		</div><div class="progress-skill-rate">4/10</div></div><div class="ui-progressbar-value ui-widget-header ui-corner-left" style="width: 40%;"></div></div><!-- end ngRepeat: skill in domain.list --><div data-ng-repeat="skill in domain.list" data-skill-ref="php" data-ng-class="{ to_hide : skill.hide }" data-progress-bar="0.5" class="ng-scope ng-binding to_hide ui-progressbar ui-widget ui-widget-content ui-corner-all" role="progressbar" aria-valuemin="0" aria-valuemax="10" aria-valuenow="5"><div class="progress-label"><div class="progress-skill-label">
+		    	<a href="http://php.net/" target="_blank"><img data-ng-src="http://static.php.net/www.php.net/favicon.ico" alt="" height="14px" data-skill-tooltip="{&quot;id&quot;:&quot;php&quot;,&quot;name&quot;:&quot;PHP&quot;,&quot;url&quot;:&quot;http://php.net/&quot;,&quot;icon&quot;:&quot;http://static.php.net/www.php.net/favicon.ico&quot;,&quot;version&quot;:&quot;5&quot;,&quot;rate&quot;:0.5,&quot;hide&quot;:true}" src="./index_files/favicon(13).ico" title="Version connue : PHP 5. Plus d&#39;info sur PHP en cliquant ici."></a>&nbsp;PHP
+       		</div><div class="progress-skill-rate">5/10</div></div><div class="ui-progressbar-value ui-widget-header ui-corner-left" style="width: 50%;"></div></div><!-- end ngRepeat: skill in domain.list --><div data-ng-repeat="skill in domain.list" data-skill-ref="bash" data-ng-class="{ to_hide : skill.hide }" data-progress-bar="0.7" class="ng-scope ng-binding ui-progressbar ui-widget ui-widget-content ui-corner-all" role="progressbar" aria-valuemin="0" aria-valuemax="10" aria-valuenow="7"><div class="progress-label"><div class="progress-skill-label">
+		    	<img data-ng-src="http://upload.wikimedia.org/wikipedia/commons/4/4b/Etermutilities-terminal.png" alt="" height="14px" data-skill-tooltip="{&quot;id&quot;:&quot;bash&quot;,&quot;name&quot;:&quot;Shell Unix&quot;,&quot;version&quot;:&quot;ksh, bash, zsh, sh&quot;,&quot;icon&quot;:&quot;http://upload.wikimedia.org/wikipedia/commons/4/4b/Etermutilities-terminal.png&quot;,&quot;rate&quot;:0.7}" src="./index_files/Etermutilities-terminal.png" title="Version connue : Shell Unix ksh, bash, zsh, sh. ">&nbsp;Shell Unix
+       		</div><div class="progress-skill-rate">7/10</div></div><div class="ui-progressbar-value ui-widget-header ui-corner-left" style="width: 70%;"></div></div><!-- end ngRepeat: skill in domain.list --><div data-ng-repeat="skill in domain.list" data-skill-ref="sql" data-ng-class="{ to_hide : skill.hide }" data-progress-bar="0.7" class="ng-scope ng-binding ui-progressbar ui-widget ui-widget-content ui-corner-all" role="progressbar" aria-valuemin="0" aria-valuemax="10" aria-valuenow="7"><div class="progress-label"><div class="progress-skill-label">
+		    	<a href="http://www.contrib.andrew.cmu.edu/~shadow/sql/sql1992.txt" target="_blank"><img data-ng-src="http://upload.wikimedia.org/wikipedia/commons/9/95/Crystal_Project_Database.png" alt="" height="14px" data-skill-tooltip="{&quot;id&quot;:&quot;sql&quot;,&quot;name&quot;:&quot;SQL&quot;,&quot;url&quot;:&quot;http://www.contrib.andrew.cmu.edu/~shadow/sql/sql1992.txt&quot;,&quot;icon&quot;:&quot;http://upload.wikimedia.org/wikipedia/commons/9/95/Crystal_Project_Database.png&quot;,&quot;version&quot;:&quot;92&quot;,&quot;rate&quot;:0.7}" src="./index_files/Crystal_Project_Database.png" title="Version connue : SQL 92. Plus d&#39;info sur SQL en cliquant ici."></a>&nbsp;SQL
+       		</div><div class="progress-skill-rate">7/10</div></div><div class="ui-progressbar-value ui-widget-header ui-corner-left" style="width: 70%;"></div></div><!-- end ngRepeat: skill in domain.list --><div data-ng-repeat="skill in domain.list" data-skill-ref="mysql" data-ng-class="{ to_hide : skill.hide }" data-progress-bar="0.5" class="ng-scope ng-binding to_hide ui-progressbar ui-widget ui-widget-content ui-corner-all" role="progressbar" aria-valuemin="0" aria-valuemax="10" aria-valuenow="5"><div class="progress-label"><div class="progress-skill-label">
+		    	<a href="https://www.mysql.com/" target="_blank"><img data-ng-src="http://www.mysql.com/common/themes/sakila/favicon.ico" alt="" height="14px" data-skill-tooltip="{&quot;id&quot;:&quot;mysql&quot;,&quot;name&quot;:&quot;mysql&quot;,&quot;version&quot;:&quot;5&quot;,&quot;url&quot;:&quot;https://www.mysql.com/&quot;,&quot;icon&quot;:&quot;http://www.mysql.com/common/themes/sakila/favicon.ico&quot;,&quot;rate&quot;:0.5,&quot;hide&quot;:true}" src="./index_files/favicon(14).ico" title="Version connue : mysql 5. Plus d&#39;info sur mysql en cliquant ici."></a>&nbsp;mysql
+       		</div><div class="progress-skill-rate">5/10</div></div><div class="ui-progressbar-value ui-widget-header ui-corner-left" style="width: 50%;"></div></div><!-- end ngRepeat: skill in domain.list --><div data-ng-repeat="skill in domain.list" data-skill-ref="postgresql" data-ng-class="{ to_hide : skill.hide }" data-progress-bar="0.7" class="ng-scope ng-binding to_hide ui-progressbar ui-widget ui-widget-content ui-corner-all" role="progressbar" aria-valuemin="0" aria-valuemax="10" aria-valuenow="7"><div class="progress-label"><div class="progress-skill-label">
+		    	<a href="http://www.postgresql.org/" target="_blank"><img data-ng-src="http://www.postgresql.org/favicon.ico" alt="" height="14px" data-skill-tooltip="{&quot;id&quot;:&quot;postgresql&quot;,&quot;name&quot;:&quot;PostgreSQL&quot;,&quot;url&quot;:&quot;http://www.postgresql.org/&quot;,&quot;icon&quot;:&quot;http://www.postgresql.org/favicon.ico&quot;,&quot;version&quot;:&quot;9.3&quot;,&quot;rate&quot;:0.7,&quot;hide&quot;:true}" src="./index_files/favicon(15).ico" title="Version connue : PostgreSQL 9.3. Plus d&#39;info sur PostgreSQL en cliquant ici."></a>&nbsp;PostgreSQL
+       		</div><div class="progress-skill-rate">7/10</div></div><div class="ui-progressbar-value ui-widget-header ui-corner-left" style="width: 70%;"></div></div><!-- end ngRepeat: skill in domain.list --><div data-ng-repeat="skill in domain.list" data-skill-ref="oracle" data-ng-class="{ to_hide : skill.hide }" data-progress-bar="0.6" class="ng-scope ng-binding to_hide ui-progressbar ui-widget ui-widget-content ui-corner-all" role="progressbar" aria-valuemin="0" aria-valuemax="10" aria-valuenow="6"><div class="progress-label"><div class="progress-skill-label">
+		    	<a href="http://www.oracle.com/us/products/database/overview/index.html" target="_blank"><img data-ng-src="http://www.oracle.com/favicon.ico" alt="" height="14px" data-skill-tooltip="{&quot;id&quot;:&quot;oracle&quot;,&quot;name&quot;:&quot;Oracle&quot;,&quot;url&quot;:&quot;http://www.oracle.com/us/products/database/overview/index.html&quot;,&quot;icon&quot;:&quot;http://www.oracle.com/favicon.ico&quot;,&quot;version&quot;:&quot;11g&quot;,&quot;rate&quot;:0.6,&quot;hide&quot;:true}" src="./index_files/favicon(16).ico" title="Version connue : Oracle 11g. Plus d&#39;info sur Oracle en cliquant ici."></a>&nbsp;Oracle
+       		</div><div class="progress-skill-rate">6/10</div></div><div class="ui-progressbar-value ui-widget-header ui-corner-left" style="width: 60%;"></div></div><!-- end ngRepeat: skill in domain.list -->
+	    </div>
+	</div><!-- end ngRepeat: domain in skills --><div data-ng-repeat="domain in skills" class="ng-scope">
+    	<div class="domain ui-state-default ui-corner-all">
+    		<span class="ng-binding">Outils développeurs</span>
+    		<span data-toggle-hidden="domain_devtools" class="ui-icon ui-icon-plusthick" style="cursor: pointer;"></span>
+   		</div>
+	    <div id="domain_devtools">
+	        <!-- ngRepeat: skill in domain.list --><div data-ng-repeat="skill in domain.list" data-skill-ref="sonar" data-ng-class="{ to_hide : skill.hide }" data-progress-bar="0.5" class="ng-scope ng-binding ui-progressbar ui-widget ui-widget-content ui-corner-all" role="progressbar" aria-valuemin="0" aria-valuemax="10" aria-valuenow="5"><div class="progress-label"><div class="progress-skill-label">
+		    	<a href="http://www.sonarqube.org/" target="_blank"><img data-ng-src="http://www.sonarqube.org/wp-content/themes/sonarsource.org/images/favicon.ico" alt="" height="14px" data-skill-tooltip="{&quot;id&quot;:&quot;sonar&quot;,&quot;name&quot;:&quot;Sonar&quot;,&quot;version&quot;:&quot;2.1&quot;,&quot;url&quot;:&quot;http://www.sonarqube.org/&quot;,&quot;icon&quot;:&quot;http://www.sonarqube.org/wp-content/themes/sonarsource.org/images/favicon.ico&quot;,&quot;rate&quot;:0.5}" src="./index_files/favicon(17).ico" title="Version connue : Sonar 2.1. Plus d&#39;info sur Sonar en cliquant ici."></a>&nbsp;Sonar
+       		</div><div class="progress-skill-rate">5/10</div></div><div class="ui-progressbar-value ui-widget-header ui-corner-left" style="width: 50%;"></div></div><!-- end ngRepeat: skill in domain.list --><div data-ng-repeat="skill in domain.list" data-skill-ref="git" data-ng-class="{ to_hide : skill.hide }" data-progress-bar="0.5" class="ng-scope ng-binding ui-progressbar ui-widget ui-widget-content ui-corner-all" role="progressbar" aria-valuemin="0" aria-valuemax="10" aria-valuenow="5"><div class="progress-label"><div class="progress-skill-label">
+		    	<a href="http://git-scm.com/" target="_blank"><img data-ng-src="http://git-scm.com/favicon.png" alt="" height="14px" data-skill-tooltip="{&quot;id&quot;:&quot;git&quot;,&quot;name&quot;:&quot;Git&quot;,&quot;url&quot;:&quot;http://git-scm.com/&quot;,&quot;icon&quot;:&quot;http://git-scm.com/favicon.png&quot;,&quot;rate&quot;:0.5}" src="./index_files/favicon.png" title="Plus d&#39;info sur Git en cliquant ici."></a>&nbsp;Git
+       		</div><div class="progress-skill-rate">5/10</div></div><div class="ui-progressbar-value ui-widget-header ui-corner-left" style="width: 50%;"></div></div><!-- end ngRepeat: skill in domain.list --><div data-ng-repeat="skill in domain.list" data-skill-ref="svn" data-ng-class="{ to_hide : skill.hide }" data-progress-bar="0.9" class="ng-scope ng-binding to_hide ui-progressbar ui-widget ui-widget-content ui-corner-all" role="progressbar" aria-valuemin="0" aria-valuemax="10" aria-valuenow="9"><div class="progress-label"><div class="progress-skill-label">
+		    	<a href="https://subversion.apache.org/" target="_blank"><img data-ng-src="http://subversion.tigris.org/favicon.ico" alt="" height="14px" data-skill-tooltip="{&quot;id&quot;:&quot;svn&quot;,&quot;name&quot;:&quot;Subversion&quot;,&quot;url&quot;:&quot;https://subversion.apache.org/&quot;,&quot;icon&quot;:&quot;http://subversion.tigris.org/favicon.ico&quot;,&quot;rate&quot;:0.9,&quot;hide&quot;:true}" src="./index_files/favicon(18).ico" title="Plus d&#39;info sur Subversion en cliquant ici."></a>&nbsp;Subversion
+       		</div><div class="progress-skill-rate">9/10</div></div><div class="ui-progressbar-value ui-widget-header ui-corner-left" style="width: 90%;"></div></div><!-- end ngRepeat: skill in domain.list --><div data-ng-repeat="skill in domain.list" data-skill-ref="cvs" data-ng-class="{ to_hide : skill.hide }" data-progress-bar="0.6" class="ng-scope ng-binding to_hide ui-progressbar ui-widget ui-widget-content ui-corner-all" role="progressbar" aria-valuemin="0" aria-valuemax="10" aria-valuenow="6"><div class="progress-label"><div class="progress-skill-label">
+		    	<img data-ng-src="http://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Merge-arrows-3.svg/200px-Merge-arrows-3.svg.png" alt="" height="14px" data-skill-tooltip="{&quot;id&quot;:&quot;cvs&quot;,&quot;name&quot;:&quot;CVS&quot;,&quot;icon&quot;:&quot;http://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Merge-arrows-3.svg/200px-Merge-arrows-3.svg.png&quot;,&quot;rate&quot;:0.6,&quot;hide&quot;:true}" src="./index_files/200px-Merge-arrows-3.svg.png">&nbsp;CVS
+       		</div><div class="progress-skill-rate">6/10</div></div><div class="ui-progressbar-value ui-widget-header ui-corner-left" style="width: 60%;"></div></div><!-- end ngRepeat: skill in domain.list --><div data-ng-repeat="skill in domain.list" data-skill-ref="continuum" data-ng-class="{ to_hide : skill.hide }" data-progress-bar="0.7" class="ng-scope ng-binding to_hide ui-progressbar ui-widget ui-widget-content ui-corner-all" role="progressbar" aria-valuemin="0" aria-valuemax="10" aria-valuenow="7"><div class="progress-label"><div class="progress-skill-label">
+		    	<a href="https://continuum.apache.org/" target="_blank"><img data-ng-src="http://continuum.apache.org/images/continuum_logo_75.gif" alt="" height="14px" data-skill-tooltip="{&quot;id&quot;:&quot;continuum&quot;,&quot;name&quot;:&quot;Continuum&quot;,&quot;url&quot;:&quot;https://continuum.apache.org/&quot;,&quot;icon&quot;:&quot;http://continuum.apache.org/images/continuum_logo_75.gif&quot;,&quot;rate&quot;:0.7,&quot;hide&quot;:true}" src="./index_files/continuum_logo_75.gif" title="Plus d&#39;info sur Continuum en cliquant ici."></a>&nbsp;Continuum
+       		</div><div class="progress-skill-rate">7/10</div></div><div class="ui-progressbar-value ui-widget-header ui-corner-left" style="width: 70%;"></div></div><!-- end ngRepeat: skill in domain.list --><div data-ng-repeat="skill in domain.list" data-skill-ref="nexus" data-ng-class="{ to_hide : skill.hide }" data-progress-bar="0.7" class="ng-scope ng-binding to_hide ui-progressbar ui-widget ui-widget-content ui-corner-all" role="progressbar" aria-valuemin="0" aria-valuemax="10" aria-valuenow="7"><div class="progress-label"><div class="progress-skill-label">
+		    	<a href="http://www.sonatype.org/nexus/" target="_blank"><img data-ng-src="http://code.adi3000.com/nexus/favicon.png" alt="" height="14px" data-skill-tooltip="{&quot;id&quot;:&quot;nexus&quot;,&quot;name&quot;:&quot;Nexus&quot;,&quot;url&quot;:&quot;http://www.sonatype.org/nexus/&quot;,&quot;icon&quot;:&quot;http://code.adi3000.com/nexus/favicon.png&quot;,&quot;rate&quot;:0.7,&quot;hide&quot;:true}" src="./index_files/favicon(19).png" title="Plus d&#39;info sur Nexus en cliquant ici."></a>&nbsp;Nexus
+       		</div><div class="progress-skill-rate">7/10</div></div><div class="ui-progressbar-value ui-widget-header ui-corner-left" style="width: 70%;"></div></div><!-- end ngRepeat: skill in domain.list --><div data-ng-repeat="skill in domain.list" data-skill-ref="jenkins" data-ng-class="{ to_hide : skill.hide }" data-progress-bar="0.8" class="ng-scope ng-binding ui-progressbar ui-widget ui-widget-content ui-corner-all" role="progressbar" aria-valuemin="0" aria-valuemax="10" aria-valuenow="8"><div class="progress-label"><div class="progress-skill-label">
+		    	<a href="http://jenkins-ci.org/" target="_blank"><img data-ng-src="http://jenkins-ci.org/sites/default/files/jenkins_favicon.ico" alt="" height="14px" data-skill-tooltip="{&quot;id&quot;:&quot;jenkins&quot;,&quot;name&quot;:&quot;Jenkins&quot;,&quot;url&quot;:&quot;http://jenkins-ci.org/&quot;,&quot;icon&quot;:&quot;http://jenkins-ci.org/sites/default/files/jenkins_favicon.ico&quot;,&quot;rate&quot;:0.8}" src="./index_files/jenkins_favicon.ico" title="Plus d&#39;info sur Jenkins en cliquant ici."></a>&nbsp;Jenkins
+       		</div><div class="progress-skill-rate">8/10</div></div><div class="ui-progressbar-value ui-widget-header ui-corner-left" style="width: 80%;"></div></div><!-- end ngRepeat: skill in domain.list --><div data-ng-repeat="skill in domain.list" data-skill-ref="maven" data-ng-class="{ to_hide : skill.hide }" data-progress-bar="0.8" class="ng-scope ng-binding ui-progressbar ui-widget ui-widget-content ui-corner-all" role="progressbar" aria-valuemin="0" aria-valuemax="10" aria-valuenow="8"><div class="progress-label"><div class="progress-skill-label">
+		    	<a href="https://maven.apache.org/" target="_blank"><img data-ng-src="http://upload.wikimedia.org/wikipedia/commons/f/f5/Maven_logo.gif" alt="" height="14px" data-skill-tooltip="{&quot;id&quot;:&quot;maven&quot;,&quot;name&quot;:&quot;Maven&quot;,&quot;url&quot;:&quot;https://maven.apache.org/&quot;,&quot;version&quot;:&quot;3&quot;,&quot;icon&quot;:&quot;http://upload.wikimedia.org/wikipedia/commons/f/f5/Maven_logo.gif&quot;,&quot;rate&quot;:0.8}" src="./index_files/Maven_logo.gif" title="Version connue : Maven 3. Plus d&#39;info sur Maven en cliquant ici."></a>&nbsp;Maven
+       		</div><div class="progress-skill-rate">8/10</div></div><div class="ui-progressbar-value ui-widget-header ui-corner-left" style="width: 80%;"></div></div><!-- end ngRepeat: skill in domain.list --><div data-ng-repeat="skill in domain.list" data-skill-ref="redmine" data-ng-class="{ to_hide : skill.hide }" data-progress-bar="0.5" class="ng-scope ng-binding ui-progressbar ui-widget ui-widget-content ui-corner-all" role="progressbar" aria-valuemin="0" aria-valuemax="10" aria-valuenow="5"><div class="progress-label"><div class="progress-skill-label">
+		    	<a href="http://www.redmine.org/" target="_blank"><img data-ng-src="http://code.adi3000.com/redmine/favicon.ico?1355514865" alt="" height="14px" data-skill-tooltip="{&quot;id&quot;:&quot;redmine&quot;,&quot;name&quot;:&quot;Redmine&quot;,&quot;icon&quot;:&quot;http://code.adi3000.com/redmine/favicon.ico?1355514865&quot;,&quot;version&quot;:&quot;2.1&quot;,&quot;url&quot;:&quot;http://www.redmine.org/&quot;,&quot;rate&quot;:0.5}" src="./index_files/favicon(20).ico" title="Version connue : Redmine 2.1. Plus d&#39;info sur Redmine en cliquant ici."></a>&nbsp;Redmine
+       		</div><div class="progress-skill-rate">5/10</div></div><div class="ui-progressbar-value ui-widget-header ui-corner-left" style="width: 50%;"></div></div><!-- end ngRepeat: skill in domain.list --><div data-ng-repeat="skill in domain.list" data-skill-ref="eclipse" data-ng-class="{ to_hide : skill.hide }" data-progress-bar="0.8" class="ng-scope ng-binding ui-progressbar ui-widget ui-widget-content ui-corner-all" role="progressbar" aria-valuemin="0" aria-valuemax="10" aria-valuenow="8"><div class="progress-label"><div class="progress-skill-label">
+		    	<a href="http://www.eclipse.org/kepler/" target="_blank"><img data-ng-src="http://eclipse.org/favicon.ico" alt="" height="14px" data-skill-tooltip="{&quot;id&quot;:&quot;eclipse&quot;,&quot;name&quot;:&quot;Eclipse&quot;,&quot;icon&quot;:&quot;http://eclipse.org/favicon.ico&quot;,&quot;url&quot;:&quot;http://www.eclipse.org/kepler/&quot;,&quot;version&quot;:&quot;Kepler&quot;,&quot;rate&quot;:0.8}" src="./index_files/favicon(21).ico" title="Version connue : Eclipse Kepler. Plus d&#39;info sur Eclipse en cliquant ici."></a>&nbsp;Eclipse
+       		</div><div class="progress-skill-rate">8/10</div></div><div class="ui-progressbar-value ui-widget-header ui-corner-left" style="width: 80%;"></div></div><!-- end ngRepeat: skill in domain.list --><div data-ng-repeat="skill in domain.list" data-skill-ref="vim" data-ng-class="{ to_hide : skill.hide }" data-progress-bar="0.5" class="ng-scope ng-binding to_hide ui-progressbar ui-widget ui-widget-content ui-corner-all" role="progressbar" aria-valuemin="0" aria-valuemax="10" aria-valuenow="5"><div class="progress-label"><div class="progress-skill-label">
+		    	<img data-ng-src="https://upload.wikimedia.org/wikipedia/commons/6/66/Utilities-terminal.svg" alt="" height="14px" data-skill-tooltip="{&quot;id&quot;:&quot;vim&quot;,&quot;icon&quot;:&quot;https://upload.wikimedia.org/wikipedia/commons/6/66/Utilities-terminal.svg&quot;,&quot;name&quot;:&quot;vim&quot;,&quot;rate&quot;:0.5,&quot;hide&quot;:true}" src="./index_files/Utilities-terminal.svg">&nbsp;vim
+       		</div><div class="progress-skill-rate">5/10</div></div><div class="ui-progressbar-value ui-widget-header ui-corner-left" style="width: 50%;"></div></div><!-- end ngRepeat: skill in domain.list -->
+	    </div>
+	</div><!-- end ngRepeat: domain in skills --><div data-ng-repeat="domain in skills" class="ng-scope">
+    	<div class="domain ui-state-default ui-corner-all">
+    		<span class="ng-binding">Administration</span>
+    		<span data-toggle-hidden="domain_admin" class="ui-icon ui-icon-plusthick" style="cursor: pointer;"></span>
+   		</div>
+	    <div id="domain_admin">
+	        <!-- ngRepeat: skill in domain.list --><div data-ng-repeat="skill in domain.list" data-skill-ref="openvpn" data-ng-class="{ to_hide : skill.hide }" data-progress-bar="0.7" class="ng-scope ng-binding ui-progressbar ui-widget ui-widget-content ui-corner-all" role="progressbar" aria-valuemin="0" aria-valuemax="10" aria-valuenow="7"><div class="progress-label"><div class="progress-skill-label">
+		    	<a href="http://openvpn.net/" target="_blank"><img data-ng-src="http://openvpn.net/templates/telethra/favicon.ico" alt="" height="14px" data-skill-tooltip="{&quot;id&quot;:&quot;openvpn&quot;,&quot;name&quot;:&quot;OpenVPN&quot;,&quot;url&quot;:&quot;http://openvpn.net/&quot;,&quot;icon&quot;:&quot;http://openvpn.net/templates/telethra/favicon.ico&quot;,&quot;version&quot;:&quot;2.3&quot;,&quot;rate&quot;:0.7}" src="./index_files/favicon(22).ico" title="Version connue : OpenVPN 2.3. Plus d&#39;info sur OpenVPN en cliquant ici."></a>&nbsp;OpenVPN
+       		</div><div class="progress-skill-rate">7/10</div></div><div class="ui-progressbar-value ui-widget-header ui-corner-left" style="width: 70%;"></div></div><!-- end ngRepeat: skill in domain.list --><div data-ng-repeat="skill in domain.list" data-skill-ref="linux" data-ng-class="{ to_hide : skill.hide }" data-progress-bar="0.8" class="ng-scope ng-binding ui-progressbar ui-widget ui-widget-content ui-corner-all" role="progressbar" aria-valuemin="0" aria-valuemax="10" aria-valuenow="8"><div class="progress-label"><div class="progress-skill-label">
+		    	<a href="http://www.debian.org/" target="_blank"><img data-ng-src="http://www.linux.org/favicon.ico" alt="" height="14px" data-skill-tooltip="{&quot;id&quot;:&quot;linux&quot;,&quot;name&quot;:&quot;Linux&quot;,&quot;url&quot;:&quot;http://www.debian.org/&quot;,&quot;icon&quot;:&quot;http://www.linux.org/favicon.ico&quot;,&quot;version&quot;:&quot;Debian, Ubuntu, Red Hat&quot;,&quot;rate&quot;:0.8}" src="./index_files/favicon(23).ico" title="Version connue : Linux Debian, Ubuntu, Red Hat. Plus d&#39;info sur Linux en cliquant ici."></a>&nbsp;Linux
+       		</div><div class="progress-skill-rate">8/10</div></div><div class="ui-progressbar-value ui-widget-header ui-corner-left" style="width: 80%;"></div></div><!-- end ngRepeat: skill in domain.list --><div data-ng-repeat="skill in domain.list" data-skill-ref="windows" data-ng-class="{ to_hide : skill.hide }" data-progress-bar="0.7" class="ng-scope ng-binding ui-progressbar ui-widget ui-widget-content ui-corner-all" role="progressbar" aria-valuemin="0" aria-valuemax="10" aria-valuenow="7"><div class="progress-label"><div class="progress-skill-label">
+		    	<a href="http://windows.microsoft.com/" target="_blank"><img data-ng-src="https://origin-res.windows.microsoft.com/resources/4.1/wol/shared/images/favicon.ico" alt="" height="14px" data-skill-tooltip="{&quot;id&quot;:&quot;windows&quot;,&quot;name&quot;:&quot;Windows&quot;,&quot;url&quot;:&quot;http://windows.microsoft.com/&quot;,&quot;icon&quot;:&quot;https://origin-res.windows.microsoft.com/resources/4.1/wol/shared/images/favicon.ico&quot;,&quot;version&quot;:&quot;8&quot;,&quot;rate&quot;:0.7}" src="./index_files/favicon(24).ico" title="Version connue : Windows 8. Plus d&#39;info sur Windows en cliquant ici."></a>&nbsp;Windows
+       		</div><div class="progress-skill-rate">7/10</div></div><div class="ui-progressbar-value ui-widget-header ui-corner-left" style="width: 70%;"></div></div><!-- end ngRepeat: skill in domain.list --><div data-ng-repeat="skill in domain.list" data-skill-ref="glassfish" data-ng-class="{ to_hide : skill.hide }" data-progress-bar="0.7" class="ng-scope ng-binding to_hide ui-progressbar ui-widget ui-widget-content ui-corner-all" role="progressbar" aria-valuemin="0" aria-valuemax="10" aria-valuenow="7"><div class="progress-label"><div class="progress-skill-label">
+		    	<a href="https://glassfish.java.net/" target="_blank"><img data-ng-src="https://jax-ws.java.net/images/glassfish_favicon.gif" alt="" height="14px" data-skill-tooltip="{&quot;id&quot;:&quot;glassfish&quot;,&quot;name&quot;:&quot;GlassFish&quot;,&quot;url&quot;:&quot;https://glassfish.java.net/&quot;,&quot;icon&quot;:&quot;https://jax-ws.java.net/images/glassfish_favicon.gif&quot;,&quot;version&quot;:&quot;4&quot;,&quot;rate&quot;:0.7,&quot;hide&quot;:true}" src="./index_files/glassfish_favicon(1).gif" title="Version connue : GlassFish 4. Plus d&#39;info sur GlassFish en cliquant ici."></a>&nbsp;GlassFish
+       		</div><div class="progress-skill-rate">7/10</div></div><div class="ui-progressbar-value ui-widget-header ui-corner-left" style="width: 70%;"></div></div><!-- end ngRepeat: skill in domain.list --><div data-ng-repeat="skill in domain.list" data-skill-ref="tomcat" data-ng-class="{ to_hide : skill.hide }" data-progress-bar="0.7" class="ng-scope ng-binding ui-progressbar ui-widget ui-widget-content ui-corner-all" role="progressbar" aria-valuemin="0" aria-valuemax="10" aria-valuenow="7"><div class="progress-label"><div class="progress-skill-label">
+		    	<a href="https://tomcat.apache.org/" target="_blank"><img data-ng-src="https://tomcat.apache.org/images/tomcat.png" alt="" height="14px" data-skill-tooltip="{&quot;id&quot;:&quot;tomcat&quot;,&quot;name&quot;:&quot;Tomcat&quot;,&quot;url&quot;:&quot;https://tomcat.apache.org/&quot;,&quot;icon&quot;:&quot;https://tomcat.apache.org/images/tomcat.png&quot;,&quot;version&quot;:&quot;7&quot;,&quot;rate&quot;:0.7}" src="./index_files/tomcat.png" title="Version connue : Tomcat 7. Plus d&#39;info sur Tomcat en cliquant ici."></a>&nbsp;Tomcat
+       		</div><div class="progress-skill-rate">7/10</div></div><div class="ui-progressbar-value ui-widget-header ui-corner-left" style="width: 70%;"></div></div><!-- end ngRepeat: skill in domain.list --><div data-ng-repeat="skill in domain.list" data-skill-ref="apache" data-ng-class="{ to_hide : skill.hide }" data-progress-bar="0.7" class="ng-scope ng-binding ui-progressbar ui-widget ui-widget-content ui-corner-all" role="progressbar" aria-valuemin="0" aria-valuemax="10" aria-valuenow="7"><div class="progress-label"><div class="progress-skill-label">
+		    	<a href="https://httpd.apache.org/" target="_blank"><img data-ng-src="https://www.apache.org/favicon.ico" alt="" height="14px" data-skill-tooltip="{&quot;id&quot;:&quot;apache&quot;,&quot;name&quot;:&quot;Apache&quot;,&quot;url&quot;:&quot;https://httpd.apache.org/&quot;,&quot;icon&quot;:&quot;https://www.apache.org/favicon.ico&quot;,&quot;version&quot;:&quot;2&quot;,&quot;rate&quot;:0.7}" src="./index_files/favicon(25).ico" title="Version connue : Apache 2. Plus d&#39;info sur Apache en cliquant ici."></a>&nbsp;Apache
+       		</div><div class="progress-skill-rate">7/10</div></div><div class="ui-progressbar-value ui-widget-header ui-corner-left" style="width: 70%;"></div></div><!-- end ngRepeat: skill in domain.list --><div data-ng-repeat="skill in domain.list" data-skill-ref="nodejs" data-ng-class="{ to_hide : skill.hide }" data-progress-bar="0.5" class="ng-scope ng-binding ui-progressbar ui-widget ui-widget-content ui-corner-all" role="progressbar" aria-valuemin="0" aria-valuemax="10" aria-valuenow="5"><div class="progress-label"><div class="progress-skill-label">
+		    	<a href="http://nodejs.org/about/" target="_blank"><img data-ng-src="http://nodejs.org/favicon.ico" alt="" height="14px" data-skill-tooltip="{&quot;id&quot;:&quot;nodejs&quot;,&quot;name&quot;:&quot;node.js&quot;,&quot;icon&quot;:&quot;http://nodejs.org/favicon.ico&quot;,&quot;url&quot;:&quot;http://nodejs.org/about/&quot;,&quot;version&quot;:&quot;0.10.x&quot;,&quot;description&quot;:&quot;JavaScript technologie on server side&quot;,&quot;rate&quot;:0.5}" src="./index_files/favicon(26).ico" title="Version connue : node.js 0.10.x. Plus d&#39;info sur node.js en cliquant ici."></a>&nbsp;node.js
+       		</div><div class="progress-skill-rate">5/10</div></div><div class="ui-progressbar-value ui-widget-header ui-corner-left" style="width: 50%;"></div></div><!-- end ngRepeat: skill in domain.list --><div data-ng-repeat="skill in domain.list" data-skill-ref="zimbra" data-ng-class="{ to_hide : skill.hide }" data-progress-bar="0.5" class="ng-scope ng-binding to_hide ui-progressbar ui-widget ui-widget-content ui-corner-all" role="progressbar" aria-valuemin="0" aria-valuemax="10" aria-valuenow="5"><div class="progress-label"><div class="progress-skill-label">
+		    	<a href="http://www.zimbra.com/" target="_blank"><img data-ng-src="http://www.zimbra.com/favicon.ico" alt="" height="14px" data-skill-tooltip="{&quot;id&quot;:&quot;zimbra&quot;,&quot;name&quot;:&quot;Zimbra&quot;,&quot;url&quot;:&quot;http://www.zimbra.com/&quot;,&quot;icon&quot;:&quot;http://www.zimbra.com/favicon.ico&quot;,&quot;rate&quot;:0.5,&quot;hide&quot;:true}" src="./index_files/favicon(27).ico" title="Plus d&#39;info sur Zimbra en cliquant ici."></a>&nbsp;Zimbra
+       		</div><div class="progress-skill-rate">5/10</div></div><div class="ui-progressbar-value ui-widget-header ui-corner-left" style="width: 50%;"></div></div><!-- end ngRepeat: skill in domain.list --><div data-ng-repeat="skill in domain.list" data-skill-ref="ldap" data-ng-class="{ to_hide : skill.hide }" data-progress-bar="0.7" class="ng-scope ng-binding to_hide ui-progressbar ui-widget ui-widget-content ui-corner-all" role="progressbar" aria-valuemin="0" aria-valuemax="10" aria-valuenow="7"><div class="progress-label"><div class="progress-skill-label">
+		    	<a href="http://www.openldap.org/" target="_blank"><img data-ng-src="https://upload.wikimedia.org/wikipedia/commons/4/40/Directory.svg" alt="" height="14px" data-skill-tooltip="{&quot;id&quot;:&quot;ldap&quot;,&quot;name&quot;:&quot;LDAP&quot;,&quot;url&quot;:&quot;http://www.openldap.org/&quot;,&quot;icon&quot;:&quot;https://upload.wikimedia.org/wikipedia/commons/4/40/Directory.svg&quot;,&quot;version&quot;:&quot;3&quot;,&quot;rate&quot;:0.7,&quot;hide&quot;:true}" src="./index_files/Directory.svg" title="Version connue : LDAP 3. Plus d&#39;info sur LDAP en cliquant ici."></a>&nbsp;LDAP
+       		</div><div class="progress-skill-rate">7/10</div></div><div class="ui-progressbar-value ui-widget-header ui-corner-left" style="width: 70%;"></div></div><!-- end ngRepeat: skill in domain.list --><div data-ng-repeat="skill in domain.list" data-skill-ref="subsonic" data-ng-class="{ to_hide : skill.hide }" data-progress-bar="0.8" class="ng-scope ng-binding to_hide ui-progressbar ui-widget ui-widget-content ui-corner-all" role="progressbar" aria-valuemin="0" aria-valuemax="10" aria-valuenow="8"><div class="progress-label"><div class="progress-skill-label">
+		    	<a href="http://www.subsonic.org/" target="_blank"><img data-ng-src="http://www.subsonic.org/pages/favicon.ico" alt="" height="14px" data-skill-tooltip="{&quot;id&quot;:&quot;subsonic&quot;,&quot;name&quot;:&quot;Subsonic&quot;,&quot;url&quot;:&quot;http://www.subsonic.org/&quot;,&quot;icon&quot;:&quot;http://www.subsonic.org/pages/favicon.ico&quot;,&quot;version&quot;:&quot;4.8&quot;,&quot;rate&quot;:0.8,&quot;hide&quot;:true}" src="./index_files/favicon(28).ico" title="Version connue : Subsonic 4.8. Plus d&#39;info sur Subsonic en cliquant ici."></a>&nbsp;Subsonic
+       		</div><div class="progress-skill-rate">8/10</div></div><div class="ui-progressbar-value ui-widget-header ui-corner-left" style="width: 80%;"></div></div><!-- end ngRepeat: skill in domain.list --><div data-ng-repeat="skill in domain.list" data-skill-ref="ultravnc" data-ng-class="{ to_hide : skill.hide }" data-progress-bar="0.7" class="ng-scope ng-binding to_hide ui-progressbar ui-widget ui-widget-content ui-corner-all" role="progressbar" aria-valuemin="0" aria-valuemax="10" aria-valuenow="7"><div class="progress-label"><div class="progress-skill-label">
+		    	<a href="http://www.uvnc.com/" target="_blank"><img data-ng-src="http://www.uvnc.com/favicon.ico" alt="" height="14px" data-skill-tooltip="{&quot;id&quot;:&quot;ultravnc&quot;,&quot;name&quot;:&quot;UltraVNC&quot;,&quot;url&quot;:&quot;http://www.uvnc.com/&quot;,&quot;icon&quot;:&quot;http://www.uvnc.com/favicon.ico&quot;,&quot;rate&quot;:0.7,&quot;hide&quot;:true}" src="./index_files/favicon(29).ico" title="Plus d&#39;info sur UltraVNC en cliquant ici."></a>&nbsp;UltraVNC
+       		</div><div class="progress-skill-rate">7/10</div></div><div class="ui-progressbar-value ui-widget-header ui-corner-left" style="width: 70%;"></div></div><!-- end ngRepeat: skill in domain.list --><div data-ng-repeat="skill in domain.list" data-skill-ref="owncloud" data-ng-class="{ to_hide : skill.hide }" data-progress-bar="0.5" class="ng-scope ng-binding to_hide ui-progressbar ui-widget ui-widget-content ui-corner-all" role="progressbar" aria-valuemin="0" aria-valuemax="10" aria-valuenow="5"><div class="progress-label"><div class="progress-skill-label">
+		    	<a href="http://owncloud.org/" target="_blank"><img data-ng-src="http://owncloud.org/favicon.png" alt="" height="14px" data-skill-tooltip="{&quot;id&quot;:&quot;owncloud&quot;,&quot;icon&quot;:&quot;http://owncloud.org/favicon.png&quot;,&quot;name&quot;:&quot;Owncloud&quot;,&quot;url&quot;:&quot;http://owncloud.org/&quot;,&quot;version&quot;:&quot;5&quot;,&quot;rate&quot;:0.5,&quot;hide&quot;:true}" src="./index_files/favicon(30).png" title="Version connue : Owncloud 5. Plus d&#39;info sur Owncloud en cliquant ici."></a>&nbsp;Owncloud
+       		</div><div class="progress-skill-rate">5/10</div></div><div class="ui-progressbar-value ui-widget-header ui-corner-left" style="width: 50%;"></div></div><!-- end ngRepeat: skill in domain.list -->
+	    </div>
+	</div><!-- end ngRepeat: domain in skills -->
+	<div id="hobbies" class="ui-corner-all">
+		<h2 class="ui-widget-header ui-corner-top">Loisirs</h2>
+		<!-- ngRepeat: hobby in hobbies --><div data-ng-repeat="hobby in hobbies" class="reference ng-scope">
+			<!-- ngIf: hobby.url -->
+			<!-- ngIf: !hobby.url --><span data-ng-if="!hobby.url" class="ng-scope"> 
+		    	<img data-ng-src="img/basket_icon.png" alt="" height="16px" data-tooltip="" src="./index_files/basket_icon.png" style="border-bottom-width: 1px; border-bottom-style: dotted; border-bottom-color: rgb(153, 153, 153);">&nbsp;<span class="main_label ng-binding">Sport</span>
+    		</span><!-- end ngIf: !hobby.url -->
+		    <div class="description ng-binding">
+		        Ancien Poloïste (en National 3), amateur de Basket et Natation
+		    </div>
+		</div><!-- end ngRepeat: hobby in hobbies --><div data-ng-repeat="hobby in hobbies" class="reference ng-scope">
+			<!-- ngIf: hobby.url -->
+			<!-- ngIf: !hobby.url --><span data-ng-if="!hobby.url" class="ng-scope"> 
+		    	<img data-ng-src="img/book_logo.png" alt="" height="16px" data-tooltip="" src="./index_files/book_logo.png" style="border-bottom-width: 1px; border-bottom-style: dotted; border-bottom-color: rgb(153, 153, 153);">&nbsp;<span class="main_label ng-binding">Dream Land</span>
+    		</span><!-- end ngIf: !hobby.url -->
+		    <div class="description ng-binding">
+		        Ecriture d'un livre se déroulant dans un univers façonné a partir des rêves humains
+		    </div>
+		</div><!-- end ngRepeat: hobby in hobbies --><div data-ng-repeat="hobby in hobbies" class="reference ng-scope">
+			<!-- ngIf: hobby.url --><span data-ng-if="hobby.url" class="ng-scope"> 
+			    <a href="http://mindstorms.lego.com/" title="Plus d&#39;info sur Lego Mindstorms NXT en cliquant ici" target="_blank">
+			    	<img data-ng-src="http://www.lego.com/favicon.ico" alt="" height="16px" data-tooltip="" src="./index_files/favicon(31).ico" style="border-bottom-width: 1px; border-bottom-style: dotted; border-bottom-color: rgb(153, 153, 153);">&nbsp;<span class="main_label ng-binding">Lego Mindstorms NXT</span>
+	    		</a>
+    		</span><!-- end ngIf: hobby.url -->
+			<!-- ngIf: !hobby.url -->
+		    <div class="description ng-binding">
+		        Robotisation et programmation du jeu de construction
+		    </div>
+		</div><!-- end ngRepeat: hobby in hobbies -->
+	</div>
+</div></div>
+		</div>
+		<div id="copyright">
+			Designed by <a href="http://peekayy.no-ip.biz/public/CV/CV.html">Peekayy</a> and <a href="http://about.adi3000.com/#">Adi3000</a>.
+			Powered by <a href="http://angularjs.org/">AngularJS</a> and <a href="http://jquery.com/">jQuery</a>
+			Source available on <a href="https://github.com/Adi3000/about-adi3000">GitHub</a>
+		</div>
+	
+
+<div id="powerTip"></div></body></html>
