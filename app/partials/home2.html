@@ -1,0 +1,110 @@
+<div id="career" data-ng-controller="ValuesController">
+	<div id="studies" class="ui-corner-all">
+		<h2 class="ui-widget-header ui-corner-top">Formation</h2>
+		<div data-ng-repeat="study in studies" class="ui-corner-all reference">
+		    <div class="period">{{ study.start }} - {{ study.end }}</div> 
+		    <div class="infos">
+			    <span class="main_label" >{{ study.grade }}</span> - 
+			    <span class="place">{{ study.place }}</span>
+			    <div class="note">
+			        <span class="option" data-ng-show="study.option">Spécialité {{ study.option }}</span>
+			        <span data-ng-show="study.option && study.suppl" > - </span>
+			        <em class="suppl" data-ng-show="study.suppl">{{ study.suppl }}</em>
+				    <div class="description">
+				        {{ study.description }}
+				    </div>
+			    </div>
+		    </div>
+		</div>
+	</div>
+	<div id="experiences" class="ui-corner-all">
+		<h2 class="ui-widget-header ui-corner-top">Expériences professionnelles</h2>
+		<div data-ng-repeat="exp in experiences" data-skills-list="{{ exp.skills }}" class="ui-corner-all reference">
+		    <span class="period" data-ng-switch="exp">
+		        <span data-ng-if="exp.end">
+		        	<span data-ng-if="exp.end != exp.start">
+		        		De {{ exp.start | date:'MMMM yyyy' }}  <br />à {{ exp.end | date:'MMMM yyyy' }}
+		        	</span>
+		        	<span data-ng-if="exp.end == exp.start">
+		        		En {{ exp.start | date:'MMMM yyyy' }}
+		        	</span>
+	        	</span>
+		        <span data-ng-if="!exp.end">Depuis le {{ exp.start | date:'dd MMMM yyyy' }}</span>
+		    </span>
+		    <div class="infos">
+			    <div class="main_label" >{{ exp.as }}</div>
+			    <span data-ng-if="exp.company">[</span>
+			    <div class="company">
+			    	<span data-tooltip>{{ exp.company.name }}</span>
+			    	<div class="tooltip">
+			    		<a href="{{exp.company.url}}" title="Accéder à {{exp.company.name}}" target="_blank">
+			    			<img alt="{{exp.company.url}}" data-ng-src="{{exp.company.logo}}" />
+			    		</a>
+			    	</div>
+			    </div><!-- avoid space with next line
+			    --><div class="client" data-ng-show="exp.client">
+				    	&nbsp;pour <span data-tooltip>{{ exp.client.name }}</span>
+				    	<div class="tooltip">
+				    		<a href="{{exp.client.url}}" title="Accéder à {{exp.client.name}}">
+				    			<img alt="{{exp.client.url}}" data-ng-src="{{exp.client.logo}}" />
+				    		</a>
+				    	</div>
+			    	</div>
+		    	<span data-ng-if="exp.company">]</span>
+			    <div class="place">{{ exp.place }}</div>
+			    <div class="description note">
+			        {{ exp.description }}
+			    </div>
+		    </div>
+		</div>
+	</div>
+	<div id="projects" class="ui-corner-all" data-ng-if="projects">
+		<h2 class="ui-widget-header ui-corner-top">Projets personnels</h2>
+		<div data-ng-repeat="project in projects" data-skills-list="{{ project.skills }}" class="ui-corner-all reference"> 
+		    <div class="main_label" >{{ project.name }}</div>
+		    <div class="description infos">
+		        {{ project.description }}
+		    </div>
+		</div>
+		<div id="reference" class="reference ui-corner-all">
+    		<h3 class="ui-widget-header ui-corner-all">Références</h3>
+			<ul>
+				<li>Code Center Personnel : <a href="http://code.adi3000.com">http://code.adi3000.com</a></li>
+				<li>GitHub : <a href="https://github.com/Adi3000/">https://github.com/Adi3000/</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+<div id="skills" data-ng-controller="ValuesController">
+	<div data-ng-repeat="domain in skills">
+    	<div class="domain ui-state-default ui-corner-all">
+    		<span>{{ domain.name }}</span>
+    		<span data-toggle-hidden="domain_{{domain.id}}" class="ui-icon ui-icon-plusthick" ></span>
+   		</div>
+	    <div id="domain_{{domain.id}}">
+	        <div 
+	        	data-ng-repeat="skill in domain.list" 
+	        		data-skill-ref="{{skill.id}}" 
+	        		data-ng-class="{ to_hide : skill.hide }"
+	        		data-progress-bar="{{ skill.rate }}">
+		    	<img data-ng-src="{{skill.icon}}" alt="" height="14px" data-skill-tooltip="{{skill}}" />&nbsp;{{ skill.name }}
+       		</div>
+	    </div>
+	</div>
+	<div id="hobbies" class="ui-corner-all">
+		<h2 class="ui-widget-header ui-corner-top">Loisirs</h2>
+		<div data-ng-repeat="hobby in hobbies" class="reference">
+			<span data-ng-if="hobby.url"> 
+			    <a href="{{hobby.url}}" title="Plus d'info sur {{hobby.name}} en cliquant ici" target="_blank">
+			    	<img data-ng-src="{{hobby.icon}}" alt="" height="16px" data-tooltip />&nbsp;<span class="main_label" >{{ hobby.name }}</span>
+	    		</a>
+    		</span>
+			<span data-ng-if="!hobby.url"> 
+		    	<img data-ng-src="{{hobby.icon}}" alt="" height="16px" data-tooltip />&nbsp;<span class="main_label" >{{ hobby.name }}</span>
+    		</span>
+		    <div class="description">
+		        {{ hobby.description }}
+		    </div>
+		</div>
+	</div>
+</div>
