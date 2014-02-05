@@ -1,0 +1,30 @@
+[
+	{
+		"start":2009,
+		"end":2011,
+		"grade":"Titre Professionnel de Carreleur",
+		"place":"Afpa de Saint-Nazaire (44)",
+		"description":"Formation orientée autant sur <???>, que sur <???>."
+	},
+	{
+		"start":2007,
+		"end":2008,
+		"grade":"1ère année Bp Construction Maçonnerie et Béton Armé",
+		"place":"CEREF Bourgthroulde (27)",
+		"description":"Formation orientée autant sur <???>, que sur <???>."
+	},
+	{
+		"start":2006,
+		"end":2007,
+		"grade":"CAP Maçon",
+		"place":"CFA Georges Lanfry à Rouen (76)",
+		"description":"Formation pluridisciplinaire (Gestion, Techniques d’expression, Anglais...) à dominante pratique (projets, nombreux travaux pratiques...)"
+	},
+	{
+		"start":2005,
+		"end":2006,
+		"grade":"Baccalauréat STT Comptabilité et gestion",
+		"place":"Lycée Marc Bloch à Val de Reuil (27)",
+		"description":"Baccalauréat STT Comptabilité et gestion – Lycée Marc Bloch à Val de Reuil 27"
+	}
+]

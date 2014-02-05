@@ -1,0 +1,95 @@
+[
+	{
+		"id":"langs",
+		"name":"Langues étrangères",
+		"list":[
+			{
+				"id":"english",
+				"name":"Anglais",
+				"icon":"http://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_the_United_States.svg/200px-Flag_of_the_United_States.svg.png",
+				"rate":0.80
+			},
+			{
+				"id":"spanish",
+				"name":"Espagnol",
+				"icon":"http://upload.wikimedia.org/wikipedia/en/thumb/9/9a/Flag_of_Spain.svg/50px-Flag_of_Spain.svg.png",
+				"rate":0.50
+			}
+			
+		]
+		
+	},
+	{
+		"id":"travaux",
+		"name":"Travaux",
+		"list":[
+			{
+				"id":"carrelage",
+				"name":"Carreleage"
+			},
+			{
+				"id":"faience",
+				"name":"Faïence"
+			},
+			{
+				"id":"papier",
+				"name":"Papier paint"
+			},
+			{
+				"id":"peinture",
+				"name":"Peinture"
+			},
+			{
+				"id":"macon1",
+				"name":"Maçonnerie Traditionnelle"
+			},
+			{
+				"id":"macon2",
+				"name":"Maçonnerie Paysagère"
+			}
+			
+		]
+		
+	},
+	{
+		"id":"environnement",
+		"name":"Environnement & salles",
+		"list":[
+			{
+				"id":"sdb",
+				"name":"Salles de bain"
+			},
+			{
+				"id":"humide",
+				"name":"Milieux humides"
+			},
+			{
+				"id":"piscine",
+				"name":"Piscine"
+			}
+			
+		]
+		
+	},
+	{
+		"id":"tools",
+		"name":"Outils",
+		"list":[
+			{
+				"id":"carrelette",
+				"name":"Carrelette"
+			},
+			{
+				"id":"lapidaire",
+				"name":"Lapidaire"
+			},
+			{
+				"id":"scie1",
+				"name":"Scie sauteuse"
+			}
+			
+		]
+		
+	}
+	
+]

@@ -1,0 +1,19 @@
+{
+	"name": "Rémy",
+	"surname" : "Maurice",
+	"address" : "1 avenue Florian",
+	"zipcode" : "44500",
+	"city" : "La Baule-Escoublac",
+	"phones":[
+         {
+			"label" : "Mobile",
+			"jqueryIcon" : "ui-icon-person",
+			"number" : "(+33)677578933"
+         }
+	],
+	"mails" : ["mauriceremy44@gmail.com"],
+	"birthday" : "1987-01-16",
+	"other" : ["Titulaire du permis B", "Marié", "2 enfants"],
+	"career" : "Carreleur Faïencier",
+	"quote" : "<Bla bla bla>"
+}

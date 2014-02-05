@@ -154,12 +154,15 @@ angular.module('aboutDirectives', [])
 						.append($("<div />")
 								.addClass("progress-label")
 								.append($("<div />").addClass("progress-skill-label").html(label))
-								.append($("<div />").addClass("progress-skill-rate").text(rate + "/" + max)))
+								.append($("<div />").addClass("progress-skill-rate").text(rate ? rate + "/" + max : "")))
 						.progressbar({ value :  rate , max :  max})
 						.hover(
 							function(){$element.addClass("skill_hover");},
 							function(){$element.removeClass("skill_hover");}
 						);
+					if(!rate){				
+						$element.addClass("no-rate");
+					}
 					
 				});
 				

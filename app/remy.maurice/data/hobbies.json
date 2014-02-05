@@ -1,0 +1,21 @@
+[
+ {
+	"id" : "sport",
+	"name" : "Sport",
+	"icon" : "img/basket_icon.png",
+	"description" : "Licencié football et basket-ball loisirs"
+ },
+ {
+	"id" : "dreamland",
+	"name" : "Dream Land",
+	"icon" : "img/book_logo.png",
+	"description" : "Ecriture d'un livre se déroulant dans un univers façonné a partir des rêves humains"
+ },
+ {
+	"id" : "lego",
+	"name" : "Lego Mindstorms NXT",
+	"icon" : "http://www.lego.com/favicon.ico",
+	"url" : "http://mindstorms.lego.com",
+	"description" : "Robotisation et programmation du jeu de construction"
+ }
+]
