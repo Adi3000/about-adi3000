@@ -1,0 +1,9 @@
+#skills .no-rate .progress-label {
+	color: #D6851A;
+	text-shadow: 0px 0px 0px #000;
+}
+body{
+  background-image:url('../img/background.jpg');
+  background-repeat:repeat;
+  background-attachment:fixed;
+}

@@ -1,0 +1,160 @@
+[
+	{
+		"start":"2011-01-01",
+		"end":"2013-12-12",
+		"as":"Menuisière/Metallier/Serrurière",
+		"company":{
+			"name":"Ser Alu Plast"
+		},
+		"place":"Nantes",
+		"description":"Menuisierie, Metallurgie, Serrurerie suite a une formation interne et gestion / accueil magasin",
+		"skills":[
+			"metallurgie",
+			"menuiserie",
+			"serrurerie",
+			"conseil"
+		]
+	},
+	{
+		"start":"2009-01-01",
+		"end":"2010-12-31",
+		"as":"Auto-entrepreneuse",
+		"place":"Nantes",
+		"description":"Décoratrice artisanale, démonstration et loisirs enfants",
+		"skills":[
+			"conseil",
+			"pedagogie"
+		]
+	},
+	{
+		"start":"2009-01-01",
+		"end":"2010-12-31",
+		"as":"Intérimaire",
+		"company":{
+			"name":"Leader Intérim"
+		},
+		"place":"Nantes",
+		"description":"Mise sous pli  pour élections régionales",
+		"skills":[
+			"carrelage",
+			"faience"
+		]
+	},
+	{
+		"start":"2008-01-01",
+		"end":"2010-12-31",
+		"as":"Soutien Scolaire",
+		"company":{
+			"name":"CCAS"
+		},
+		"place":"Nantes",
+		"description":"Aide aux devoirs d'élèves collège CCAS ",
+		"skills":[
+			"pedagogie",
+			"conseil"
+		]
+	},
+	{
+		"start":"2007-01-01",
+		"end":"2008-12-31",
+		"as":"Plombier Chauffagiste",
+		"company":{
+			"name":"Manpower"
+		},
+		"client":{
+			"name":"Brémare"
+		},
+		"place":"Villeneuve d'Ascq",
+		"description":"<?description?>",
+		"skills":[
+			"plomberie",
+			"sanitaire"
+		]
+	},
+	{
+		"start":"2007-01-01",
+		"end":"2008-12-31",
+		"as":"Carreleuse",
+		"company":{
+			"name":"Supplay BTP"
+		},
+		"client":{
+			"name":"Plascose"
+		},
+		"place":"Villeneuve d'Ascq",
+		"description":"Pose collée intérieur et extérieur",
+		"skills":[
+			"carrelage",
+			"faience"
+		]
+	},
+	{
+		"start":"2005-01-01",
+		"end":"2007-12-31",
+		"as":"Encadrante Scolaire",
+		"company":{
+			"name":"Ecole Léon Blum"
+		},
+		"place":"Angoulins sur Mer",
+		"description":"Encadrement d’élèves Ce2/Cm1 classe de mer",
+		"skills":[
+			"conseil",
+			"pedagogie"
+		]
+	},
+	{
+		"start":"2005-01-01",
+		"end":"2007-12-31",
+		"as":"Apprentie Carreleuse",
+		"company":{
+			"name":"Ferreira"
+		},
+		"place":"Angoulins sur Mer",
+		"description":"Maçonnerie-Carrelage : Travail en autonomie sur chantiers de rénovations",
+		"skills":[
+			"carrelage",
+			"faience"
+		]
+	},
+	{
+		"start":"2005-01-01",
+		"end":"2007-12-31",
+		"as":"Assistante",
+		"company":{
+			"name":"CCAS"
+		},
+		"place":"Angoulins sur Mer",
+		"description":"Aides aux personnes agées",
+		"skills":[
+			"pedagogie"
+		]
+	},
+	{
+		"start":"2005-01-01",
+		"end":"2007-12-31",
+		"as":"Apprentissage en installation sanitaire",
+		"company":{
+			"name":"Duval"
+		},
+		"place":"Angoulins sur Mer",
+		"description":"<?description?>",
+		"skills":[
+			"plomberie",
+			"sanitaire"
+		]
+	},
+	{
+		"start":"2005-01-01",
+		"end":"2007-12-31",
+		"as":"Apprentissage en plomberie",
+		"company":{
+			"name":"Bailhache"
+		},
+		"place":"Angoulins sur Mer",
+		"description":"<?description?>",
+		"skills":[
+			"plomberie",
+			"sanitaire"
+		]
+	}
+]

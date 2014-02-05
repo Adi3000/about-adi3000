@@ -1,0 +1,36 @@
+[
+	{
+		"start":2009,
+		"end":2011,
+		"grade":"Titre Professionnel de Carreleur",
+		"place":"AFPA de Saint-Nazaire (44)",
+		"description":"Formation orientée autant sur <???>, que sur <???>."
+	},
+	{
+		"start":2007,
+		"end":2006,
+		"grade":"CAP Carreleur-Mosaiste",
+		"place":"CFA Georges Lanfry à Rouen (76)",
+		"description":"Formation orientée autant sur <???>, que sur <???>."
+	},
+	{
+		"start":2006,
+		"end":2005,
+		"grade":"CAP Installateur Sanitaire",
+		"place":"CFA Georges Lanfry à Rouen (76)",
+		"description":"Formation pluridisciplinaire (Gestion, Techniques d’expression, Anglais...) à dominante pratique (projets, nombreux travaux pratiques...)"
+	},
+	{
+		"start":2006,
+		"end":2005,
+		"grade":"Attestation de formation aux premiers secours",
+		"place":"La Croix-Rouge à Louviers (27)",
+		"description":"Formation orientée autant sur <???>, que sur <???>."
+	},
+	{
+		"start":2004,
+		"end":2005,
+		"grade":"Baccalauréat STI Electrotechnique",
+		"place":"Lycée des Fontenelles à Louviers (27)"
+	}
+]

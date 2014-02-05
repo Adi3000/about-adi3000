@@ -24,7 +24,7 @@
 	                <span id="main_mail" class="confidential">
 	                   <a href="mailto:{{mail}}"><span class="ui-icon ui-icon-mail-closed"></span>{{ about.mails[0] }}</a>
                    </span>
-	                <div id="about_toggle_other_mails"  class="ui-state-default ui-corner-all" data-toggle-div="other_mails">
+	                <div id="about_toggle_other_mails"  class="ui-state-default ui-corner-all" data-toggle-div="other_mails" data-ng-if="about.mails.length > 1">
 	                	<span class="ui-icon ui-icon-plus"></span>
                 	</div>
                 	<div id="other_mails">
