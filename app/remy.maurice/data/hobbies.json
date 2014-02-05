@@ -6,10 +6,10 @@
 	"description" : "Licencié football et basket-ball loisirs"
  },
  {
-	"id" : "dreamland",
-	"name" : "Dream Land",
+	"id" : "manga",
+	"name" : "Manga",
 	"icon" : "img/book_logo.png",
-	"description" : "Ecriture d'un livre se déroulant dans un univers façonné a partir des rêves humains"
+	"description" : "Lecture diverses de Shonen en tout genres"
  },
  {
 	"id" : "lego",
