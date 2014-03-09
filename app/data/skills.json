@@ -97,7 +97,7 @@
 			"name" : "Struts",
 			"url" : "https://struts.apache.org/",
 			"version" : "1.3",
-			"icon" : "https://struts.apache.org/images/struts.gif",
+			"icon" : "https://struts.apache.org/img/struts.gif",
 			"rate" : 0.7
 		},
 		{
@@ -159,7 +159,7 @@
 			"id" : "python",
 			"name" : "python",
 			"url" : "http://www.python.org/",
-			"icon" : "http://www.python.org/favicon.ico",
+			"icon" : "http://www.python.org/static/favicon.ico",
 			"version" : "2.7",
 			"rate" : 0.50
 		},
