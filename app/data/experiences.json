@@ -1,6 +1,21 @@
 [
  {
 	"start" : "2013-06-24",
+	"as" : "Responsable d'application",
+	"company" : { "name" : "CGI", "url" : "http://www.cgi.fr/", "logo" : "http://www.cgi.fr/sites/all/themes/cgi/logo.png"  },
+	"place" : "Lille",
+	"description" : "Gestion des lots d'évolution dans un pole d'Edition de Logiciel de CGI pour l'application progiciel OpenFramework permettant la surveillance de flux (ETL, WebService, ESB...)",
+	"skills" : [
+		"java","html","hibernate","struts",
+		"spring","sonar","maven","jenkins",
+		"linux","oracle","sql","javascript",
+		"jquery", "eclipse", "vim","svn", "bash", 
+		"php"
+	]
+ },
+ {
+	"start" : "2013-06-24",
+	"end" : "2014-03-01",
 	"as" : "Ingénieur JAVA/J2EE",
 	"company" : { "name" : "Néo-soft", "url" : "http://www.neo-soft.fr/", "logo" : "http://www.neo-soft.fr/images/logo_mobile.png"  },
 	"client" : { "name" : "La Poste", "url" : "http://www.laposte.fr/", "logo" : "http://www.laposte.fr/extension/lapostev2/design/lapostev2/images/refonte2011/home/logo_antehome.png" },
@@ -63,7 +78,7 @@
 	"description" : "Etude complète et réalisation d’un projet en équipe réduite de son cahier des charges à sa première mise en production.",
 	"skills" : [
           "php", "mysql","javascript", "jquery","spip","ldap","svn", "html"
-    ]
+        ]
  },
  {
 	"start" : "2009-03-30",
