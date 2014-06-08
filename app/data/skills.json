@@ -175,14 +175,14 @@
 			"name" : "C#",
 			"url" : "http://www.mono-project.com/Main_Page",
 			"icon": "http://www.mono-project.com/favicon.ico",
-			"rate" : 0.5
+			"rate" : 0.4
 		},
 		{
 			"id" : "dotnet",
 			"name" : ".Net",
 			"url" : "http://www.microsoft.com/net",
 			"icon" : "http://i.microsoft.com/net/images/chrome/net-logo.jpg",
-			"rate" : 0.5,
+			"rate" : 0.4,
 			"hide" : true
 		},
 		{
@@ -199,8 +199,7 @@
 			"url" : "http://php.net/",
 			"icon" : "http://static.php.net/www.php.net/favicon.ico",
 			"version" : "5",
-			"rate" : 0.5,
-			"hide" : true
+			"rate" : 0.6
 		},
 		{
 			"id" : "bash",
