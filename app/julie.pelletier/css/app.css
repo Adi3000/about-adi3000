@@ -1,0 +1,77 @@
+#skills .no-rate .progress-label {
+	color: #D6851A;
+	text-shadow: 0px 0px 0px #000;
+}
+body{
+  background-image:url('../img/background.jpg');
+  background-repeat:repeat;
+  background-attachment:fixed;  
+}
+
+#body{
+	background-color: rgba(255, 255, 255, 1.00);
+}
+
+.view-container{
+	background-color: rgba(255, 255, 255, 0.70);
+}
+
+h3{
+	margin-top:  0px ;
+	margin-bottom : 0px;
+}
+.ui-widget-header{
+	font-size: 1.2em;
+}
+
+ #career h2, #hobbies h2, #reference h3{
+ 	text-shadow: none;
+ }
+
+
+ .main_label{
+ 	text-shadow: none;
+ 	text-decoration: none;
+ 	font-weight: bold;
+ }
+
+ .top_comp, .bottom_comp{
+ 	font-size: 0.8em;
+ }
+.competences{
+	display: block;
+	margin: 0 auto 0 auto;
+	text-align: center;
+}
+.skill-flag{
+	display: inline-block;
+	width: 30%;
+	padding: 0px;
+	box-shadow: 1px 1px 5px #000;
+	margin: 4px;
+}
+
+.skills{
+	font-size: 0.8em;
+}
+
+#body > div{
+	margin : 5px;
+	text-align: center;
+
+}
+#body > div > *{
+	margin : 5px;
+	text-align: left;
+}
+#title{
+	padding: 5px 210px 5px 210px
+}
+.competences h3{
+	color: #000;
+}
+
+#about_main_info, #about_aux_info{
+	color: #381f00;
+	text-shadow: none;
+}

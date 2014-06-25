@@ -1,0 +1,19 @@
+{
+	"name": "Julie",
+	"surname" : "Pelletier",
+	"address" : "121 rue Paul Doumer",
+	"zipcode" : "59120",
+	"city" : "Loos",
+	"phones":[
+         {
+			"label" : "Mobile",
+			"jqueryIcon" : "ui-icon-person",
+			"number" : "(+33)679307338"
+         }
+	],
+	"mails" : ["julie.pelletier90@free.fr"],
+	"birthday" : "1990-06-06",
+	"other" : [],
+	"career" : "Ingénieur en Bio-Informatique",
+	"quote" : ""
+}

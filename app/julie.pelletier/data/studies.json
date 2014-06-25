@@ -1,0 +1,36 @@
+[
+	{
+		"start":2012,
+		"end":2014,
+		"grade":"Master en BioInformatique",
+		"place":"Nantes (44)",
+		"description":"Formation en informatique, en bioinformatique génétique et structurale et en biostatistiques. Élargissement des connaissances en biologie."
+	},
+	{
+		"start":2011,
+		"end":2012,
+		"grade":"Master 1 en BioInformatique et Modélisation",
+		"place":" Bruxelles (Belgique)",
+		"description":"Formation en bioinformatique génomique, bioinformatique structurale et modélisation des processus dynamiques en biologie."
+	},
+	{
+		"start":2010,
+		"end":2011,
+		"grade":"Licence en Biologie Cellulaire et Physiologie",
+		"place":"Villeneuve d'Ascq (59)",
+		"description":"Formation de base en biologie moléculaire, biotechnologies et génétique."
+	},
+	{
+		"start":2008,
+		"end":2010,
+		"grade":"DUT Génie Biologique Option ABB",
+		"place":"Villeneuve d'Ascq (59)",
+		"description":"Formation pluridisciplinaire : bactériologie, hématologie, communication, anglais scientifique, ..."
+	},
+	{
+		"start":2006,
+		"end":2008,
+		"grade":"Baccalauréat Scientifique Spécialité SVT, mention AB",
+		"place":"Louviers (27)"
+	}
+]

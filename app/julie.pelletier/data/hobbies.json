@@ -1,0 +1,14 @@
+[
+ {
+	"id" : "sport",
+	"name" : "Sport",
+	"icon" : "img/basket_icon.png",
+	"description" : "Step et Fitness"
+ },
+ {
+	"id" : "lecture",
+	"name" : "Lecture",
+	"icon" : "img/book_logo.png",
+	"description" : "Lecture diverses de livre <???> en tout genres"
+ }
+]

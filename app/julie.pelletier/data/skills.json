@@ -1,0 +1,95 @@
+[
+	{
+		"id":"developpement",
+		"name":"Développement",
+		"list":[
+			{
+				"id":"script",
+				"name":"Python, Perl, R, Bash"
+			},
+			{
+				"id":"c",
+				"name":"C, C++, C#, Java "
+			},
+			{
+				"id":"net",
+				"name":"HTML, PHP, JavaScript"
+			}
+			
+		]
+		
+	},
+	{
+		"id":"ide",
+		"name":"IDE",
+		"list":[
+			{
+				"id":"eclipse",
+				"name":"Eclipse"
+			},
+			{
+				"id":"visualstudio",
+				"name":"Visual Studio"
+			},
+			{
+				"id":"rstudio",
+				"name":"R Studio"
+			}
+			
+		]
+		
+	},
+	{
+		"id":"bdd",
+		"name":"Bases de données",
+		"list":[
+			{
+				"id":"hypertable",
+				"name":"Hypertable"
+			},
+			{
+				"id":"postgresql",
+				"name":"PostgreSQL"
+			},
+			{
+				"id":"oracle",
+				"name":"Oracle"
+			}
+			
+		]
+		
+	},
+	{
+		"id":"systemeexploitation",
+		"name":"Système d'exploitation",
+		"list":[
+			{
+				"id":"linux",
+				"name":"Linux"
+			},
+			{
+				"id":"windows",
+				"name":"Windows"
+			}
+			
+		]
+		
+	},
+	{
+		"id":"langues",
+		"name":"Langues",
+		"list":[
+			{
+				"id":"anglais",
+				"name":"Anglais"
+			},
+			{
+				"id":"espagnol",
+				"name":"Espagnol"
+			}
+			
+		]
+		
+	}
+	
+]

@@ -1,0 +1,79 @@
+[
+{
+		"start":"2014-03-17",
+		"end":"2014-08-31",
+		"as":"Stagiaire en Bio-Informatique",
+		"company":{
+			"name":"ImaBiotech"
+		},
+		"place":"Loos",
+		"description":"Développement en C# et WPF d'un logiciel d'analyse portant sur l'imagerie par spectrométrie de masse.",
+		"skills":[
+			"c#",
+			"wpf",
+			"hypertable"
+		]
+	},
+	{
+		"start":"2013-03-11",
+		"end":"2013-08-09",
+		"as":"Stagiaire en Bio-Informatique",
+		"company":{
+			"name":"INSERM"
+		},
+		"place":"Nantes",
+		"description":"Création d'un logiciel d'analyse de données brutes et d'aide à la décision développé sous R et TkTcl.",
+		"skills":[
+			"r",
+			"tktcl",
+			"git"
+		]
+	},
+	{
+		"start":"2012-07-03",
+		"end":"2012-09-01",
+		"as":"Hôtesse de caisse",
+		"company":{
+			"name":"Leclerc Atlantis"
+		},
+		"place":"Saint Herblain",
+		"description":"Demande un bon sens relationnel, le sens du service, de la résistance physique suffisante pour travailler à une cadence rapide, de la fiabilité et  de la rigueur.",
+		"skills":[]
+	},
+	{
+		"start":"2011-07-04",
+		"end":"2011-08-26",
+		"as":"Technicienne de laboratoire",
+		"company":{
+			"name":"EFS"
+		},
+		"place":"Loos",
+		"description":"Analyses de sang par techniques manuelles : groupage ABO, détection d'Anti-Corps.",
+		"skills":[]
+	},
+	{
+		"start":"2011-04-04",
+		"end":"2011-04-29",
+		"as":"Stagiaire en BioInformatique",
+		"company":{
+			"name":"Institut de Recherche Interdisciplinaire"
+		},
+		"place":"Villeneuve d'Ascq",
+		"description":"Identification des partenaires connus et potentiels d'histone 3 à l'aide du logiciel Cytoscape et de ses plugins.",
+		"skills":[]
+	},
+	{
+		"start":"2007-01-01",
+		"end":"2008-12-31",
+		"as":"Stagiaire",
+		"company":{
+			"name":"Institut Pasteur de Lille"
+		},
+		"place":"Lille",
+		"description":"Etude d'un polymorphisme moléculaire d'une population d'isolats de levure. Utilisation des logiciels BioEdit et PHYLIP.",
+		"skills":[
+			"plomberie",
+			"sanitaire"
+		]
+	}
+]
