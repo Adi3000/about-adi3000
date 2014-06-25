@@ -1,3 +1,6 @@
+body{
+  -webkit-print-color-adjust:exact;
+}
 #copyright, 
 #about_toggle_other_mails, 
 #powerTip,
