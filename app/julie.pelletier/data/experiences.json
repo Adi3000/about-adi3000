@@ -63,17 +63,14 @@
 		"skills":[]
 	},
 	{
-		"start":"2007-01-01",
-		"end":"2008-12-31",
+		"start":"2010-04-06",
+		"end":"2010-06-12",
 		"as":"Stagiaire",
 		"company":{
 			"name":"Institut Pasteur de Lille"
 		},
 		"place":"Lille",
 		"description":"Etude d'un polymorphisme moléculaire d'une population d'isolats de levure. Utilisation des logiciels BioEdit et PHYLIP.",
-		"skills":[
-			"plomberie",
-			"sanitaire"
-		]
+		"skills":[]
 	}
 ]
