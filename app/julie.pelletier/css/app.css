@@ -29,7 +29,9 @@ h3{
  #career h2, #hobbies h2, #reference h3{
  	text-shadow: none;
  }
-
+#career > div, #hobbies {
+	margin-top: 50px;
+}
 
  .main_label{
  	text-shadow: none;
