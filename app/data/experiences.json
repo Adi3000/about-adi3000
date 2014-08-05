@@ -2,7 +2,7 @@
  {
 	"start" : "2014-03-10",
 	"as" : "Responsable d'application",
-	"company" : { "name" : "CGI", "url" : "http://www.cgi.fr/", "logo" : "http://www.cgi.fr/sites/all/themes/cgi/logo.png"  },
+	"company" : { "name" : "CGI - iT Toolbox", "url" : "https://cgi.it-toolbox.fr/", "logo" : "http://cgi.it-toolbox.fr/redmine/attachments/download/514/Logo_iT_Toolbox_v3.1_mini.gif"  },
 	"place" : "Lille",
 	"description" : "Gestion des lots d'évolution dans un pole d'Edition de Logiciel de CGI pour l'application progiciel OpenFramework permettant la surveillance de flux (ETL, WebService, ESB...)",
 	"skills" : [
