@@ -115,7 +115,7 @@ body{
 	z-index: 10;
 }
 #about_main, #about_aux_info{
-	text-shadow: 1px 1px 5px #000;
+	/*text-shadow: 1px 1px 5px #000;*/
 	color: #fff;
 }
 #career, #skills{
