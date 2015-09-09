@@ -2,7 +2,7 @@
  {
 	"start" : "2014-03-10",
 	"as" : "Responsable d'application",
-	"company" : { "name" : "CGI - iT Toolbox", "url" : "https://cgi.it-toolbox.fr/", "logo" : "http://cgi.it-toolbox.fr/redmine/attachments/download/514/Logo_iT_Toolbox_v3.1_mini.gif"  },
+	"company" : { "name" : "CGI - iT Toolbox", "url" : "https://cgi.it-toolbox.fr/", "logo" : "https://cgi.it-toolbox.fr/redmine/attachments/download/3810/Logo_iT_Toolbox_v3.1_mini.gif"  },
 	"place" : "Lille",
 	"description" : "Gestion des lots d'évolution dans un pole d'Edition de Logiciel de CGI pour l'application progiciel OpenFramework permettant la surveillance de flux (ETL, WebService, ESB...) et expertise technique Java sur diverses projets",
 	"skills" : [
@@ -48,7 +48,7 @@
 	"end" : "2012-05-25",
 	"as" : "Ingénieur JAVA/J2EE",
 	"company" : { "name": "Norsys", "url" : "http://www.norsys.fr/" , "logo" : "http://www.norsys.fr/backoffice/sites/default/files/logogroupefrancaise-5.jpg"},
-	"client" : { "name": "Oxylane" , "url" : "http://www.oxylane.com/", "logo" : "http://www.oxylane.com/sites/all/themes/oxylane/images/logo-oxylane.png"},
+	"client" : { "name": "Oxylane" , "url" : "http://corporate.decathlon.com/", "logo" : "http://www.decathlon.fr/redirect/images/logodecathlon.gif"},
 	"place" : "Villeneuve d'Ascq",
 	"description" : "Support niveau 4 et évolution projet au sein de l’équipe Oxylane dans un contexte de production continue. Développement sous un Framework Oxylane basé sur Struts.",
 	"skills" : [
