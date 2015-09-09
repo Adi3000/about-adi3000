@@ -18,7 +18,7 @@ body{
 }
 #copyright{
 	color: #fff;
-	text-shadow: 1px 1px 0 #000;
+	/*text-shadow: 1px 1px 0 #000;*/
 }
 #copyright a{
 	color : #888;
@@ -37,7 +37,7 @@ body{
 #title{
 	background-color: #eceadf;
 	color : #fff;
-	text-shadow: 0px 0px 5px #000;
+	/*text-shadow: 0px 0px 5px #000;*/
 	border: 1px solid #c8d3dc;
 	text-align: center;
 	margin: 15px 100px 0px 100px;
@@ -54,7 +54,7 @@ body{
 #skills .ui-state-default{
 	font-size : 0.9em;
 	font-weight: bold;
-	text-shadow: 0px 0px 5px #000;
+	/*text-shadow: 0px 0px 5px #000;*/
 }
 #skills .domain *,
 #career .ui-widget-header {
@@ -157,7 +157,7 @@ body{
 	border: 1px solid #fff;
 	border-style: solid;
 	background: #fbdb93;
-	text-shadow: 0px 0px 5px #444;
+	/*text-shadow: 0px 0px 5px #444;*/
 	color: #263D88;
 }
 #skills .skill_hover, #skills .skill_hover {
@@ -175,7 +175,7 @@ body{
 	top: 0px;
 	font-weight: bold;
 	color: #fff;
-	text-shadow: 0px 0px 5px #000;
+	/*text-shadow: 0px 0px 5px #000;*/
 	width: 100%;
 }
 #skills ul{
@@ -269,7 +269,7 @@ body{
     font-size: 1em;
 	font-weight: bold;
 	
-    text-shadow: 0px 0px 5px #000;
+    /*text-shadow: 0px 0px 5px #000;*/
 	padding: 2px 20px 2px 10px;
 	margin: 0px 0px 0px 0px;
 }
