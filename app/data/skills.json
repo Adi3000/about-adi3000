@@ -22,6 +22,15 @@
 	"name" : "Frameworks & Librairies", 
 	"list" : [
 		{
+			"id" : "angularjs",
+			"name": "AngularJS",
+			"url" : "http://angularjs.org/",
+			"icon" : "http://angularjs.org/favicon.ico",
+			"version" : "1.2.0",
+			"description" : "JavaScript technologie framework",
+			"rate" : 0.80
+		},
+		{
 			"id" : "jquery",
 			"name" : "jQuery",
 			"version" : "1.10",
@@ -29,21 +38,12 @@
 			"rate" : 0.80
 		},
 		{
-			"id" : "angularjs",
-			"name": "AngularJS",
-			"url" : "http://angularjs.org/",
-			"icon" : "http://angularjs.org/favicon.ico",
-			"version" : "1.2.0",
-			"description" : "JavaScript technologie framework",
-			"rate" : 0.60
-		},
-		{
 			"id" : "spring",
 			"name" : "Spring",
 			"version" : "3.2",
 			"url" : "http://spring.io/",
 			"icon" : "http://spring.io/favicon.ico",
-			"rate" : 0.7
+			"rate" : 0.8
 		},
 		{
 			"id" : "jsf",
@@ -51,7 +51,7 @@
 			"version" : "2.2",
 			"url" : "https://javaserverfaces.java.net/",
 			"icon" : "https://javaserverfaces.java.net/favicon.ico",
-			"rate" : 0.8
+			"rate" : 0.6
 		},
 		{
 			"id" : "gwt",
@@ -77,6 +77,14 @@
 			"icon" : "http://c.fsdn.com/allura/mirror/lucene/icon",
 			"rate" : 0.4,
 			"hide" : true
+		},
+		{
+			"id" : "elasticsearch",
+			"name" : "ElasticSearch",
+			"url" : "https://www.elastic.co/",
+			"icon" : "https://www.elastic.co/favicon-96x96.png",
+			"rate" : 0.7,
+			"hide" : false
 		},
 		{
 			"id" : "jdbctemplate",
