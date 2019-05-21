@@ -19,7 +19,7 @@
 	</div>
 	<div id="experiences" class="ui-corner-all">
 		<h2 class="ui-widget-header ui-corner-top">Expériences professionnelles</h2>
-		<div data-ng-repeat="exp in experiences" data-skills-list="{{ exp.skills }}" class="ui-corner-all reference">
+		<div data-ng-repeat="exp in experiences" data-skills-list="exp.skills" class="ui-corner-all reference">
 		    <span class="period" data-ng-switch="exp">
 		        <span data-ng-if="exp.end">Du {{ exp.start | date:'dd MMMM yyyy' }}  <br />au {{ exp.end | date:'dd MMMM yyyy' }}</span>
 		        <span data-ng-if="!exp.end">Depuis le {{ exp.start | date:'dd MMMM yyyy' }}</span>
@@ -51,7 +51,7 @@
 	</div>
 	<div id="projects" class="ui-corner-all">
 		<h2 class="ui-widget-header ui-corner-top">Projets personnels</h2>
-		<div data-ng-repeat="project in projects" data-skills-list="{{ project.skills }}" class="ui-corner-all reference"> 
+		<div data-ng-repeat="project in projects" data-skills-list="project.skills" class="ui-corner-all reference"> 
 		    <div class="main_label" >{{ project.name }}</div>
 		    <div class="description infos">
 		        {{ project.description }}

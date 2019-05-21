@@ -1,12 +1,13 @@
 [
  {
 	"start" : "2014-03-10",
-	"as" : "Responsable d'application",
-	"company" : { "name" : "CGI - iT Toolbox", "url" : "https://cgi.it-toolbox.fr/", "logo" : "https://cgi.it-toolbox.fr/redmine/attachments/download/3810/Logo_iT_Toolbox_v3.1_mini.gif"  },
+	"as" : "Leader Technique",
+	"company" : { "name" : "CGI", "url" : "https://www.cgi.fr/fr-fr", "logo" : "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/CGI_logo.svg/303px-CGI_logo.svg.png"  },
+	"client" : { "name" : "iT-Toolbox", "url" : "https://www.cgi.fr/fr-fr/it-modernisation360/it-toolbox", "logo" : "https://cgi.it-toolbox.fr/portal/files/logo-toolbar.png" },
 	"place" : "Lille",
-	"description" : "Gestion des lots d'évolution dans un pole d'Edition de Logiciel de CGI pour l'application progiciel OpenFramework permettant la surveillance de flux (ETL, WebService, ESB...) et expertise technique Java sur diverses projets",
+	"description" : "Gestion des lots d'évolution dans le pole d'Edition Logiciel pour iT-Toolbox permettant la surveillance de flux (Microservices, WebService, ESB...). Responsable et animateur de la Communauté Technique CGI, et prestations pour avant-ventes, architecture ou expertise technique Java sur diverses projets",
 	"skills" : [
-		"java","html","hibernate","struts",
+		"java","html","hibernate","struts","angular",
 		"spring","sonar","maven","jenkins",
 		"linux","oracle","sql","javascript",
 		"jquery", "eclipse", "vim","svn", "bash", 
@@ -17,7 +18,7 @@
 	"start" : "2013-06-24",
 	"end" : "2014-03-04",
 	"as" : "Ingénieur JAVA/J2EE",
-	"company" : { "name" : "Néo-soft", "url" : "http://www.neo-soft.fr/", "logo" : "http://www.neo-soft.fr/images/logo_mobile.png"  },
+	"company" : { "name" : "Néo-soft", "url" : "http://www.neo-soft.fr/", "logo" : "https://www.neo-soft.fr/images/logo.png"  },
 	"client" : { "name" : "La Poste", "url" : "http://www.laposte.fr/", "logo" : "http://www.laposte.fr/extension/lapostev2/design/lapostev2/images/refonte2011/home/logo_antehome.png" },
 	"place" : "Nantes",
 	"description" : "Accompagnement des évolutions technologiques sur le projet Référentiel RH (migration vers Hibernate 3, installation Sonar/Maven, JUnit) et développement d’évolution fonctionnelles ",
@@ -32,7 +33,7 @@
 	"start" : "2012-06-21",
 	"end" : "2013-04-20",
 	"as" : "Ingénieur JAVA/J2EE",
-	"company" : { "name": "Néo-soft", "url" : "http://www.neo-soft.fr/",  "logo" : "http://www.neo-soft.fr/images/logo_mobile.png" },
+	"company" : { "name": "Néo-soft", "url" : "http://www.neo-soft.fr/",  "logo" : "https://www.neo-soft.fr/images/logo-neo-soft-groupe-blanc.png" },
 	"client" : { "name": "Société Générale", "url" : "http://www.societegenerale.com/", "logo" : "http://www.societegenerale.fr/images/eimm_logo.png" },
 	"place" : "Nantes",
 	"description" : "Gestion des évolutions et du support sur un grand panel de projet Java (>10) sur la gestion des titres Société Générale et des comptes",
@@ -47,12 +48,12 @@
 	"start" : "2011-06-15",
 	"end" : "2012-05-25",
 	"as" : "Ingénieur JAVA/J2EE",
-	"company" : { "name": "Norsys", "url" : "http://www.norsys.fr/" , "logo" : "http://www.norsys.fr/backoffice/sites/default/files/logogroupefrancaise-5.jpg"},
+	"company" : { "name": "Norsys", "url" : "http://www.norsys.fr/" , "logo" : "https://www.norsys.fr/sites/all/themes/custom/norsys/logo.png"},
 	"client" : { "name": "Oxylane" , "url" : "http://corporate.decathlon.com/", "logo" : "http://www.decathlon.fr/redirect/images/logodecathlon.gif"},
 	"place" : "Villeneuve d'Ascq",
 	"description" : "Support niveau 4 et évolution projet au sein de l’équipe Oxylane dans un contexte de production continue. Développement sous un Framework Oxylane basé sur Struts.",
 	"skills" : [
-		"java","html","struts",	"spring", "ehcache","linux",
+		"java","html","struts",	"spring", "infinispan","linux",
 		"sonar","maven","continuum","oracle","cvs","nexus",
 		"sql","javascript","jquery", "english", "eclipse"
 	]
@@ -61,7 +62,7 @@
 	"start" : "2010-09-13",
 	"end" : "2011-05-31",
 	"as" : "Ingénieur de développement",
-	"company" : { "name" : "Archimed", "url" : "http://www.archimed.fr/", "logo" : "http://www.archimed.fr/wp-content/themes/Archimed/images/logo.jpg" },
+	"company" : { "name" : "Archimed", "url" : "https://www.archimed.fr/", "logo" : "https://www.archimed.fr/wp-content/themes/wp-insita-bibdoc/images/logo.png" },
 	"place" : "Lille",
 	"description" : "Intégration de progiciels GED conformes aux demandes de la clientèle et formation sur les produits vendus.",
 	"skills" : [
@@ -73,7 +74,7 @@
 	"start" : "2009-09-01",
 	"end" : "2010-08-31",
 	"as" : "Contrat de professionnalisation",
-	"company" : { "name": "ErDF-GrDF", "url" : "http://www.erdfdistribution.fr/", "logo" : "http://www.erdfdistribution.fr/images/logo_erdf.png"},
+	"company" : { "name": "ErDF-GrDF", "url" : "https://www.enedis.fr/", "logo" : "https://www.enedis.fr/sites/all/themes/erdf/images/logo_enedis_header.png"},
 	"place" : "Lille",
 	"description" : "Etude complète et réalisation d’un projet en équipe réduite de son cahier des charges à sa première mise en production.",
 	"skills" : [
@@ -84,7 +85,7 @@
 	"start" : "2009-03-30",
 	"end" : "2009-08-17",
 	"as" : "Stagiaire Développeur",
-	"company" : {"name" : "Capgemini", "url": "http://www.fr.capgemini.com/" , "logo" : "http://www.capgemini.com/sites/all/themes/capgemini/logo.png" },
+	"company" : {"name" : "Capgemini", "url": "http://www.fr.capgemini.com/" , "logo" : "https://www.capgemini.com/fr-fr/wp-content/themes/capgemini-komposite/assets/images/logo.svg" },
 	"client" : {"name" : "EDF", "url" : "http://france.edf.com/", "logo" : "http://france.edf.com/fichiers/fckeditor/Prive/header/t1_logo_edf.png" },
 	"place" : "Lambersart",
 	"description" : "Développer la version de CLOE V10 pour EDF sur l'ERP Siebel",

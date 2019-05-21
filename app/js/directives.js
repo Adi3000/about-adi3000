@@ -74,20 +74,22 @@ angular.module('aboutDirectives', [])
 	.directive('skillsList', function($timeout){
 		return {
 			restrict: 'A',
+			scope: {
+				skillsList : "="
+			},
 			link: function(scope, $element, attrs) {
 				$timeout(function(){
-					var skills = scope.$eval(attrs.skillsList);
 					$element.hover(function(){
 						$element.addClass("skill_hover");
-						findSkills(skills);
+						findSkills(scope.skillsList);
 					},function(){
-						$.each(skills,function(i, skillName){
+						$.each(scope.skillsList,function(i, skillName){
 							$("#skills [data-skill-ref="+skillName+"]").removeClass("skill_hover");
 						});
 						$element.removeClass("skill_hover");
 					});
 					$element.click(function(){
-						findSkills(skills, true);
+						findSkills(scope.skillsList, true);
 					});
 				});
 			}

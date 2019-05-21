@@ -31,9 +31,19 @@
 			"rate" : 0.80
 		},
 		{
+			"id" : "angular",
+			"name": "Angular",
+			"url" : "https://angular.io/",
+			"icon" : "https://angular.io/assets/images/favicons/favicon-32x32.png",
+			"version" : "6",
+			"description" : "JavaScript technologie framework",
+			"rate" : 0.40
+		},
+		{
 			"id" : "jquery",
 			"name" : "jQuery",
 			"version" : "1.10",
+			"hide": true,
 			"icon" : "http://jquery.com/favicon.ico",
 			"rate" : 0.80
 		},
@@ -65,10 +75,10 @@
 		{
 			"id" : "hibernate",
 			"name" : "Hibernate",
-			"url" : "http://www.hibernate.org/",
-			"icon" : "http://static.jboss.org/images/hibernate/favicon.ico",
-			"version" : "4.2.5",
-			"rate" : 0.70
+			"url" : "https://www.hibernate.org/",
+			"icon" : "https://static.jboss.org/hibernate/images/favicon.ico",
+			"version" : "5.4",
+			"rate" : 0.80
 		},
 		{
 			"id" : "lucene",
@@ -83,7 +93,8 @@
 			"name" : "ElasticSearch",
 			"url" : "https://www.elastic.co/",
 			"icon" : "https://www.elastic.co/favicon-96x96.png",
-			"rate" : 0.7,
+			"version" : "6.5",
+			"rate" : 0.8,
 			"hide" : false
 		},
 		{
@@ -105,15 +116,16 @@
 			"name" : "Struts",
 			"url" : "https://struts.apache.org/",
 			"version" : "1.3",
+			"hide": true,
 			"icon" : "https://struts.apache.org/img/struts.gif",
 			"rate" : 0.7
 		},
 		{
-			"id" : "ehcache",
-			"name" : "ehCache",
-			"url" : "http://ehcache.org/",
-			"icon" : "http://ehcache.org/favicon.ico",
-			"rate" : 0.6,
+			"id" : "infinispan",
+			"name" : "infinispan",
+			"url" : "https://infinispan.org/",
+			"icon" : "https://infinispan.org/images/favicon.png",
+			"rate" : 0.7,
 			"hide" : true
 		},
 		{
@@ -261,8 +273,8 @@
 			"id" : "sonar",
 			"name" : "Sonar",
 			"version" : "2.1",
-			"url" : "http://www.sonarqube.org/",
-			"icon" : "http://www.sonarqube.org/wp-content/themes/sonarsource.org/images/favicon.ico",
+			"url" : "https://www.sonarqube.org/",
+			"icon" : "https://www.sonarqube.org/favicon-152.png",
 			"rate" : 0.50
 		},
 		{
@@ -270,7 +282,7 @@
 			"name" : "Git",
 			"url" : "http://git-scm.com/",
 			"icon" : "http://git-scm.com/favicon.png",
-			"rate" : 0.5
+			"rate" : 0.8
 		},
 		{
 			"id" : "svn",
@@ -351,7 +363,7 @@
 			"id" : "openvpn",
 			"name" : "OpenVPN",
 			"url" : "http://openvpn.net/",
-			"icon" : "http://openvpn.net/templates/telethra/favicon.ico",
+			"icon" : "https://openvpn.net/wp-content/themes/openvpn/assets/images/openvpn-mark.svg",
 			"version" : "2.3",
 			"rate" : 0.7
 		},
@@ -367,7 +379,7 @@
 			"id" : "windows",
 			"name" : "Windows",
 			"url" : "http://windows.microsoft.com/",
-			"icon" : "https://origin-res.windows.microsoft.com/resources/4.1/wol/shared/images/favicon.ico",
+			"icon" : "https://www.microsoft.com/favicon.ico?v2",
 			"version" : "8",
 			"rate" : 0.7
 		},
@@ -384,16 +396,16 @@
 			"id" : "tomcat",
 			"name" : "Tomcat",
 			"url" : "https://tomcat.apache.org/",
-			"icon" : "https://tomcat.apache.org/images/tomcat.png",
-			"version" : "7",
-			"rate" : 0.7
+			"icon" : "https://tomcat.apache.org/res/images/tomcat.png",
+			"version" : "9",
+			"rate" : 0.8
 		},
 		{
 			"id" : "apache",
 			"name" : "Apache",
 			"url" : "https://httpd.apache.org/",
 			"icon" : "https://www.apache.org/favicon.ico",
-			"version" : "2",
+			"version" : "2.4",
 			"rate" : 0.7
 		},
 		{
@@ -401,7 +413,7 @@
 			"name": "node.js",
 			"icon" : "http://nodejs.org/favicon.ico",
 			"url" : "http://nodejs.org/about/",
-			"version" : "0.10.x",
+			"version" : "10.x",
 			"description" : "JavaScript technologie on server side",
 			"rate" : 0.50
 		},
@@ -426,7 +438,7 @@
 			"id" : "subsonic",
 			"name" : "Subsonic",
 			"url" : "http://www.subsonic.org/",
-			"icon" : "http://www.subsonic.org/pages/favicon.ico",
+			"icon" : "http://www.subsonic.org/pages/inc/img/favicon.png",
 			"version" : "4.8",
 			"rate" : 0.8,
 			"hide" : true
