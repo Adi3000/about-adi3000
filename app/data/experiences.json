@@ -7,9 +7,9 @@
 	"place" : "Lille",
 	"description" : "Gestion des lots d'évolution dans le pole d'Edition Logiciel pour iT-Toolbox permettant la surveillance de flux (Microservices, WebService, ESB...). Responsable et animateur de la Communauté Technique CGI, et prestations pour avant-ventes, architecture ou expertise technique Java sur diverses projets",
 	"skills" : [
-		"java","html","hibernate","struts","angular",
-		"spring","sonar","maven","jenkins",
-		"linux","oracle","sql","javascript",
+		"java","html","hibernate","struts","angular","elasticsearch",
+		"spring","sonar","maven","jenkins","aws","nodejs",
+		"linux","oracle","sql","javascript","tomcat",
 		"jquery", "eclipse", "vim","svn", "bash", 
 		"php"
 	]

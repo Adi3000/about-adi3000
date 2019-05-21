@@ -7,16 +7,11 @@
 	"phones":[
          {
 			"label" : "Mobile",
-			"jqueryIcon" : "ui-icon-person",
+			"jqueryIcon" : "ui-icon-phone",
 			"number" : "(+33)677578933"
-         },
-         {
-			"label" : "Home",
-			"jqueryIcon" : "ui-icon-home",
-			"number": "(+33)980522861"
          }
 	],
-	"mails" : ["adrien.ramarojohn@free.fr", "adi3000@free.fr", "adi300000@gmail.com"],
+	"mails" : ["adrien.ramarojohn@free.fr", "adi3000@free.fr", "adi300000@gmail.com", "adrien.ramarojohn@gmail.com"],
 	"birthday" : "1989-03-26",
 	"url" : ["code.adi3000.com"],
 	"other" : ["Titulaire du permis B"],

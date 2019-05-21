@@ -1,23 +1,7 @@
 'use strict';
 
-function findSkillRef(skill, force){
-	$("[data-skills-list*="+skill+"]").each(function(i,e){
-		highlightSkill($(e), force);
-	});
-}
-
-function findSkills(skills, force){
-	$.each(skills,function(i, skillName){
-		var skill = $("#skills [data-skill-ref="+skillName+"]:visible");
-		if(skill.is("*")){
-			highlightSkill(skill, force);
-		}/*else{
-			console.log(skillName + " not found in list or not visible yet");
-		}*/
-	});
-}
-function highlightSkill(skill, force){
-	if(!skill.hasClass("skill_hover") || force){
+function highlightSkill(skill){
+	if(!skill.hasClass("skill_hover") && skill.is(":visible")){
 		skill
 			.addClass("skill_hover")
 			.stop(true , true )
@@ -55,19 +39,38 @@ angular.module('aboutDirectives', [])
 	.directive('skillRef',function($timeout) {
 		return {
 			restrict: 'A',
+			scope: {
+				skillRef: "="
+			},
 			link: function(scope, $element, attrs) {
 				$timeout(function(){
 					$element.hover(function(){
-						findSkillRef(attrs.skillRef);
+						scope.findSkillRef(scope.skillRef);
 					},function(){
-						$("[data-skills-list*="+attrs.skillRef+"]:visible").each(function(i,e){
-							!$(e).removeClass("skill_hover");
-						});
+						scope.findSkillRefStop(scope.skillRef);
 					});
 					$element.click(function(){
-						findSkillRef(attrs.skillRef, true);
+						scope.findSkillRef(skillRef.skillRef);
+					});
+					scope.$on("about.skill.hover.start", function(event, skills){
+						if(skills.some(skillElement => scope.skillRef === skillElement)){
+							highlightSkill($element);
+						}
+					});
+					scope.$on("about.skill.hover.end", function(event, skills){
+						if(skills.some(skillElement => scope.skillRef === skillElement)){
+							$element.removeClass("skill_hover");
+						}
 					});
 				});
+			},
+			controller: function($scope, $rootScope){
+				$scope.findSkillRef = function(skill){
+					$rootScope.$broadcast("about.skill.hover.start",[skill]);
+				}
+				$scope.findSkillRefStop = function(skill){
+					$rootScope.$broadcast("about.skill.hover.end",[skill]);
+				}
 			}
 		};
 	})
@@ -81,17 +84,37 @@ angular.module('aboutDirectives', [])
 				$timeout(function(){
 					$element.hover(function(){
 						$element.addClass("skill_hover");
-						findSkills(scope.skillsList);
+						scope.findSkills(scope.skillsList);
 					},function(){
-						$.each(scope.skillsList,function(i, skillName){
-							$("#skills [data-skill-ref="+skillName+"]").removeClass("skill_hover");
-						});
 						$element.removeClass("skill_hover");
+						scope.findSkillsStop(scope.skillsList);
 					});
 					$element.click(function(){
 						findSkills(scope.skillsList, true);
 					});
+					scope.$on("about.skill.hover.start", function(event, skills){
+						if(scope.skillsList.some(skillElement => skills[0] === skillElement)){
+							highlightSkill($element);
+						}
+					});
+					scope.$on("about.skill.hover.end", function(event, skills){
+						if(scope.skillsList.some(skillElement => skills[0] === skillElement)){
+							$element.removeClass("skill_hover");
+						}
+					});
 				});
+			},
+			controller: function($scope, $rootScope){
+				$scope.findSkills = function(skills){
+					var skillToSend = skills.slice();
+					skillToSend.unshift("from_experiences");
+					$rootScope.$broadcast("about.skill.hover.start", skillToSend);
+				}
+				$scope.findSkillsStop = function(skills){
+					var skillToSend = skills.slice();
+					skillToSend.unshift("from_experiences");
+					$rootScope.$broadcast("about.skill.hover.end",skillToSend);
+				}
 			}
 		};
 	})
@@ -174,9 +197,12 @@ angular.module('aboutDirectives', [])
 	.directive('skillTooltip', function($timeout){
 		return {
 			restrict: 'A',
+			scope: {
+				skillTooltip: "=" 
+			},
 			link: function(scope, $element, attrs) {
 				$timeout(function(){
-					var skill = scope.$eval(attrs.skillTooltip);
+					var skill = scope.skillTooltip;
 					var skillTooltip = "" ;
 					if(skill.url){
 						$element.wrap(

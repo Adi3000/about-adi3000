@@ -75,10 +75,10 @@
 	    <div id="domain_{{domain.id}}">
 	        <div 
 	        	data-ng-repeat="skill in domain.list" 
-	        		data-skill-ref="{{skill.id}}" 
+	        		data-skill-ref="skill.id" 
 	        		data-ng-class="{ to_hide : skill.hide }"
 	        		data-progress-bar="{{ skill.rate }}">
-		    	<img data-ng-src="{{skill.icon}}" alt="" height="14px" data-skill-tooltip="{{skill}}" />&nbsp;{{ skill.name }}
+		    	<img data-ng-src="{{skill.icon}}" alt="" height="14px" data-skill-tooltip="skill" />&nbsp;{{ skill.name }}
        		</div>
 	    </div>
 	</div>

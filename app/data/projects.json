@@ -4,18 +4,18 @@
 	"name" : "La TroQuette",
 	"description" : "Site de troc en ligne mettant en oeuvre tout pour faciliter les échanges",
 	"skills": [
-         "java","jsf","jquery","postgresql",
+         "java","jsf","jquery","postgresql","apache",
          "redmine","jenkins","tomcat","hibernate","javascript", "html","maven",
          "spring","jaxws","rest","git","ehcache", "nexus", "eclipse","sonar"
 	]
  },
  {
-	"id" : "adreamzone",
-	"name" : "A Dream Zone",
-	"description" : "Tower defense HTML 5, avec possibilité d'uploader ses propres type d'unité. Comportera un éditeur de vitrine pour des exposition de graphistes",
+	"id" : "charivalaperm",
+	"name" : "Charivalaperm",
+	"description" : "Utilitaire de pointage de permanance pour les crèches parentales associative",
 	"skills" : [
-          "angularjs", "html", "javascript", "java", "jaxws", "jquery","html","maven",
-          "hibernate", "nexus", "redmine", "jenkins", "eclipse","git", "spring", "postgresql","sonar","tomcat"
+          "angular", "html", "javascript", "html","maven",
+          "hibernate", "nexus", "redmine", "jenkins", "eclipse", "git", "spring", "postgresql","sonar","tomcat","apache"
 	]
  },
  {
@@ -40,7 +40,7 @@
 	"name" : "Family Cloud Service",
 	"description": "Maintenance, mise a disposition de plusieurs services de stockage, prise en main à distance, sauvegarde, LAN over VPN",
 	"skills" : [
-          "ldap","linux","owncloud","subsonic","zimbra","openvpn","ultravnc","php","perl","python","bash", "vim","redmine"
+          "ldap","telegram","linux","owncloud","subsonic","zimbra","openvpn","ultravnc","php","perl","python","bash", "vim","redmine","aws","apache"
 	]
  },
  {
@@ -48,7 +48,7 @@
 	 "name" : "Divers projets OpenSource",
 	 "description": "Contribution à divers projet OpenSource, généralement via GitHub (owncloud, asadmin, weboob ...)",
 	 "skills" : [
-	             "glassfish","owncloud","maven","python","php", "eclipse","git"
+	             "glassfish","owncloud","maven","python","php", "eclipse","git","bash","aws","apache","nodejs","telegram"
 	             ]
  }
 ]

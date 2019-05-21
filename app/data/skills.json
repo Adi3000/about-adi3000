@@ -276,30 +276,32 @@
 			"url" : "https://www.sonarqube.org/",
 			"icon" : "https://www.sonarqube.org/favicon-152.png",
 			"rate" : 0.50
-		},
-		{
+		},{
 			"id" : "git",
 			"name" : "Git",
 			"url" : "http://git-scm.com/",
 			"icon" : "http://git-scm.com/favicon.png",
 			"rate" : 0.8
-		},
-		{
+		},{
+			"id" : "telegram",
+			"name" : "Api Telegram",
+			"url" : "https://telegram.org/",
+			"icon" : "https://telegram.org/favicon.ico?3",
+			"rate" : 0.7
+		},{
 			"id" : "svn",
 			"name" : "Subversion",
 			"url" : "https://subversion.apache.org/",
 			"icon" : "http://subversion.tigris.org/favicon.ico",
 			"rate" : 0.9,
 			"hide" : true
-		},
-		{
+		},{
 			"id" : "cvs",
 			"name" : "CVS",
 			"icon" : "http://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Merge-arrows-3.svg/200px-Merge-arrows-3.svg.png",
 			"rate" : 0.6,
 			"hide" : true
-		},
-		{
+		},{
 			"id" : "continuum",
 			"name" : "Continuum",
 			"url" : "https://continuum.apache.org/",
@@ -360,6 +362,14 @@
 	"name" : "Administration", 
 	"list" : [
 		{
+			"id" : "aws",
+			"name" : "Amazon Web Services",
+			"url" : "https://aws.amazon.com/",
+			"icon" : "https://a0.awsstatic.com/libra-css/images/site/fav/favicon.ico",
+			"version" : "2.3",
+			"rate" : 0.6
+		},
+		{
 			"id" : "openvpn",
 			"name" : "OpenVPN",
 			"url" : "http://openvpn.net/",
@@ -369,7 +379,7 @@
 		},
 		{
 			"id" : "linux",
-			"name" : "Linux",
+			"name" : "Linux servers",
 			"url" : "http://www.debian.org/",
 			"icon" : "http://www.linux.org/favicon.ico",
 			"version" : "Debian, Ubuntu, Red Hat",
@@ -377,11 +387,11 @@
 		},
 		{
 			"id" : "windows",
-			"name" : "Windows",
+			"name" : "Windows servers",
 			"url" : "http://windows.microsoft.com/",
 			"icon" : "https://www.microsoft.com/favicon.ico?v2",
-			"version" : "8",
-			"rate" : 0.7
+			"version" : "2016",
+			"rate" : 0.5
 		},
 		{
 			"id" : "glassfish",
@@ -389,7 +399,7 @@
 			"url" : "https://glassfish.java.net/",
 			"icon" : "https://jax-ws.java.net/images/glassfish_favicon.gif",
 			"version" : "4",
-			"rate" : 0.7,
+			"rate" : 0.5,
 			"hide" : true
 		},
 		{
