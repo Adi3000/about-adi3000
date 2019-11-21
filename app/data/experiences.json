@@ -2,8 +2,8 @@
  {
 	"start" : "2019-10-13",
 	"as" : "Leader Technique",
-	"company" : { "name" : "CGI", "url" : "https://zenika.com", "logo" : "https://assets.chooseyourboss.com/companies/logos/000/000/427/square/LOGO%20rond%20ROUGE%20%20%20gris.jpg"  },
-	"client" : { "name" : "iT-Toolbox", "url" : "https://decathlon.fr/", "logo" : "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Decathlon_Logo.svg/langfr-280px-Decathlon_Logo.svg.png" },
+	"company" : { "name" : "Zenika", "url" : "https://zenika.com", "logo" : "https://assets.chooseyourboss.com/companies/logos/000/000/427/square/LOGO%20rond%20ROUGE%20%20%20gris.jpg"  },
+	"client" : { "name" : "Décathlon", "url" : "https://decathlon.fr/", "logo" : "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Decathlon_Logo.svg/langfr-280px-Decathlon_Logo.svg.png" },
 	"place" : "Lille",
 	"description" : "TechLead sur une application de gestion des prix magasins. Refonte du mécanisme de diffusion des prix sur l'ensemble des magasins mondiaux décathlon. Migration du système de persistance (désendettement oracle)",
 	"skills" : [
